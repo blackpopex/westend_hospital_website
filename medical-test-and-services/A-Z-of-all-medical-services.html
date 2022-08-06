@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Westend Hospital | A-Z of all medical services offered at westend
+      hospital, warri
+    </title>
+    <link rel="icon" type="image/x-icon" href="../img/logo/favicon.ico.png" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <meta
+      name="description"
+      content="We offer various medical services at Westend Hospital, such as dialysis, CT Scan services, Ambulance services and many more"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/demo.css" />
+    <link rel="stylesheet" href="../css/slideshow.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/slick-theme.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://kit.fontawesome.com/12d9de5a0c.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-offset="50" style="position: relative">
+    <!--header-hero section-->
+    <div class="header-hero-container">
+      <header id="myHeaderMenu">
+        <!-----------TOP NAVIGATION------------->
+        <div class="topNav">
+          <div class="container flex">
+            <a href="../index.html" id="wehLogo">
+              <img
+                src="../img/logo/Westend logo blue.png"
+                alt="Westend Hospital Logo"
+              />
+            </a>
+            <nav class="flex">
+              <div
+                id="navToggler"
+                class="hamburgerMenu"
+                onclick="myFunction(this)"
+              >
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+              </div>
+
+              <div class="navbar-links" id="sideNavbar">
+                <ul class="flex navBar1">
+                  <!--Medical Test & services-->
+                  <li class="dropdown">
+                    <a href="#/" class="dropbtn">Medical Test & Services</a>
+                    <ul class="dropdown-content" id="menuDropdown">
+                      <li>
+                        <a href="A-Z-of-all-medical-test.html"
+                          >A-Z of all Medical Test</a
+                        >
+                      </li>
+                      <li>
+                        <a href="A-Z-of-all-medical-services.html"
+                          >A-Z of all Medical Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="department-and-services.html"
+                          >Department & Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="patient-education.html">Patient Education</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!--Patient and visitors-->
+                  <li class="dropdown">
+                    <a href="#/" class="dropbtn">Patient & Visitors</a>
+                    <ul class="dropdown-content" id="menuDropdown">
+                      <li>
+                        <a href="../patient-and-visitors/vistors.html"
+                          >Visitors</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="../patient-and-visitors/your-hospital-stay.html"
+                          >Your Hospital Stay</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="../patient-and-visitors/billing-and-financial-asistance.html"
+                          >Billing & Financial Asistance</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="../patient-and-visitors/accepted-insurance.html"
+                          >Accepted Insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="../patient-and-visitors/patient-rights.html"
+                          >Patient Rights</a
+                        >
+                      </li>
+                      <li>
+                        <a href="../patient-and-visitors/medical-records.html"
+                          >Medical Records</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!--Why choose us-->
+                  <li class="dropdown">
+                    <a href="#/" class="dropbtn">Why Choose Us</a>
+                    <ul class="dropdown-content" id="menuDropdown">
+                      <li>
+                        <a
+                          href="../why-choose-us/our-mission-vision-and-values.html"
+                          >Our Mission, Vision & Values</a
+                        >
+                      </li>
+                      <li>
+                        <a href="../why-choose-us/quality-patient-care.html"
+                          >Quality Patient Care</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="../why-choose-us/patient-stories-testimonies.html"
+                          >Patient's Stories/Testimonies</a
+                        >
+                      </li>
+                      <li>
+                        <a href="../why-choose-us/our-team.html">Our Team</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="contact-li">
+                    <a href="../contact-us.html" class="contact-us"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+                <!--navbar2-->
+                <ul class="flex navbar2">
+                  <li>
+                    <a href="../map-and-directions.html">Maps & Direction</a>
+                  </li>
+                  <li>
+                    <a href="../request-an-appointment.html"
+                      >Request Appointment</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../refer-a-patient.html">Refer a Patient</a>
+                  </li>
+                  <li>
+                    <a href="../find-a-doctor.html">Find a Doctor</a>
+                  </li>
+                  <li>
+                    <a href="#/">Call Us: 0807 420 2574 </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!--search BTN-->
+              <a id="searchBTN" class="fa fa-search"></a>
+            </nav>
+          </div>
+          <!--display dropdown when search button is clicked-->
+          <div class="search-overlay" id="search-Overlay">
+            <div class="container">
+              <div class="search-content">
+                <form action="#" method="post" autocomplete="off">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Looking for something?"
+                      name="Search"
+                    />
+                    <button type="submit" id="searchBtn" class="overlaySearch">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </form>
+                <!--display Ajax result from server here-->
+                <div id="searchResult" class="popular-searches">
+                  <h3>Popular Searches</h3>
+                  <ul>
+                    <li>
+                      <a href="../refer-a-patient.html">Refer a patient</a>
+                    </li>
+                    <li>
+                      <a href="../map-and-directions">Maps & Directions</a>
+                    </li>
+                    <li><a href="#/">Treatments</a></li>
+                    <li>
+                      <a href="A-Z-of-all-medical-services.html">Services</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!---------------------------MAIN PAGE CONTENT---------------------------------------------->
+    <main>
+      <div class="section-background-image A-Z-list-of-medical-services">
+        <div class="container" id="a_zContainer">
+          <h2 class="subnavbar-color">Medical Services, A-Z List</h2>
+          <ul class="inline-block-breadcrumb subnavbar-color">
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>Medical Services</li>
+          </ul>
+          <!--Links to navigate each of the alphabets-->
+          <ul class="a-z-nav-links flex scroll" id="A-Z-List">
+            <li class="test-letters-alphabets">
+              <a href="#a">A</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#b">B</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#c">C</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#d">D</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#e">E</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#f">F</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#g">G</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#h">H</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#i">I</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#j">J</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#k">K</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#l">L</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#m">M</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#n">N</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#o">O</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#p">P</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#q">Q</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#r">R</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#s">S</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#t">T</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#u">U</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#v">V</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#w">W</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#x">X</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#y">Y</a>
+            </li>
+            <li class="test-letters-alphabets">
+              <a href="#z">Z</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="A-Z-list-of-medical-test">
+        <div class="container">
+          <!--List by alphabets A-Z-->
+          <section id="a" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>A</h1>
+              <ul>
+                <li><a href="#/">Abscess (I & D Includin G Dressings)</a></li>
+                <li><a href="#/">Acute Sinusitis</a></li>
+                <li><a href="#/">Allergy</a></li>
+                <li><a href="#/">Ambulance</a></li>
+                <li><a href="#/">Ante-Natal Care</a></li>
+                <li><a href="#/">Arthritis</a></li>
+                <li><a href="#/">Audiological Investigations</a></li>
+                <li>
+                  <a href="#/">Audiometry (for Medical Certification only)</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="b" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>B</h1>
+              <ul>
+                <li><a href="#/">Back Pain</a></li>
+                <li><a href="#/">BCG Immunization</a></li>
+                <li><a href="#/">BERA</a></li>
+                <li><a href="#/">Bilateral Antrum Washout</a></li>
+                <li><a href="#/">Blood Exchange Transfusion</a></li>
+                <li><a href="#/">Blood Transfusion</a></li>
+                <li><a href="#/">Blood Transfusion (Per Bag)</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="c" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>C</h1>
+              <ul>
+                <li><a href="#/">Caesarian Section Operation</a></li>
+                <li><a href="#/">Candidiasis</a></li>
+                <li><a href="#/">Cataract Extraction & Iol Implant</a></li>
+                <li><a href="#/">Catheterization</a></li>
+                <li><a href="#/">Cautery</a></li>
+                <li><a href="#/">Central Vein Catheterization</a></li>
+                <li>
+                  <a href="#/"
+                    >Central Visual Field (Twice A Year For Glaucoma)</a
+                  >
+                </li>
+                <li><a href="#/">Cervical Biopsy</a></li>
+                <li><a href="#/">Cervical Cerclage</a></li>
+                <li><a href="#/">Cervical Laceration Repair</a></li>
+                <li><a href="#/">Chicken Pox</a></li>
+                <li>
+                  <a href="#/">Chronic Relapsing Erythematous Dermatitis</a>
+                </li>
+                <li><a href="#/">Circumcision For Male Baby</a></li>
+                <li><a href="#/">Collar</a></li>
+                <li><a href="#/">Colonoscopy</a></li>
+                <li><a href="#/">Comedones extraction</a></li>
+                <li><a href="#/">Conjuctivitis</a></li>
+                <li><a href="#/">Consultant Assisted Delivery</a></li>
+                <li><a href="#/">Consumables</a></li>
+                <li><a href="#/">Crutches</a></li>
+                <li><a href="#/">CTG Monitoring</a></li>
+                <li><a href="#/">Curettage/Exfoliation Skin</a></li>
+                <li><a href="#/">Cyst extraction</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="d" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>D</h1>
+              <ul>
+                <li><a href="#/">Deep Corneal Foreign Body Removal</a></li>
+                <li><a href="#/">Dermatitis</a></li>
+                <li><a href="#/">Dermoscopy with email films</a></li>
+                <li><a href="#/">Diabetes Mellitus</a></li>
+                <li>
+                  <a href="#/"
+                    >Diabetes Mellitus - Routine Follow Up/ Drugs Per Month</a
+                  >
+                </li>
+                <li><a href="#/">Digital Otoscopy</a></li>
+                <li><a href="#/">DPOAE</a></li>
+                <li><a href="#/">Dyspepsia/Gastritis</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="e" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>E</h1>
+              <ul>
+                <li><a href="#/">Ear Lavage</a></li>
+                <li><a href="#/">Ear Piercing For Female Baby</a></li>
+                <li><a href="#/">Ear Toiletry Bilateral</a></li>
+                <li><a href="#/">ECG</a></li>
+                <li><a href="#/">Echocardiogram</a></li>
+                <li><a href="#/">Eczema/Dermatitis</a></li>
+                <li><a href="#/">Electro Encephalogram (EEG)</a></li>
+                <li><a href="#/">Electrocavtery (Large)</a></li>
+                <li><a href="#/">Electrocavtery (Small)</a></li>
+                <li><a href="#/">Endometrial Biopsy</a></li>
+                <li><a href="#/">Enema</a></li>
+                <li><a href="#/">Enteric Fever/Typhoid Fever</a></li>
+                <li><a href="#/">Episiotomy Repair</a></li>
+                <li><a href="#/">Evacuation (ERPC)</a></li>
+                <li><a href="#/">Excision Biopsy</a></li>
+                <li><a href="#/">Exercise ECG</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="f" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>F</h1>
+              <ul>
+                <li><a href="#/">Foot/Ankle Casts</a></li>
+                <li><a href="#/">Forearm Casts</a></li>
+                <li>
+                  <a href="#/">Foreign Body Removal in the ear with Sedation</a>
+                </li>
+                <li>
+                  <a href="#/"
+                    >Foreign Body Removal in the ear without Sedation</a
+                  >
+                </li>
+                <li>
+                  <a href="#/"
+                    >Foreign Body Removal in the Nose with Sedation</a
+                  >
+                </li>
+                <li>
+                  <a href="#/"
+                    >Foreign Body Removal in the Nose without Sedation</a
+                  >
+                </li>
+                <li><a href="#/">Full Arm Casts</a></li>
+                <li>
+                  <a href="#/">Full Audiological evaluation (With Report))</a>
+                </li>
+                <li><a href="#/">Full Leg Casts</a></li>
+                <li><a href="#/">Functional Capacity Evaluation</a></li>
+                <li><a href="#/">Fungal Culture</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="g" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>G</h1>
+              <ul>
+                <li><a href="#/">Gastroenteritis</a></li>
+                <li>
+                  <a href="#/">Glaucoma (Monthly Drug Supply/Follow Up)</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="h" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>H</h1>
+              <ul>
+                <li>
+                  <a href="#/">Haemophilus Influenza Vaccination (HIB)</a>
+                </li>
+                <li><a href="#/">Hand Casts</a></li>
+                <li><a href="#/">Hand P.O.P</a></li>
+                <li><a href="#/">Hepatitis B (0 To 5)</a></li>
+                <li><a href="#/">Hepatitis B Immunization</a></li>
+                <li><a href="#/">Hip Spica</a></li>
+                <li><a href="#/">Holter ECG</a></li>
+                <li><a href="#/">Home Delivery</a></li>
+                <li>
+                  <a href="#/">Hypertension - Follow Up/Drugs Per Month</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="i" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>I</h1>
+              <ul>
+                <li><a href="#/">Imaging Services</a></li>
+                <li><a href="#/">Incision And Drainage (Major)</a></li>
+                <li><a href="#/">Incision And Drainage (Medium)</a></li>
+                <li><a href="#/">Incision And Drainage (Minor)</a></li>
+                <li><a href="#/">Incubator Use</a></li>
+                <li><a href="#/">Induction Of Labour</a></li>
+                <li><a href="#/">Inflammatory Conditions</a></li>
+                <li><a href="#/">Intradermal Implant (Contraceptive)</a></li>
+                <li><a href="#/">Intralesional Triamcinolone</a></li>
+                <li><a href="#/">IUCD Insertion</a></li>
+                <li><a href="#/">IUCD Removal</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="j" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>J</h1>
+              <ul>
+                <li><a href="#/">Nil</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="k" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>K</h1>
+              <ul>
+                <li><a href="#/">Knee Casts</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="l" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>L</h1>
+              <ul>
+                <li><a href="#/">Laceration Requiring Suturing</a></li>
+                <li><a href="#/">Laminectomy</a></li>
+                <li><a href="#/">Leg Casts</a></li>
+                <li><a href="#/">Leg P.O.P</a></li>
+                <li><a href="#/">Local Treatment A</a></li>
+                <li><a href="#/">Local Treatment B</a></li>
+                <li><a href="#/">Lumbar Corsets</a></li>
+                <li><a href="#/">Lump Excision (Medium With Local)</a></li>
+                <li><a href="#/">Lump Excision (Minor)</a></li>
+                <li><a href="#/">Lumpectomy (Theatre)</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="m" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>M</h1>
+              <ul>
+                <li>
+                  <a href="#/"
+                    >Macular Degenration (Monthly Drug Supply/Follow Up)</a
+                  >
+                </li>
+                <li><a href="#/">Major Burns Dressing</a></li>
+                <li><a href="#/">Major Lid Repair</a></li>
+                <li><a href="#/">Major Major Wound Dressing</a></li>
+                <li><a href="#/">Major Repair (Suturing)</a></li>
+                <li><a href="#/">Major Wound Dressing</a></li>
+                <li>
+                  <a href="#/">Measles, Mumps, Rubella, Vaccination (MMR)</a>
+                </li>
+                <li><a href="#/">Medium Burns Dressing</a></li>
+                <li><a href="#/">Medium Repair (Suturing)</a></li>
+                <li><a href="#/">Medium Wound Dressing</a></li>
+                <li><a href="#/">Minor Burns Dressing</a></li>
+                <li><a href="#/">Minor Wound Dressing</a></li>
+                <li><a href="#/">Minor Lid Repair</a></li>
+                <li><a href="#/">Monitoring (Per Quarter))</a></li>
+                <li><a href="#/">Myalgia</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="n" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>N</h1>
+              <ul>
+                <li><a href="#/">Naso Endoscopy</a></li>
+                <li><a href="#/">Nebulization (Per Session)</a></li>
+                <li><a href="#/">Neck Collar (Hard)</a></li>
+                <li><a href="#/">Neck Collar (Soft)</a></li>
+                <li><a href="#/">Normal Delievery (Twin Delivery)</a></li>
+                <li><a href="#/">Normal Delivery For Registered Patient</a></li>
+                <li>
+                  <a href="#/">Normal Delivery For Un-Registered Patient</a>
+                </li>
+                <li><a href="#/">Nursing Care</a></li>
+                <li><a href="#/">Nursing Care (Major Cases)</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="o" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>O</h1>
+              <ul>
+                <li><a href="#/">Ophthalmological Treatment</a></li>
+                <li>
+                  <a href="#/"
+                    >Ophthalmologist Consultation (Once Per Quarter)</a
+                  >
+                </li>
+                <li><a href="#/">Otitis Media</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="p" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>P</h1>
+              <ul>
+                <li><a href="#/">Paediatric Assessment At Birth</a></li>
+                <li><a href="#/">Phototherapy (Per Day)</a></li>
+                <li><a href="#/">Phototherapy (Per Diem)</a></li>
+                <li><a href="#/">Physiotherpy Service</a></li>
+                <li><a href="#/">Pneumococcal Vaccine</a></li>
+                <li><a href="#/">Pneumonia</a></li>
+                <li><a href="#/">Polio Immunization</a></li>
+                <li><a href="#/">Pre-Treatment Assessment </a></li>
+                <li><a href="#/">Priapism, Shunt Procedure</a></li>
+                <li><a href="#/">Primary Repair (Suturing)</a></li>
+                <li><a href="#/">Prostheses</a></li>
+                <li><a href="#/">Prostrate Biopsy</a></li>
+                <li><a href="#/">PTA (AC & BC)</a></li>
+                <li><a href="#/">Pterigium Excision</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="q" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>Q</h1>
+              <ul>
+                <li><a href="#/">Nil</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="r" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>R</h1>
+              <ul>
+                <li><a href="#/">Reflex Audiometry</a></li>
+                <li><a href="#/">Refraction</a></li>
+                <li><a href="#/">Release of Tongue Tie</a></li>
+                <li><a href="#/">Rogam Injection</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="s" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>S</h1>
+              <ul>
+                <li><a href="#/">Salpingectomy</a></li>
+                <li><a href="#/">Saturated Oxygen Level (SP02)</a></li>
+                <li><a href="#/">Scabies</a></li>
+                <li><a href="#/">Scaling And Polishing</a></li>
+                <li><a href="#/">Skin Biopsy</a></li>
+                <li><a href="#/">Skin Biopsy/Koh Microscopy</a></li>
+                <li>
+                  <a href="#/"
+                    >Slow Infiltration with Depo Medrol/ Xylocaine/
+                    Adrenaline</a
+                  >
+                </li>
+                <li><a href="#/">Soft Tissue</a></li>
+                <li><a href="#/">Spirometry</a></li>
+                <li>
+                  <a href="#/">Spirometry (For Medical Certification only)</a>
+                </li>
+                <li><a href="#/">Standard Frames + Lenses</a></li>
+                <li><a href="#/">Stress ECG</a></li>
+                <li><a href="#/">Suction of Tonsils</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="t" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>T</h1>
+              <ul>
+                <li><a href="#/">Therapeutic D & C</a></li>
+                <li><a href="#/">Tonometry</a></li>
+                <li><a href="#/">Tonsillitis/Sore Throat</a></li>
+                <li>
+                  <a href="#/">Tuberculosis - Follow Up/Drugs Per Month</a>
+                </li>
+                <li><a href="#/">Tympanic Membrane Repair</a></li>
+                <li><a href="#/">Tympanometry</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="u" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>U</h1>
+              <ul>
+                <li><a href="#/">Upper Arm Casts</a></li>
+                <li><a href="#/">Upper Respiratory Tract Infection</a></li>
+                <li><a href="#/">Urethral Bouginage</a></li>
+                <li><a href="#/">Urinary Tract Infection</a></li>
+                <li><a href="#/">Uterine Suction</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="v" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>V</h1>
+              <ul>
+                <li><a href="#/">Vacuum or Forceps Delivery</a></li>
+                <li><a href="#/">VCT</a></li>
+                <li><a href="#/">Ventilator Use - Per Day</a></li>
+                <li><a href="#/">Viral Hepatis</a></li>
+                <li><a href="#/">Visual Test - Eye Test</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="w" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>W</h1>
+              <ul>
+                <li><a href="#/">Walking Frame</a></li>
+                <li><a href="#/">Wart Excision</a></li>
+                <li><a href="#/">Wheel Chair</a></li>
+                <li><a href="#/">Wound Dressing Only</a></li>
+                <li><a href="#/">Uterine Suction</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="x" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>X</h1>
+              <ul>
+                <li><a href="#/">Nil</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="y" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>Y</h1>
+              <ul>
+                <li><a href="#/">Yellow Fever Vaccine</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="light-grey-border"></div>
+          <section id="z" class="test-names-by-aphabets">
+            <div class="flex test-list">
+              <h1>Z</h1>
+              <ul>
+                <li><a href="#/">Nil</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <!---------------------------MAIN PAGE CONTENT ENDS----------------------------------------->
+
+    <footer id="footer">
+      <!--Our Affiliations-->
+      <div class="our-affiliations mini-section">
+        <div class="container flex flex-column">
+          <h3>
+            <span>Our</span>
+            Affiliations
+          </h3>
+          <div class="affiliation flex">
+            <img
+              src="../img/logo/_1511456132_462_General-Electric-mobile copy 2.png"
+              alt="General Electric logo"
+            /><img
+              src="../img/logo/Safari logo copy.png"
+              alt="Safari Pharmacy logo"
+            /><img
+              src="../img/logo/ddccopy.png"
+              alt="DNA diagnostic Center"
+            /><img
+              src="../img/logo/Fathers Heart copy.png"
+              alt="Fathers Hearth Children Trust logo"
+            /><img
+              src="../img/logo/Tymed CT Scan copy.png"
+              alt="TYMED CT Scan Center logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section id="main-footer">
+        <div class="container">
+          <!--row 1 About, For Health Professionals, Billing and Insurance & Ways to help-->
+          <!--BACK TO TOP-->
+          <button
+            class="scrollTopBtn flex-column"
+            id="myTopBTN"
+            onclick="topFunction()"
+          >
+            <i class="fa fa-angle-up"></i>
+            <p>Top</p>
+          </button>
+          <!--BACK TO TOP BTN ENDS-->
+          <div class="flex lg-size">
+            <div class="dropdown">
+              <h4 class="dropbtn">About Us</h4>
+              <ul class="dropdown-content footer-menu" id="menuDropdown">
+                <li>
+                  <a href="../our-history.html">History</a>
+                </li>
+                <li>
+                  <a href="../awards-and-recognition.html"
+                    >Awards & Recognition</a
+                  >
+                </li>
+                <li>
+                  <a href="../map-and-directions.html">Maps & Directions</a>
+                </li>
+                <li>
+                  <a href="../report-misconduct.html">Report Misconduct</a>
+                </li>
+                <li>
+                  <a href="../contact-us.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <h4 class="dropbtn">For Health Professionals</h4>
+              <ul class="dropdown-content footer-menu" id="menuDropdown">
+                <li>
+                  <a href="#/">Transfer a patient</a>
+                </li>
+                <li>
+                  <a href="../refer-a-patient.html">Refer a patient</a>
+                </li>
+                <li>
+                  <a href="#/">For nurses</a>
+                </li>
+                <li>
+                  <a href="#/">For physician</a>
+                </li>
+                <li>
+                  <a href="../request-an-appointment.html"
+                    >Enquiries & appointment</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="billing-insurrance dropdown">
+                <h4 class="dropbtn">Billing and Insurance</h4>
+                <ul class="dropdown-content footer-menu" id="menuDropdown">
+                  <li>
+                    <a href="../patient-and-visitors/accepted-insurance.html"
+                      >Insurance Information</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../patient-and-visitors/online-pay.html"
+                      >Pay a bill</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="ways-to-help footer-header">
+                <h4>Ways to Help</h4>
+                <p>
+                  We supports Father's Heart Children's Trust, see how you can
+                  make the lives of Orphans in Delta State better.
+                </p>
+
+                <a
+                  href="../make-a-donation.html"
+                  class="make-donation btn rounded-white-btn"
+                  >Make a Donation</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="social-img flex">
+            <!--row 2 socials media-->
+            <div class="follow-us-align-left footer-header mini-section">
+              <h4>Follow us on Social media</h4>
+              <div class="flex">
+                <a
+                  href="https://www.facebook.com/thewestendhospital"
+                  target="_blank"
+                  class="fa fa-facebook"
+                ></a>
+                <a href="#/" class="fa fa-twitter"></a>
+                <a
+                  href="https://instagram.com/westendhospitalwarri"
+                  target="_blank"
+                  class="fa fa-instagram"
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/westend-hospital"
+                  target="_blank"
+                  class="fa fa-linkedin"
+                ></a>
+              </div>
+            </div>
+
+            <!--row 3 Westend Hospital Logo -->
+            <div class="footer-img-container">
+              <img
+                src="../img/logo/Westend logo white.png"
+                alt="Westend Hospital white logo"
+                class="westendbluelogo"
+                id="myImg"
+              />
+            </div>
+          </div>
+
+          <div class="copyright">
+            <small class="coy"
+              >&copy;2021 Westend Hospital. All Right Reserved.
+            </small>
+            <small class="flex">
+              <a href="../privacy-policy.html">Privacy Policy</a>
+              <a href="../terms-of-use.html">Terms & Conditions</a>
+              <a href="../patient-feedback.html">Feedback</a>
+              <a href="#/">Sitemap</a>
+              <a href="http://www.blackpopex.ezyro.com" target="_blank"
+                >Crafted by
+                <span class="gold">Blackpopex</span>
+              </a>
+            </small>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../js/mainA-Z.js"></script>
+    <script src="../js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="../js/slick.js" type="text/javascript"></script>
+  </body>
+</html>
