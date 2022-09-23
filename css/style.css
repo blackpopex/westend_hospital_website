@@ -3062,10 +3062,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 
 .clinic-days table tr {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -3271,10 +3271,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   color: var(--light-blue-85percentopacity);
 }
 .transparent-bg-white .contact-info {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
 }
@@ -3496,10 +3496,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   font-weight: 600;
 }
 .why-choose-us-left .equal-flex-division {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -3821,10 +3821,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 .call-back-form {
   width: 100%;
   max-width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -4028,7 +4028,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     box-shadow: 0px 2px 2px 0px rgba(1, 45, 90, 0.6);
     min-height: 64.3px;
     margin-top: 0;
-      display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -4159,7 +4159,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 
 @media screen and (min-width: 600px) {
   .weh-img-container {
-      display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -4399,10 +4399,10 @@ aside .quick-links ul li {
 }
 
 .er-24hrs-contact-numb .flex-row {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -4628,10 +4628,10 @@ table {
 
 table tr {
   width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   line-height: 1;
@@ -4708,6 +4708,7 @@ table tr td {
 .form-container form select,
 .form-container form textarea {
   border: none;
+  outline: none;
   padding: 0.4em 0.4em;
   box-sizing: border-box;
   resize: none;
@@ -4715,7 +4716,6 @@ table tr td {
   display: inline;
   margin-bottom: 0.8em;
   font-family: var(--poppins-fontFamily);
-  background-color: rgba(235, 235, 235, 0.6);
   box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
   color: var(--headind-link-color);
   font-weight: 300;
@@ -4856,10 +4856,10 @@ table tr td {
 .accordion {
   cursor: pointer;
   width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5245,7 +5245,7 @@ table tr td {
   .column-right .article-container {
     margin: 1em 0 0.5em;
     width: 100%;
-      display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -5544,10 +5544,10 @@ table tr td {
   bottom: 0;
   width: 100%;
   height: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   display: -ms-flexbox;
   align-items: center;
@@ -5740,10 +5740,10 @@ table tr td {
 
 .flex-year-info {
   width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   /*changed*/
   flex-direction: column;
@@ -5753,10 +5753,10 @@ table tr td {
   overflow-y: hidden;
 }
 .timeline .left .flex-year-info {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
 }
@@ -5768,7 +5768,6 @@ table tr td {
   text-align: center;
 }
 
-
 .flex-year-info .float-right {
   position: relative;
   right: -90px;
@@ -5779,10 +5778,10 @@ table tr td {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5990,7 +5989,7 @@ table tr td {
 }
 @media (min-width: 768px) {
   #patientFeedback .report-sexual-harassment .flex {
-      display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -6489,7 +6488,7 @@ table tr td {
     margin-inline: auto;
   }
   #Laboratory .department-img-container .flex {
-      display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -6704,7 +6703,7 @@ table tr td {
     margin-inline: auto;
   }
   #Out-Patient-Department .department-img-container .flex {
-      display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -6771,7 +6770,5 @@ table tr td {
 }
 
 /************************DEPARTMENTS ENDS*************************/
-
-
 
 /******************************ENDS OF CSS STYLING************************************/
