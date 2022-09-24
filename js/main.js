@@ -74,7 +74,7 @@ var searchBTN = document.getElementById("searchBTN");
 var overlay = document.getElementById("search-Overlay");
 
 searchBTN.addEventListener("click", function () {
-  overlay.classList.toggle("active");
+  overlay.classList.toggle("search-overlay-activited");
   searchBTN.classList.toggle("fa-times");
 });
 
@@ -82,7 +82,7 @@ searchBTN.addEventListener("click", function () {
 window.onclick = function (event) {
   var overlay = document.getElementById("search-Overlay");
   if (event.target == overlay) {
-    overlay.classList.remove("active");
+    overlay.classList.remove("search-overlay-activited");
     searchBTN.classList.remove("fa-times");
   }
 };

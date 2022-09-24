@@ -35,189 +35,203 @@
     <div class="header-hero-container">
       <header id="myHeaderMenu">
         <!-----------TOP NAVIGATION------------->
-        <div class="topNav">
-          <div class="container flex">
-            <a href="../../index.html" id="wehLogo">
-              <img
-                src="../../img/logo/Westend logo blue.png"
-                alt="Westend Hospital Logo"
-              />
-            </a>
-            <nav class="flex">
-              <div
-                id="navToggler"
-                class="hamburgerMenu"
-                onclick="myFunction(this)"
-              >
-                <div class="bar bar1"></div>
-                <div class="bar bar2"></div>
-                <div class="bar bar3"></div>
-              </div>
+        <div class="main-header-wrapper">
+          <div class="topNav">
+            <div class="container flex">
+              <a href="../../index.html" id="wehLogo">
+                <img
+                  src="../../img/logo/Westend logo blue.png"
+                  alt="Westend Hospital Logo"
+                />
+              </a>
+              <nav class="flex">
+                <div
+                  id="navToggler"
+                  class="hamburgerMenu"
+                  onclick="myFunction(this)"
+                >
+                  <div class="bar bar1"></div>
+                  <div class="bar bar2"></div>
+                  <div class="bar bar3"></div>
+                </div>
 
-              <div class="navbar-links" id="sideNavbar">
-                <ul class="flex navBar1">
-                  <!--Medical Test & services-->
-                  <li class="dropdown">
-                    <a href="#/" class="dropbtn">Medical Test & Services</a>
-                    <ul class="dropdown-content" id="menuDropdown">
-                      <li>
-                        <a
-                          href="../../medical-test-and-services/A-Z-of-all-medical-test.html"
-                          >A-Z of all Medical Test</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../medical-test-and-services/A-Z-of-all-medical-services.html"
-                          >A-Z of all Medical Services</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../medical-test-and-services/department-and-services.html"
-                          >Department & Services</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../medical-test-and-services/patient-education.html"
-                          >Patient Education</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <!--Patient and visitors-->
-                  <li class="dropdown">
-                    <a href="#/" class="dropbtn">Patient & Visitors</a>
-                    <ul class="dropdown-content" id="menuDropdown">
-                      <li>
-                        <a href="../../patient-and-visitors/vistors.html"
-                          >Visitors</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../patient-and-visitors/your-hospital-stay.html"
-                          >Your Hospital Stay</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../patient-and-visitors/billing-and-financial-asistance.html"
-                          >Billing & Financial Asistance</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../patient-and-visitors/accepted-insurance.html"
-                          >Accepted Insurance</a
-                        >
-                      </li>
-                      <li>
-                        <a href="../../patient-and-visitors/patient-rights.html"
-                          >Patient Rights</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../patient-and-visitors/medical-records.html"
-                          >Medical Records</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <!--Why choose us-->
-                  <li class="dropdown">
-                    <a href="#/" class="dropbtn">Why Choose Us</a>
-                    <ul class="dropdown-content" id="menuDropdown">
-                      <li>
-                        <a
-                          href="../../why-choose-us/our-mission-vision-and-values.html"
-                          >Our Mission, Vision & Values</a
-                        >
-                      </li>
-                      <li>
-                        <a href="../../why-choose-us/quality-patient-care.html"
-                          >Quality Patient Care</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="../../why-choose-us/patient-stories-testimonies.html"
-                          >Patient's Stories/Testimonies</a
-                        >
-                      </li>
-                      <li>
-                        <a href="../../why-choose-us/our-team.html">Our Team</a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="contact-li">
-                    <a href="../../contact-us.html" class="contact-us"
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
-                <!--navbar2-->
-                <ul class="flex navbar2">
-                  <li>
-                    <a href="../../map-and-directions.html">Maps & Direction</a>
-                  </li>
-                  <li>
-                    <a href="../../request-an-appointment.html"
-                      >Request Appointment</a
-                    >
-                  </li>
-                  <li>
-                    <a href="../../refer-a-patient.html">Refer a Patient</a>
-                  </li>
-                  <li>
-                    <a href="../../find-a-doctor.html">Find a Doctor</a>
-                  </li>
-                  <li>
-                    <a href="#/">Call Us: 0807 420 2574 </a>
-                  </li>
-                </ul>
-              </div>
-
-              <!--search BTN-->
-              <a id="searchBTN" class="fa fa-search"></a>
-            </nav>
-          </div>
-          <!--display dropdown when search button is clicked-->
-          <div class="search-overlay" id="search-Overlay">
-            <div class="container">
-              <div class="search-content">
-                <form action="#" method="post" autocomplete="off">
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="Looking for something?"
-                      name="Search"
-                    />
-                    <button type="submit" id="searchBtn" class="overlaySearch">
-                      <i class="fa fa-search"></i>
-                    </button>
-                  </div>
-                </form>
-                <!--display Ajax result from server here-->
-                <div id="searchResult" class="popular-searches">
-                  <h3>Popular Searches</h3>
-                  <ul>
-                    <li>
-                      <a href="../../refer-a-patient.html">Refer a patient</a>
+                <div class="navbar-links" id="sideNavbar">
+                  <ul class="flex navBar1">
+                    <!--Medical Test & services-->
+                    <li class="dropdown">
+                      <a href="#/" class="dropbtn">Medical Test & Services</a>
+                      <ul class="dropdown-content" id="menuDropdown">
+                        <li>
+                          <a
+                            href="../../medical-test-and-services/A-Z-of-all-medical-test.html"
+                            >A-Z of all Medical Test</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../medical-test-and-services/A-Z-of-all-medical-services.html"
+                            >A-Z of all Medical Services</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../medical-test-and-services/department-and-services.html"
+                            >Department & Services</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../medical-test-and-services/patient-education.html"
+                            >Patient Education</a
+                          >
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <a href="../map-and-directions">Maps & Directions</a>
+
+                    <!--Patient and visitors-->
+                    <li class="dropdown">
+                      <a href="#/" class="dropbtn">Patient & Visitors</a>
+                      <ul class="dropdown-content" id="menuDropdown">
+                        <li>
+                          <a href="../../patient-and-visitors/vistors.html"
+                            >Visitors</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../patient-and-visitors/your-hospital-stay.html"
+                            >Your Hospital Stay</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../patient-and-visitors/billing-and-financial-asistance.html"
+                            >Billing & Financial Asistance</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../patient-and-visitors/accepted-insurance.html"
+                            >Accepted Insurance</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../patient-and-visitors/patient-rights.html"
+                            >Patient Rights</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../patient-and-visitors/medical-records.html"
+                            >Medical Records</a
+                          >
+                        </li>
+                      </ul>
                     </li>
-                    <li><a href="#/">Treatments</a></li>
-                    <li>
-                      <a href="../A-Z-of-all-medical-services.html">Services</a>
+
+                    <!--Why choose us-->
+                    <li class="dropdown">
+                      <a href="#/" class="dropbtn">Why Choose Us</a>
+                      <ul class="dropdown-content" id="menuDropdown">
+                        <li>
+                          <a
+                            href="../../why-choose-us/our-mission-vision-and-values.html"
+                            >Our Mission, Vision & Values</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../why-choose-us/quality-patient-care.html"
+                            >Quality Patient Care</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../../why-choose-us/patient-stories-testimonies.html"
+                            >Patient's Stories/Testimonies</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../../why-choose-us/our-team.html"
+                            >Our Team</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="contact-li">
+                      <a href="../../contact-us.html" class="contact-us"
+                        >Contact Us</a
+                      >
                     </li>
                   </ul>
+                  <!--navbar2-->
+                  <ul class="flex navbar2">
+                    <li>
+                      <a href="../../map-and-directions.html"
+                        >Maps & Direction</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../../request-an-appointment.html"
+                        >Request Appointment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../../refer-a-patient.html">Refer a Patient</a>
+                    </li>
+                    <li>
+                      <a href="../../find-a-doctor.html">Find a Doctor</a>
+                    </li>
+                    <li>
+                      <a href="#/">Call Us: 0807 420 2574 </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!--search BTN-->
+                <a id="searchBTN" class="fa fa-search"></a>
+              </nav>
+            </div>
+            <!--display dropdown when search button is clicked-->
+            <div class="search-overlay" id="search-Overlay">
+              <div class="container">
+                <div class="search-content">
+                  <form action="#" method="post" autocomplete="off">
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="Looking for something?"
+                        name="Search"
+                      />
+                      <button
+                        type="submit"
+                        id="searchBtn"
+                        class="overlaySearch"
+                      >
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                  <!--display Ajax result from server here-->
+                  <div id="searchResult" class="popular-searches">
+                    <h3>Popular Searches</h3>
+                    <ul>
+                      <li>
+                        <a href="../../refer-a-patient.html">Refer a patient</a>
+                      </li>
+                      <li>
+                        <a href="../map-and-directions">Maps & Directions</a>
+                      </li>
+                      <li><a href="#/">Treatments</a></li>
+                      <li>
+                        <a href="../A-Z-of-all-medical-services.html"
+                          >Services</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

@@ -968,6 +968,7 @@ img {
     background-color: var(--subnavbar-color);
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
     padding: 0;
+    z-index: 999;
   }
   .navbar2 li {
     display: table-cell;
@@ -1161,22 +1162,23 @@ img {
 /*Start: Search overlay style*/
 .search-overlay {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   width: 100%;
-  height: 0;
-  overflow-y: hidden;
-  background-color: inherit;
-  z-index: 1;
-  opacity: 0;
-  box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
-  transition: height 0.5s ease-in, opacity 1s ease-in, padding 0.5s ease-in;
-}
-.active {
   height: auto;
+  overflow-y: hidden;
+  background-color: var(--subnavbar-color);
+  z-index: -1;
   opacity: 1;
-  padding: 1em 0;
+  padding: 3em 0 2em;
+  transform: translateY(-100%);
   margin-top: 0em;
+  box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: transform 1.25s ease, opacity 0.5s ease;
+}
+.search-overlay-activited {
+  opacity: 1;
+  transform: translateY(18%);
 }
 
 .search-content {
@@ -1196,37 +1198,37 @@ img {
   width: 90%;
   float: left;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.6em;
   padding: 0.2em 0;
   border: none;
   outline: none;
   background-color: inherit;
-  color: var(--grey-color-subheading);
+  color: var(--primary-color);
 }
 #search-Overlay form input[type="text"]:focus {
   outline: none;
 }
 
 .search-content ::placeholder {
-  color: var(--headind-link-color);
-  font-weight: 900;
-  font-family: var(--poppins-fontFamily);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-family: var(--raleway-fontFamily);
   font-size: 1em;
   opacity: 0.6;
   letter-spacing: 0.02em;
 }
 .search-content :-ms-input-placeholder {
-  color: var(--headind-link-color);
-  font-weight: 900;
-  font-family: var(--poppins-fontFamily);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-family: var(--raleway-fontFamily);
   font-size: 1em;
   opacity: 0.6;
   letter-spacing: 0.02em;
 }
 .search-content ::-ms-input-placeholder {
-  color: var(--headind-link-color);
-  font-weight: 900;
-  font-family: var(--poppins-fontFamily);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-family: var(--raleway-fontFamily);
   font-size: 1em;
   opacity: 0.6;
   letter-spacing: 0.02em;
@@ -1245,6 +1247,7 @@ img {
 }
 #search-Overlay form .fa-search {
   font-size: 1rem;
+  color: var(--primary-color);
 }
 #search-Overlay form::after {
   content: " ";
@@ -1259,8 +1262,9 @@ img {
 
 .popular-searches h3 {
   margin-bottom: 0;
-  font-weight: 400;
-  color: var(--grey-color-subheading);
+  font-weight: 500;
+  color: var(--primary-color);
+  font-size: 0.75em;
 }
 .popular-searches ul {
   padding: 0;
@@ -1270,34 +1274,47 @@ img {
   line-height: 1.1;
 }
 .popular-searches ul li a {
-  color: var(--grey-color-subheading);
+  color: var(--primary-color);
   padding: 0.2em 0;
+  font-size: 0.6em;
 }
 @media (min-width: 600px) {
   .search-content ::placeholder {
+    font-weight: 700;
     font-size: 1.5em;
     letter-spacing: 0.1em;
   }
   .search-content :-ms-input-placeholder {
+    font-weight: 700;
     font-size: 1.5em;
     letter-spacing: 0.1em;
   }
   .search-content ::-ms-input-placeholder {
+    font-weight: 700;
     font-size: 1.5em;
     letter-spacing: 0.1em;
+  }
+  .search-overlay-activited {
+    transform: translateY(20%);
   }
   #search-Overlay form .fa-search,
   #search-Overlay form .fa-times {
     font-size: 1.3rem;
   }
+  .popular-searches h3 {
+    font-weight: 500;
+    font-size: 0.85em;
+  }
+
+  .popular-searches ul li a {
+    font-size: 0.6em;
+  }
 }
 @media (min-width: 768px) {
   .search-overlay {
-    top: 10vh;
+    padding: 4em 0 1em;
   }
-  .active {
-    padding: 6em 0 2em;
-  }
+
   #search-Overlay form {
     padding: 0.2em 0;
   }
@@ -1311,15 +1328,15 @@ img {
     padding: 0.7em 0.4em;
   }
   .search-content ::placeholder {
-    font-size: 1.8em;
+    font-size: 1.6em;
     letter-spacing: 0;
   }
   .search-content :-ms-input-placeholder {
-    font-size: 1.8em;
+    font-size: 1.6em;
     letter-spacing: 0.05em;
   }
   .search-content ::-ms-input-placeholder {
-    font-size: 1.8em;
+    font-size: 1.6em;
     letter-spacing: 0.05em;
   }
   #search-Overlay form .fa-search {
@@ -1334,8 +1351,21 @@ img {
     max-width: 70%;
     margin-right: auto;
   }
-  .active {
-    padding: 5em 2em;
+  .search-overlay {
+    padding: 5em 0 2em;
+  }
+
+  .search-content ::placeholder {
+    font-weight: 800;
+    letter-spacing: 0;
+  }
+  .search-content :-ms-input-placeholder {
+    font-weight: 800;
+    letter-spacing: 0.05em;
+  }
+  .search-content ::-ms-input-placeholder {
+    font-weight: 800;
+    letter-spacing: 0.05em;
   }
 }
 
@@ -1343,8 +1373,8 @@ img {
   .search-content {
     max-width: 80%;
   }
-  .active {
-    padding: 7em 3em;
+  .search-overlay {
+    padding: 5em 0 2em;
   }
 
   #search-Overlay form input[type="text"] {
@@ -1367,17 +1397,27 @@ img {
   }
   #search-Overlay form .fa-search,
   #search-Overlay form .fa-times {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .popular-searches ul li {
     line-height: 1.3;
   }
+  .popular-searches h3 {
+    font-size: 1em;
+  }
+
+  .popular-searches ul li a {
+    font-size: 0.65em;
+  }
 }
 
 @media (min-width: 1400px) {
+  .search-overlay {
+    padding: 7em 0 3em;
+  }
   .search-content {
-    max-width: 70%;
+    max-width: 60%;
   }
 }
 
