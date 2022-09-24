@@ -184,35 +184,35 @@
             <section id="Online-pay">
                 <div
                     class="container align-start">
-                    <!--Pay online for services redered-->
-                    <div class="text-center online-pay-header">
-                        <h3 class="navy-blue">Welcome to our online payment portal.</h3>
-                        <p>An easy and secure way to pay for your care.</p>
-                    </div>
+                   
 
                     <div
-                        class="flex">
+                        class="flex align-start">
                         <!--Pay with paystack-->
                         <div class="column-left col-60">
-                            <div class="payment-wrapper">
-                                <div class="payment-image margin-bottom">
-                                    <img src="../img/other photos/Payment-PNG-Free-Download.png" alt="payment image">
-                                </div>
-                                <h4 class="sky-blue">With our payment portal you can:</h4>
-                                <p>Pay your bill without setting up an online account</p>
-                                <div class="flex">
-                                    <div class="master-verve-visa col-50">
-                                        <h5 class="sky-blue">We Accept:</h5>
-                                        <img src="../img/other photos/cards.png" alt="payment cards logo">
+                             <div class="payment-main-wrapper">
+                                 <!--Pay online for services redered-->
+                                                         <h3 class="navy-blue">Welcome to our online payment portal.</h3>
+                                                         <p>An easy and secure way to pay for your care.</p>
+                                                             <div class="payment-wrapper">
+                                    <div class="payment-image margin-bottom">
+                                        <img src="../img/background-image/payment.jpg" alt="payment image">
                                     </div>
-                                    <div class="secure-by col-50">
-                                        <h5 class="sky-blue">Secured By:</h5>
-                                        <img src="../img/other photos/paystack-logo-vector.png" alt="Paystack logo">
+                                    <h4 class="navy-blue">With our payment portal you can:</h4>
+                                    <p>Pay your bill without setting up an online account</p>
+                                    <div class="flex">
+                                        <div class="master-verve-visa col-50">
+                                            <h5 class="navy-blue">We Accept:</h5>
+                                            <img src="../img/other photos/cards.png" alt="payment cards logo">
+                                        </div>
+                                        <div class="secure-by col-50">
+                                            <h5 class="navy-blue">Secured By:</h5>
+                                            <img src="../img/other photos/paystack-logo-vector.png" alt="Paystack logo">
+                                        </div>
                                     </div>
-                                </div>
-
-                                <h6 class="sky-blue">For help and support, call us at +234 (0) 807 420 2574, email us at  account@thewestendhospital.com</h6>
-                            </div>
+                                    <h6 class="navy-blue">For help and support, call us at +234 (0) 807 420 2574, email us at  account@thewestendhospital.com</h6>
+                                                             </div>
+                             </div>
                         </div>
                         <div class="column-right col-40">
                             <div class="form-container">
@@ -220,6 +220,7 @@
 
                                 <form action="" method="post" autocomplete="off" id="paymentForm">
                                     <div class="form-content">
+                                        <h4 class="navy-blue">Payment Information</h4>
                                         <p id="importantText" class="important-text">
                                             * Indicates a required field
                                         </p>
@@ -259,24 +260,35 @@
                                                                                                                                                                                                     -->
                                         <div class="flex">
                                             <div class="col-100">
-                                                <label for="payment-for">Payment For :
+                                                <label for="payment-for">Payment for:
                                                     <span>*</span>
                                                 </label>
                                                 <select type="text" name="PaymentFor" id="payment-for" required onchange="inputAmount()">
                                                     <option value="">Select reason for payment</option>
+                                                     <option value="Ante-natal Registration">Ante-natal Registration </option>          
+                                                     <option value="Admission Deposit">Admission Deposit</option>
                                                     <option value="General Consultation">Consultation</option>
+                                                     <option value="ENT Consultation">ENT Consultation</option>
+                                                     <option value="Endocrinologist Review">Endocrinologist Review</option>
                                                     <option value="Gynaecologist Review">Gynaecologist Review</option>
-                                                    <option value="Admission Deposit">Admission Deposit</option>
                                                     <option value="Neurosurgery Consultation">Neurosurgery Consultation</option>
                                                     <option value="Orthopadic Consultation">Orthopadic Consultation</option>
-                                                    <option value="ENT Consultation">ENT Consultation</option>
+                                                    <option value="Cardiologist Review">Cardiologist  </option>
+                                                    <option value="Urologist Review">Urologist Review </option>
+                                                    <option value="Dermatologist Review">Dermatologist Review</option>
+                                                    <option value="Gastroenterologist Review">Gastroenterologist Review </option>
+                                                    <option value="General Surgeon Review">General Surgeon Review </option>
+                                                    <option value="Paediatrics Surgeon">Paediatrics Surgeon </option>
+                                                    <option value="Pulmonologist Review">Pulmonologist Review </option>
+                                                    <option value="Haematologist Review">Haematologist Review  </option>
+                                                    <option value="Nephrologist Review">Nephrologist Review  </option>             
                                                 </select>
                                             </div>
                                         </div>
 
                                         <div class="flex">
                                             <div class="col-100">
-                                                <label for="amount">Amount:
+                                                <label for="amount">Amount to pay:
                                                 </label>
                                                 <input type="tel" name="Email" id="amount" disabled/>
                                             </div>
@@ -288,6 +300,7 @@
                                     </div>
 
                                     <script>
+                                        //chan
                                         rson_payment = document.getElementById("payment-for");
                                         payment_amount = document.getElementById("amount");
 
@@ -300,11 +313,53 @@
                                                 payment_amount.value = 200000;
                                             } else if (rson_payment.value == "Neurosurgery Consultation") {
                                                 payment_amount.value = 50000;
+                                            } else if (rson_payment.value == "Neurology Review") {
+                                                payment_amount.value = 10000;
                                             } else if (rson_payment.value == "Orthopadic Consultation") {
                                                 payment_amount.value = 12000;
                                             } else if (rson_payment.value == "ENT Consultation") {
                                                 payment_amount.value = 7500;
+                                            } 
+                                            else if(rson_payment.value == "Nephrologist Review") {
+                                                payment_amount.value = 15000;
                                             }
+                                            else if(rson_payment.value == "Haematologist Review") {
+                                                payment_amount.value = 30000;
+                                            }
+                                            else if(rson_payment.value == "Pulmonologist Review") {
+                                                payment_amount.value = 30000;
+                                            }
+                                            else if(rson_payment.value == "Paediatrics Surgeon") {
+                                                payment_amount.value = 30000;
+                                            }
+                                            else if(rson_payment.value == "General Surgeon Review") {
+                                                payment_amount.value = 20000;
+                                            }
+                                            else if(rson_payment.value == "Gastroenterologist Review") {
+                                                payment_amount.value = 15000;
+                                            }
+                                            else if(rson_payment.value == "Ante-natal Registration") {
+                                                payment_amount.value = 25000;
+                                            }
+                                            else if(rson_payment.value == "Dermatologist Review") {
+                                                payment_amount.value = 15000;
+                                            }
+                                            else if(rson_payment.value == "Urologist Review") {
+                                                payment_amount.value = 12000;
+                                            }
+                                            else if(rson_payment.value == "Cardiologist Review") {
+                                                payment_amount.value = 12000;
+                                            } 
+                                            else if(rson_payment.value == "Endocrinologist Review") {
+                                                payment_amount.value = 15000;
+                                            } else if(rson_payment.value == "") {
+                                                 payment_amount.value = 0000;
+                                            }
+                                            
+                                            
+                                            
+                                            
+                                            
                                         }
                                     </script>
                                 </form>
