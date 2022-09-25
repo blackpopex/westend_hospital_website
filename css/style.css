@@ -1169,12 +1169,12 @@ img {
   overflow-y: hidden;
   background-color: var(--subnavbar-color);
   z-index: -1;
-  opacity: 1;
+  opacity: 0;
   padding: 3em 0 2em;
   transform: translateY(-100%);
   margin-top: 0em;
   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
-  transition: transform 1.25s ease, opacity 0.5s ease;
+  transition: transform 1.25s ease, opacity 0.8s ease;
 }
 .search-overlay-activited {
   opacity: 1;
@@ -1408,7 +1408,7 @@ img {
   }
 
   .popular-searches ul li a {
-    font-size: 0.65em;
+    font-size: 0.6em;
   }
 }
 
