@@ -6040,38 +6040,93 @@ table tr td {
 }
 
 /******AWARDS AND RECOGNITION *************/
-#awardsAndRecognition .column-right img {
-  max-width: 150px;
-  margin: 0.8em auto;
-  display: block;
+#awardsAndRecognition .column-right .recognition-container {
+  margin: 1em 0 0;
+  padding: 1.5em 0;
 }
-.award-container {
-  padding: 1em 0;
+#awardsAndRecognition .column-right .accreditations-wrapper {
+  padding: 0 0 0.5em;
 }
-.award-container h4 {
+
+#awardsAndRecognition .column-right h4 {
   margin-bottom: 0;
+  text-align: left;
+  font-size: 1.1rem;
+}
+#awardsAndRecognition .column-right h5 {
   text-align: center;
 }
-.award-container .flex {
+#awardsAndRecognition .column-right img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0.4em auto;
+  display: block;
+}
+
+#awardsAndRecognition .award-container {
+  padding: 1em 0;
+}
+
+#awardsAndRecognition .column-right .flex {
   align-items: center;
   margin-top: 0.5em;
+  width: 100%;
 }
+#awardsAndRecognition .column-right .flex p {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   #awardsAndRecognition .column-right img {
-    max-width: 120px;
+    max-width: 250px;
     padding-left: 0.5em;
   }
-  .award-container .flex {
-    margin-top: 0.2em;
+
+  .award-container {
+    padding: 1em 0;
   }
-  .award-container h4 {
-    text-align: left;
-  }
-}
-@media (min-width: 768px) {
-  .award-container .flex {
+  #awardsAndRecognition .award-container .flex {
     margin-top: 0.1em;
     padding-top: 0.1em;
+  }
+  #awardsAndRecognition .column-right h4 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #awardsAndRecognition .column-right h4 {
+    font-size: 1.3rem;
+  }
+  #awardsAndRecognition .column-right h5 {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 0.9rem;
+  }
+
+  #awardsAndRecognition .award-container .flex {
+    flex-direction: column;
+  }
+  #awardsAndRecognition .column-right .flex p {
+    width: 100%;
+  }
+  #awardsAndRecognition .column-right img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #awardsAndRecognition .award-container .flex {
+    flex-direction: row;
+  }
+  #awardsAndRecognition .award-container .flex p {
+    width: 75%;
+    margin-right: auto;
+  }
+  #awardsAndRecognition .column-right img {
+    width: 25%;
+    max-width: 200px;
+    margin-right: auto;
   }
 }
 
