@@ -2341,7 +2341,7 @@ form span {
   margin-bottom: 0.5em;
 }
 .column-right h4 {
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
   padding-bottom: 0;
 }
 .column-left {
@@ -4227,7 +4227,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 .textCenter-map {
   text-align: center;
-  color: var(--light-blue-85percentopacity);
+  color: var(--navy-blue-85percentopaicty);
 }
 .weh-img-container a {
   border-bottom: 1px solid var(--faint-horizontal-line);
