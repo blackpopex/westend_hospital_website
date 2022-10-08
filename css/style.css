@@ -4734,9 +4734,8 @@ table tr {
 }
 table tr th {
   color: var(--subnavbar-color);
-  font-family: var(--lora-fontFamily);
   font-size: 0.6em;
-  font-weight: 600;
+  font-weight: 400;
 }
 table tr th,
 table tr td {
@@ -4749,9 +4748,8 @@ table tr td {
   width: 50%;
   display: block;
   margin-left: auto;
-  text-align: left;
-  font-size: 0.55em;
-  font-family: var(--poppins-fontFamily);
+  text-align: right;
+  font-size: 0.475em;
 }
 
 .form-container p {
@@ -4932,7 +4930,7 @@ table tr td {
   }
 
   #contact-us table {
-    margin: 2em auto;
+    margin: 0 auto 2em;
   }
   #contact-us .text-center {
     text-align: left;
@@ -4942,9 +4940,14 @@ table tr td {
   #contact-us h3,
   #contact-us .form-container h4,
   #contact-us p .important-text {
-    text-align: center;
+    text-align: left;
   }
+  #contact-us .form-container h4 {
+    margin-top: 1.5em;
+  }
+
 }
+
 
 /******BILLING AND FINANCIAL ASSISTANCE*************/
 
