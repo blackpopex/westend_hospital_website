@@ -3253,7 +3253,6 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   .clinic-days table tr th {
     font-size: 0.7em;
     padding: 0.2em 0;
-    font-weight: 700;
   }
   .clinic-days table tr td {
     padding: 0.2em 0;
@@ -5339,7 +5338,17 @@ table tr td {
   z-index: 1;
 }
 .article-container .profile .title {
-  bottom: 200px;
+  bottom: 55%;
+}
+.article-container .profile .article-content h6 {
+  margin-top: 0;
+  font-size: 0.625em
+}
+.article-container .profile .article-content p, .article-container .profile .article-content a {
+  font-size: 0.52em;
+}
+.article-container .profile .article-content a {
+  font-weight: 500;
 }
 
 .article-container .transparent-sky-blue {
@@ -5400,6 +5409,9 @@ table tr td {
     width: 50%;
     margin: 2em auto 2em 0;
   }
+  .article-container .profile .title {
+    bottom: 60%;
+  }
   /****ends****/
 }
 @media (min-width: 768px) {
@@ -5440,7 +5452,7 @@ table tr td {
   }
 
   .article-container .profile .title {
-    bottom: 210px;
+    bottom: 55%;
   }
   .article-container .title h4 {
     font-size: 0.6rem;
@@ -5458,7 +5470,7 @@ table tr td {
     bottom: 36px;
   }
   .article-container .profile .title {
-    bottom: 180px;
+    bottom: 60%;
   }
 
   #patient-stories .article-container .profile .title {
@@ -5474,9 +5486,22 @@ table tr td {
     margin: 1em auto 1em 0;
     width: 90%;
   }
+  .article-container .profile .title {
+    bottom: 55%;
+  }
+  
   .article-container .title h4 {
     font-size: 0.8rem;
     padding: 0.2em 0;
+  }
+
+  .article-container .profile .article-content h6 {
+    margin-top: 0;
+    font-size: 0.65em;
+    font-weight: 600;
+  }
+  .article-container .profile .article-content p, .article-container .profile .article-content a {
+    font-size: 0.55em;
   }
 
   .column-right .article-container a {
@@ -5524,6 +5549,7 @@ table tr td {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .staff-profile-details h2,
 .staff-profile-details h4 {
   text-align: center;
@@ -5562,8 +5588,9 @@ table tr td {
   margin-top: 1em;
 }
 #our-team .profile-detail-wrapper ul li {
-  font-size: 0.65em;
+  font-size: 0.55em;
   font-weight: 300;
+    margin-bottom: 0.5em;
 }
 
 @media (min-width: 768px) {
@@ -5630,6 +5657,11 @@ table tr td {
   .profile-detail-wrapper {
     margin-top: 0;
   }
+  #our-team .profile-detail-wrapper ul li {
+    font-size: 0.6em;
+    margin-bottom: 0.25em;
+  }
+  
 }
 @media (min-width: 1200px) {
   #staffImg {
