@@ -98,7 +98,7 @@ h1,
 h2 {
   font-size: 1.6rem;
   font-weight: 800;
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
 }
 
 h3 {
@@ -2430,6 +2430,12 @@ section .flex {
 }
 .faithful-work h2 {
   margin-bottom: 0.2em;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.faithful-work h3 {
+  margin-top: -0.4em;
+  font-size: 1.25rem;
 }
 .faithful-work h5 {
   margin: 0 0 1em 0;
@@ -2445,7 +2451,11 @@ section .flex {
 .faithful-work .brief-history {
   width: 100%;
   display: block;
+  padding: 2em 0 0;
+
 }
+.faithful-work .brief-history P {text-align: justify;  }
+
 .faithful-work .read-more {
   width: 80%;
   display: block;
@@ -2456,10 +2466,8 @@ section .flex {
 .brief-history .more-text-box {
   width: 100%;
   max-width: 400px;
-  margin-inline: auto;
   margin-top: 1em;
   display: block;
-  text-align: center;
 }
 
 .bg-navy-blue-square-Btn {
@@ -2534,7 +2542,6 @@ section .flex {
 @media (min-width: 600px) {
   .faithful-work .brief-history {
     max-width: 500px;
-    text-align: center;
     margin-inline: auto;
     display: block;
   }
@@ -2559,6 +2566,13 @@ section .flex {
     margin: 1em auto;
     padding-top: 2em;
   }
+
+  .faithful-work h2 {
+    font-size: 1.6em;
+  }
+  .faithful-work h3 {
+    font-size: 1.2em;
+  }
   #faithful_work .col-60 {
     width: 100%;
   }
@@ -2575,7 +2589,9 @@ section .flex {
 
   .faithful-work .brief-history {
     max-width: 600px;
+    padding: 1em 0 0;
   }
+ 
   .i-want-to-text-link {
     max-width: 600px;
     margin-right: 0;
@@ -2587,6 +2603,11 @@ section .flex {
     max-width: 600px;
     display: block;
     margin-left: 1.2em;
+  }
+  .brief-history .more-text-box {
+    width: 100%;
+    margin-inline: 0 auto;
+    text-align: left;
   }
 }
 @media (min-width: 992px) {
@@ -2602,6 +2623,9 @@ section .flex {
     margin: 2em auto 0;
   }
   .faithful-work h2 {
+    font-size: 1.8em;
+  }
+  .faithful-work h3 {
     font-size: 1.4em;
   }
   #faithful_work .col-60 {
@@ -2660,10 +2684,14 @@ section .flex {
     padding: 3em 0 1em;
   }
   .faithful-work h2 {
-    font-size: 1.6em;
+    font-size: 2.2em;
+  }
+  .faithful-work h3 {
+    margin-top: -0.4em;
+    font-size: 1.7em;
   }
   .faithful-work .brief-history {
-    max-width: 550px;
+    max-width: 600px;
   }
   .faithful-work .read-more {
     width: 50%;
@@ -3163,16 +3191,15 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   line-height: 0.6em;
 }
 .clinic-days table tr th {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.7em;
   padding: 0.5em 0;
   color: var(--navy-blue-85percentopaicty);
 }
 .clinic-days table tr td {
-  color: var(--light-blue-85percentopacity);
+  color: var(--navy-blue-85percentopaicty);
   font-size: 0.7em;
   font-weight: 300;
-  color: var(--navy-blue-85percentopaicty);
   text-align: left;
   padding: 0.5em 0;
   width: 60%;
@@ -3778,6 +3805,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   .why-choose-us-left h3 {
     font-size: 1.2em;
     line-height: 1.2;
+  }
+  .why-choose-us-left .paragraph-links p {
+   text-align: justify;
   }
 
   .why-choose-us-left .equal-flex-division {
