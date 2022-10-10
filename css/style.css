@@ -4239,6 +4239,120 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 
 /******MAP AND DIRECTIONS*************/
+#map-direction {
+  margin: 0;
+  padding: 0;
+width: 100%;
+margin-bottom: -15px;
+position: relative;
+}
+
+#googleMap {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding:0;
+}
+@media (min-width: 768px) {
+  #googleMap {
+    min-height: 25%;
+    height: 500px;
+  }
+  #fade-transparent-glass {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    
+  }
+  .map-and-direction-info {
+    position: absolute; 
+    top: 15%; 
+    left: 0;
+    width: 100%; 
+    max-width: 250px;
+    height: 400px;
+    z-index: 999; 
+    background-color: var(--primary-color);
+  }
+  .map-and-direction-info .wrapper,  .map-and-direction-info img, .map-and-direction-info .content {
+    width: 100%;
+  }
+  .map-and-direction-info  .wrapper .content {
+    position: relative;
+    padding: 1em 0.25em 1em 1.5em;
+    max-width: 100%;
+    text-align: left;
+    margin-top: 1em;
+   
+  }
+  .map-and-direction-info .content div  {
+  margin-bottom: 0.5em;
+  }
+  .map-and-direction-info .content div .flex {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  }
+  .map-and-direction-info .content div .flex p,   .map-and-direction-info .content div .flex a {
+  width: 90%;
+  text-align: left;
+  padding-left: 0.5em;
+  }
+
+  .map-and-direction-info .content div .flex a {
+    color: var(--blue-color);
+  }
+  .map-and-direction-info .content div h6 {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 0.55em;  }
+  .map-and-direction-info .content div p  {
+   font-size: 0.5em;  }
+   .map-and-direction-info .content div i, .map-and-direction-info .content div .iconify {
+    font-size: 0.65em;
+    color: var(--navy-blue-85percentopaicty);
+   }
+}
+
+@media (min-width: 992px) {
+  #googleMap {
+    height: 550px;
+  }
+  .map-and-direction-info  .wrapper .content {
+    padding: 0.75em 0.25em 1em 1.5em;
+    margin-top: -1em;
+  }
+ 
+}
+@media (min-width: 1200px) {
+  #googleMap {
+    height: 600px;
+  }
+  .map-and-direction-info {
+    height: 450px;
+  }
+  .map-and-direction-info  .wrapper .content {
+    left: -30px;
+    top: 120px;
+  }
+}
+@media (min-width: 1600px) {
+  #googleMap {
+    height: 700px;
+  }
+  .map-and-direction-info  .wrapper .content {
+    left: -60px;
+    top: 160px;
+  }
+}
+/**
 #map-direction img {
   width: 100%;
   margin: 0 auto;
@@ -4322,6 +4436,8 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     padding-left: 0;
     /*
     border-right: 1px solid var(--faint-horizontal-line);*/
+    **/
+    /**
     padding-right: 1em;
   }
 
@@ -4369,6 +4485,11 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
   .map-container {
     /*******col-70*********/
+
+
+    /**
+
+
     width: 70%;
   }
   #map-direction img {
@@ -4436,7 +4557,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     margin-top: 0;
   }
 }
-
+**/
 /******REQUEST APPOINTMENT AND REFER A PATIENT *************/
 
 /******* Aside navigation for mobile *******/
