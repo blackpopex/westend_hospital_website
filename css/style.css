@@ -148,7 +148,7 @@ p,
 a,
 .section-background-image ul li,
 ul .inline-block-breadcrumb li {
-  font-size: 0.7rem;
+  font-size: 0.66rem;
   font-weight: 300;
 }
 
@@ -2810,6 +2810,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   display: block;
 }
 #Our-services .service-boxes {
+  display: none;
   background-image: linear-gradient(rgba(1, 45, 90, 1), rgba(1, 45, 90, 0.8)),
     url("../img/background-image/pexels-laura-james-6098057.jpg");
   background-position: center;
@@ -2925,6 +2926,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
 
   #Our-services .service-boxes {
+    display: block;
     background-image: linear-gradient(
         to bottom,
         rgba(1, 45, 90, 0.98),
