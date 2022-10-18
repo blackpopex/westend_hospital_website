@@ -1330,7 +1330,6 @@ img {
   .search-overlay {
     padding: 4em 0 1em;
     transform: translateY(-100%);
-
   }
   .search-overlay-activited {
     transform: translateY(25%);
@@ -2460,9 +2459,10 @@ section .flex {
   width: 100%;
   display: block;
   padding: 2em 0 0;
-
 }
-.faithful-work .brief-history P {text-align: justify;  }
+.faithful-work .brief-history P {
+  text-align: justify;
+}
 
 .faithful-work .read-more {
   width: 80%;
@@ -2599,7 +2599,7 @@ section .flex {
     max-width: 600px;
     padding: 1em 0 0;
   }
- 
+
   .i-want-to-text-link {
     max-width: 600px;
     margin-right: 0;
@@ -3817,7 +3817,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     line-height: 1.2;
   }
   .why-choose-us-left .paragraph-links p {
-   text-align: justify;
+    text-align: justify;
   }
 
   .why-choose-us-left .equal-flex-division {
@@ -4252,16 +4252,16 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 #map-direction {
   margin: 0;
   padding: 0;
-width: 100%;
-margin-bottom: -15px;
-position: relative;
+  width: 100%;
+  margin-bottom: -15px;
+  position: relative;
 }
 
 #googleMap {
   width: 100%;
   min-height: 100%;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 .map-and-direction-info {
   display: none;
@@ -4274,76 +4274,79 @@ position: relative;
   #fade-transparent-glass {
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
     width: 100%;
     height: 100%;
     z-index: 99;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.8); 
-    
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
   }
   .map-and-direction-info {
     display: block;
-    position: absolute; 
-    top: 15%; 
+    position: absolute;
+    top: 15%;
     left: 0;
-    width: 100%; 
+    width: 100%;
     max-width: 250px;
     height: 400px;
-    z-index: 999; 
+    z-index: 999;
     background-color: var(--primary-color);
   }
-  .map-and-direction-info .wrapper,  .map-and-direction-info img, .map-and-direction-info .content {
+  .map-and-direction-info .wrapper,
+  .map-and-direction-info img,
+  .map-and-direction-info .content {
     width: 100%;
   }
-  .map-and-direction-info  .wrapper .content {
+  .map-and-direction-info .wrapper .content {
     position: relative;
     padding: 1em 0.25em 1em 1.5em;
     max-width: 100%;
     text-align: left;
     margin-top: 1em;
-   
   }
-  .map-and-direction-info .content div  {
-  margin-bottom: 0.5em;
+  .map-and-direction-info .content div {
+    margin-bottom: 0.5em;
   }
   .map-and-direction-info .content div .flex {
-  display: flex; 
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
   }
-  .map-and-direction-info .content div .flex p,   .map-and-direction-info .content div .flex a {
-  width: 90%;
-  text-align: left;
-  padding-left: 0.5em;
+  .map-and-direction-info .content div .flex p,
+  .map-and-direction-info .content div .flex a {
+    width: 90%;
+    text-align: left;
+    padding-left: 0.5em;
   }
 
   .map-and-direction-info .content div .flex a {
     color: var(--blue-color);
   }
   .map-and-direction-info .content div h6 {
-   margin-top: 0;
-   margin-bottom: 0;
-   font-size: 0.55em;  }
-  .map-and-direction-info .content div p  {
-   font-size: 0.5em;  }
-   .map-and-direction-info .content div i, .map-and-direction-info .content div .iconify {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.55em;
+  }
+  .map-and-direction-info .content div p {
+    font-size: 0.5em;
+  }
+  .map-and-direction-info .content div i,
+  .map-and-direction-info .content div .iconify {
     font-size: 0.65em;
     color: var(--navy-blue-85percentopaicty);
-   }
+  }
 }
 
 @media (min-width: 992px) {
   #googleMap {
     height: 550px;
   }
-  .map-and-direction-info  .wrapper .content {
+  .map-and-direction-info .wrapper .content {
     padding: 0.75em 0.25em 1em 1.5em;
     margin-top: -1em;
   }
- 
 }
 @media (min-width: 1200px) {
   #googleMap {
@@ -4352,7 +4355,7 @@ position: relative;
   .map-and-direction-info {
     height: 450px;
   }
-  .map-and-direction-info  .wrapper .content {
+  .map-and-direction-info .wrapper .content {
     left: -30px;
     top: 120px;
   }
@@ -4361,7 +4364,7 @@ position: relative;
   #googleMap {
     height: 700px;
   }
-  .map-and-direction-info  .wrapper .content {
+  .map-and-direction-info .wrapper .content {
     left: -60px;
     top: 160px;
   }
@@ -4450,7 +4453,7 @@ position: relative;
     padding-left: 0;
     /*
     border-right: 1px solid var(--faint-horizontal-line);*/
-    **/
+**/
     /**
     padding-right: 1em;
   }
@@ -4691,7 +4694,6 @@ aside .quick-links ul li {
     font-weight: 400;
     font-size: 0.75rem;
   }
-  
 }
 @media (min-width: 992px) {
   .align-start .flex {
@@ -4973,7 +4975,7 @@ table tr td {
   display: inline;
   margin-bottom: 0.8em;
   font-family: var(--poppins-fontFamily);
-  box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.21);
   color: var(--headind-link-color);
   font-weight: 300;
   opacity: 0.6;
@@ -5080,7 +5082,6 @@ table tr td {
   #contact-us .text-center,
   #contact-us table {
     max-width: 800px;
-    margin: 0 auto;
   }
 
   .form-container {
@@ -5090,11 +5091,11 @@ table tr td {
     max-width: 800px;
   }
   #contact-us .form-container form {
-    margin: 1em auto;
+    margin: 1em auto 1em 0;
   }
 
   #contact-us table {
-    margin: 0 auto 2em;
+    margin: 0 auto 2em 0;
   }
   #contact-us .text-center {
     text-align: left;
@@ -5109,9 +5110,7 @@ table tr td {
   #contact-us .form-container h4 {
     margin-top: 1.5em;
   }
-
 }
-
 
 /******BILLING AND FINANCIAL ASSISTANCE*************/
 
@@ -5507,9 +5506,10 @@ table tr td {
 }
 .article-container .profile .article-content h6 {
   margin-top: 0;
-  font-size: 0.625em
+  font-size: 0.625em;
 }
-.article-container .profile .article-content p, .article-container .profile .article-content a {
+.article-container .profile .article-content p,
+.article-container .profile .article-content a {
   font-size: 0.52em;
 }
 .article-container .profile .article-content a {
@@ -5654,7 +5654,7 @@ table tr td {
   .article-container .profile .title {
     bottom: 55%;
   }
-  
+
   .article-container .title h4 {
     font-size: 0.8rem;
     padding: 0.2em 0;
@@ -5665,7 +5665,8 @@ table tr td {
     font-size: 0.65em;
     font-weight: 600;
   }
-  .article-container .profile .article-content p, .article-container .profile .article-content a {
+  .article-container .profile .article-content p,
+  .article-container .profile .article-content a {
     font-size: 0.55em;
   }
 
@@ -5755,7 +5756,7 @@ table tr td {
 #our-team .profile-detail-wrapper ul li {
   font-size: 0.55em;
   font-weight: 300;
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 @media (min-width: 768px) {
@@ -5826,7 +5827,6 @@ table tr td {
     font-size: 0.6em;
     margin-bottom: 0.25em;
   }
-  
 }
 @media (min-width: 1200px) {
   #staffImg {
