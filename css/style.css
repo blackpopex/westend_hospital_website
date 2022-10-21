@@ -1304,12 +1304,10 @@ img {
 
 /****NEW STLYES*****/
 .searchResultWrapper {
-  background-color: rgb(33, 78, 113);
-  background-color: rgba(33, 78, 113, 0.9);
   width: 100%;
   transform: translateY(30px);
   transition: transform 1s ease;
-  padding: 0.5em;
+  padding-top: 0.5em;
   opacity: 0;
   visibility: hidden;
 }
