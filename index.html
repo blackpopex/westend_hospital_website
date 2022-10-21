@@ -29,6 +29,45 @@
     <script src="https://kit.fontawesome.com/12d9de5a0c.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      //Search Container
+
+      //Clear Input field when close BTN is clicked
+      $(document).ready(function () {
+        $("#searchBTN").click(function () {
+          $("#searchQuery").val("");
+          $("#showSearchResult").empty();
+          $("#searchResult").show();
+          $("#searchWrapper").removeClass("show-searchResultWrapper");
+        });
+      });
+      //Ajax codes
+      function showSearchBox(str) {
+        if (str.length == 0) {
+          document.getElementById("showSearchResult").innerHTML = " ";
+          document
+            .getElementById("searchWrapper")
+            .classList.remove("show-searchResultWrapper");
+          document.getElementById("searchResult").style.display = "block";
+          return;
+        }
+
+        var ajaxCall = new XMLHttpRequest();
+        ajaxCall.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("showSearchResult").innerHTML =
+              this.responseText;
+            document
+              .getElementById("searchWrapper")
+              .classList.add("show-searchResultWrapper");
+            document.getElementById("searchResult").style.display = "none";
+          }
+        };
+        ajaxCall.open("GET", "searchResult.php?q=" + str, true);
+        ajaxCall.send();
+      }
+    </script>
   </head>
   <body>
     <!--header-hero section-->
@@ -191,6 +230,8 @@
                         type="text"
                         placeholder="Looking for something?"
                         name="Search"
+                        onkeyup="showSearchBox(this.value)"
+                        id="searchQuery"
                       />
                       <button
                         type="submit"
@@ -201,24 +242,35 @@
                       </button>
                     </div>
                   </form>
-                  <!--display Ajax result from server here-->
-                  <div id="searchResult" class="popular-searches">
-                    <h3>Popular Searches</h3>
-                    <ul>
-                      <li>
-                        <a href="refer-a-patient.html">Refer a patient</a>
-                      </li>
-                      <li>
-                        <a href="map-and-directions.html">Maps & Directions</a>
-                      </li>
-                      <li><a href="#/">Treatments</a></li>
-                      <li>
-                        <a
-                          href="medical-test-and-services/A-Z-of-all-medical-services.html"
-                          >Services</a
-                        >
-                      </li>
-                    </ul>
+                  <!--set fixed height for this container-->
+                  <div class="ajax-result-p-search-container">
+                    <!--display Ajax result from server here-->
+                    <div class="searchResultWrapper" id="searchWrapper">
+                      <div
+                        id="showSearchResult"
+                        class="search_result_container"
+                      ></div>
+                    </div>
+                    <div id="searchResult" class="popular-searches">
+                      <h3>Popular Searches</h3>
+                      <ul>
+                        <li>
+                          <a href="refer-a-patient.html">Refer a patient</a>
+                        </li>
+                        <li>
+                          <a href="map-and-directions.html"
+                            >Maps & Directions</a
+                          >
+                        </li>
+                        <li><a href="#/">Treatments</a></li>
+                        <li>
+                          <a
+                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            >Services</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -328,10 +380,16 @@
           <div class="brief-history">
             <h2 class="navy-blue">Welcome</h2>
             <h3 class="sky-blue">to Westend Hospital</h3>
-           
+
             <div>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore, in, aliquid odit quasi distinctio doloribus dolor repellendus dolorum rem explicabo. Magnam ipsa libero voluptatum nulla hic, obcaecati porro possimus harum odit mollitia necessitatibus soluta accusantium ex facilis quia dolores?porro possimus harum odit mollitia necessitatibus soluta accusantium ex facilis quia dolores?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus dolore, in, aliquid odit quasi distinctio doloribus
+                dolor repellendus dolorum rem explicabo. Magnam ipsa libero
+                voluptatum nulla hic, obcaecati porro possimus harum odit
+                mollitia necessitatibus soluta accusantium ex facilis quia
+                dolores?porro possimus harum odit mollitia necessitatibus soluta
+                accusantium ex facilis quia dolores?
               </p>
               <p>
                 Westend Clinic started on full-time basis on January 4, 1978.

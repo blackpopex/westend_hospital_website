@@ -1195,7 +1195,7 @@ img {
 }
 .search-overlay-activited {
   opacity: 1;
-  transform: translateY(25%);
+  transform: translateY(19%);
   visibility: visible;
 }
 
@@ -1272,6 +1272,11 @@ img {
   clear: both;
   display: table;
 }
+.ajax-result-p-search-container {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .popular-searches {
   padding: 1em 0;
   overflow-y: auto;
@@ -1296,6 +1301,38 @@ img {
   padding: 0.2em 0;
   font-size: 0.6em;
 }
+
+/****NEW STLYES*****/
+.searchResultWrapper {
+  background-color: rgb(33, 78, 113);
+  background-color: rgba(33, 78, 113, 0.9);
+  width: 100%;
+  transform: translateY(30px);
+  transition: transform 1s ease;
+  padding: 0.5em;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/****chnage back*****/
+.show-searchResultWrapper {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.show-searchResultWrapper a,
+.show-searchResultWrapper h4 {
+  color: var(--white-color);
+  opacity: 0.7;
+  font-family: var(--slabo-fontFamily-links-buttons-paragraph);
+}
+
+.showSearch {
+  transform: translateY(0);
+  opacity: 1;
+}
+/****NEW ENDS*****/
+
 @media (min-width: 600px) {
   .search-content ::placeholder {
     font-weight: 700;
@@ -1313,7 +1350,7 @@ img {
     letter-spacing: 0.1em;
   }
   .search-overlay-activited {
-    transform: translateY(30%);
+    transform: translateY(22%);
   }
   #search-Overlay form .fa-search,
   #search-Overlay form .fa-times {
@@ -1379,6 +1416,9 @@ img {
   .search-overlay {
     padding: 5em 0 2em;
   }
+  .search-overlay-activited {
+    transform: translateY(20%);
+  }
 
   .search-content ::placeholder {
     font-weight: 800;
@@ -1399,7 +1439,7 @@ img {
     max-width: 80%;
   }
   .search-overlay-activited {
-    transform: translateY(24%);
+    transform: translateY(22%);
   }
   .search-overlay {
     padding: 5em 0 2em;
@@ -1448,7 +1488,7 @@ img {
     padding: 7em 0 3em;
   }
   .search-overlay-activited {
-    transform: translateY(20%);
+    transform: translateY(18%);
   }
   .search-content {
     max-width: 60%;
