@@ -1192,7 +1192,6 @@ img {
   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
   transition: transform 1.25s ease, opacity 0.8s ease;
   visibility: hidden;
-
 }
 .search-overlay-activited {
   opacity: 1;
@@ -4978,10 +4977,11 @@ table tr td {
   display: inline;
   margin-bottom: 0.8em;
   font-family: var(--poppins-fontFamily);
-  box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.21);
+  box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
   color: var(--headind-link-color);
   font-weight: 300;
-  opacity: 0.6;
+  opacity: 0.75;
+  background-color: #f1f1f1;
 }
 
 .form-container form input[type="text"]:focus,
