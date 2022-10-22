@@ -1320,9 +1320,9 @@ img {
 }
 .show-searchResultWrapper a,
 .show-searchResultWrapper h4 {
-  color: var(--white-color);
-  opacity: 0.7;
-  font-family: var(--slabo-fontFamily-links-buttons-paragraph);
+  color: var(--primary-color);
+  opacity: 1;
+  font-family: var(--poppins-fontFamily);
 }
 
 .showSearch {
