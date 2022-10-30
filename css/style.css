@@ -5810,7 +5810,9 @@ table tr td {
   font-weight: 300;
   margin-bottom: 0.5em;
 }
-
+#testimonies .staff-profile-details ul {
+  margin-top: 0.1em;
+}
 @media (min-width: 768px) {
   #staffImg {
     width: 120px;
@@ -5829,6 +5831,9 @@ table tr td {
   .staff-profile-details ul {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  #testimonies .staff-profile-details ul {
+    margin-top: 0.1em;
   }
   .staff-profile-details h2,
   .staff-profile-details h4 {
