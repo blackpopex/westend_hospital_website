@@ -273,6 +273,10 @@ ul .inline-block-breadcrumb li {
     font-size: 0.75rem;
     font-weight: 400;
   }
+  #main-footer .fa,
+  #main-footer .fa-brands {
+    font-size: 0.8em;
+  }
 
   .container .column-left ul li {
     font-weight: 600;
@@ -340,6 +344,10 @@ ul .inline-block-breadcrumb li {
   .section-background-image ul .a-z-nav-links {
     margin-top: 1em;
   }
+  #main-footer .fa,
+  #main-footer .fa-brands {
+    font-size: 0.9em;
+  }
 }
 @media screen and (min-width: 1200px) {
   h1 {
@@ -371,6 +379,11 @@ ul .inline-block-breadcrumb li {
     font-size: 0.8rem;
     font-weight: 300;
     padding: 0.4em 0;
+  }
+
+  #main-footer .fa,
+  #main-footer .fa-brands {
+    font-size: 1em;
   }
 }
 
@@ -1682,6 +1695,7 @@ footer {
 }
 
 #main-footer .fa,
+#main-footer .fa-brands,
 .copyright small,
 .copyright small a {
   color: var(--primary-color);
@@ -5831,8 +5845,8 @@ table tr td {
 
   .staff-profile .icon-contact-number {
     width: 100%;
-    max-width: 180px;
-    margin: 0.3em auto 0.5em 0;
+    max-width: 200px;
+    margin: -0.25em auto 0.5em 0;
     text-align: center;
     display: table;
   }
@@ -5896,7 +5910,7 @@ table tr td {
 }
 @media (min-width: 1800px) {
   .staff-profile .icon-contact-number {
-    margin-top: 0.2em;
+    margin-top: -0.2em;
   }
 }
 
