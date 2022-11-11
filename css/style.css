@@ -3500,7 +3500,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 
   #emergency .paragraph-contact-info p:first-child {
     margin-bottom: 1em;
-    width: 60%;
+    width: 550px;
   }
   #emergency .transparent-bg-white i {
     font-size: 0.6em;
@@ -3533,7 +3533,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 
   #emergency .paragraph-contact-info p:first-child {
     margin-bottom: 2em;
-    width: 80%;
+    width: 600px;
   }
   #emergency .transparent-bg-white .contact-info {
     width: 100%;
@@ -3566,6 +3566,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
   #emergency .transparent-bg-white {
     width: auto;
+    padding-right: 5em;
+  }
+  #emergency .paragraph-contact-info p:first-child {
+    width: 650px;
   }
 }
 
