@@ -380,6 +380,9 @@ ul .inline-block-breadcrumb li {
     font-weight: 300;
     padding: 0.4em 0;
   }
+  #article-content .article-container .title h4 {
+    padding: 0.35em 0;
+  }
 
   #main-footer .fa,
   #main-footer .fa-brands {
@@ -720,9 +723,9 @@ img {
     margin: 0.15em;
   }
 
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-5px, -2px);
-    transform: rotate(45deg) translate(-5px, -2px);
+  .change .bar1 {
+    -webkit-transform: rotate(-12deg) translate(-1px, -2px);
+    transform: rotate(-12deg) translate(-1px, -2px);
   }
   .active {
     width: 50%;
@@ -792,7 +795,7 @@ img {
     width: 100%;
     background-color: var(--primary-color);
     box-shadow: 16px 16px 16px 8px rgba(0, 0, 0, 1);
-    min-height: 10vh;
+    min-height: auto;
     z-index: inherit;
   }
 
@@ -4804,7 +4807,7 @@ aside .quick-links ul li {
     margin-top: 0.5em;
   }
   .er-24hrs-contact-numb .flex-row .fa {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-top: 20px;
   }
   .er-24hrs-contact-numb .flex-row ul {
@@ -5560,6 +5563,9 @@ table tr td {
   bottom: 30px;
   z-index: 1;
 }
+#article-content .article-container .title {
+  padding: 0.4em 0.2em 0.4em 2em;
+}
 .article-container .profile .title {
   bottom: 55%;
 }
@@ -5852,7 +5858,7 @@ table tr td {
   .staff-profile .icon-contact-number {
     width: 100%;
     max-width: 200px;
-    margin: -0.25em auto 0.5em 0;
+    margin: 0.25em auto 0.5em 0;
     text-align: center;
     display: table;
   }
@@ -5866,6 +5872,9 @@ table tr td {
   .staff-profile .icon-contact-number i,
   .staff-profile .icon-contact-number p {
     font-size: 0.6em;
+  }
+  .profile-detail-wrapper {
+    max-width: 300px;
   }
 
   .staff-profile .inline-block-breadcrumb {
@@ -5916,7 +5925,7 @@ table tr td {
 }
 @media (min-width: 1800px) {
   .staff-profile .icon-contact-number {
-    margin-top: -0.2em;
+    margin-top: 0.2em;
   }
 }
 
