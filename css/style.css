@@ -390,11 +390,6 @@ ul .inline-block-breadcrumb li {
   }
 }
 
-@media (min-width: 1400px) {
-  h2.bolder-text {
-  }
-}
-
 .dropdown-content a,
 .copyright a {
   font-size: 1rem;
@@ -1682,6 +1677,67 @@ footer {
   width: 250px;
   display: block;
   margin: 0.8em auto;
+}
+#MakeADonation .img-text-content .flex {
+  flex-direction: row;
+  align-self: flex-start;
+}
+#iconify-donation {
+  color: var(--blue-color);
+  font-size: 1em;
+  margin-top: -50px;
+  margin-right: 0.2em;
+}
+#MakeADonation h2.h2-reduced {
+  font-size: 0.65em;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+#MakeADonation .img-text-content:last-child p {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  #iconify-donation {
+    font-size: 1.2em;
+  }
+  #MakeADonation h2.h2-reduced {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 768px) {
+  #iconify-donation {
+    font-size: 1.5em;
+  }
+  #MakeADonation h2.h2-reduced {
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 992px) {
+  #iconify-donation {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  #MakeADonation h2.h2-reduced {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 1200px) {
+  #MakeADonation .img-text-content .flex {
+    flex-direction: row;
+    align-self: flex-start;
+  }
+  #iconify-donation {
+    font-size: 2em;
+    margin-right: 0.25em;
+    margin-top: 0;
+  }
+  #MakeADonation h2.h2-reduced {
+    font-size: 0.9em;
+  }
 }
 
 #main-footer .follow-us-align-left {
@@ -6572,7 +6628,7 @@ table tr td {
 
 @media (min-width: 600px) {
   .make-a-donation h2 {
-    width: 50%;
+    width: 98%;
     display: block;
     margin-right: auto;
   }
