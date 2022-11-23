@@ -6726,6 +6726,9 @@ table tr td {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+.scheduling ul li a {
+  color: var(--navy-blue-85percentopaicty);
+}
 
 .scheduling ul li .fa {
   margin-right: 0.5em;
