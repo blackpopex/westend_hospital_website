@@ -2969,6 +2969,11 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   font-size: 1em;
   margin-bottom: 0.5em;
 }
+
+#Our-services iconify-icon {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
 #Our-services h6 {
   margin-bottom: 0;
   margin-top: 0;
@@ -3087,6 +3092,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     font-size: 1.2em;
     margin-bottom: 0.5em;
   }
+  #Our-services iconify-icon {
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+  }
   #Our-services .width-50 h6 {
     font-size: 0.6em;
     margin-bottom: 0;
@@ -3198,6 +3207,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     font-size: 1.4em;
     margin-bottom: 0.5em;
   }
+  #Our-services iconify-icon {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
 
   #Our-services .width-50 h6 {
     font-size: 0.6em;
@@ -3248,13 +3261,16 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 
   #Our-services .width-50 h6 {
     font-size: 0.7em;
+    text-align: left;
   }
 
   #Our-services .width-50 .service-box-icon p {
     line-height: 1.2;
-    max-width: 250px;
+    max-width: 190px;
     display: block;
     font-size: 0.5em;
+    width: 100%;
+    text-align: left;
   }
 }
 
