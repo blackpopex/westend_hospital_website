@@ -6770,6 +6770,9 @@ table tr td {
 /******Other Styles******/
 
 /*********RADIOLOGY****************/
+.grid-photo-main-container {
+  display: none;
+}
 #Radiology .container table tr th:last-child {
   width: 50%;
   margin-left: auto;
@@ -6831,6 +6834,38 @@ table tr td {
   }
 }
 @media screen and (min-width: 992px) {
+  /******CSS for grid class*****/
+  .grid-photo-main-container {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin-inline: 0 auto;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    gap: 5px 5px;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+  }
+  .grid-item {
+    width: 100%;
+    max-width: 350px;
+    height: 200;
+  }
+
+  .large-grid-item {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  /******CSS for grid class ends*****/
+
   #Radiology .container table {
     max-width: 75%;
     margin: 1em auto 1em 0;
@@ -6839,6 +6874,9 @@ table tr td {
 }
 
 @media screen and (min-width: 1600px) {
+  .grid-photo-main-container {
+    max-width: 900px;
+  }
   #Radiology .container table tr th:last-child {
     display: block;
     margin-left: auto;
