@@ -7045,16 +7045,13 @@ table tr td {
 /****************Laboratory*****************/
 #Laboratory .department-img-container {
   margin-top: 1.5em;
+  display: block;
 }
 #Laboratory .department-img-container .flex {
   flex-direction: column;
 }
 
-#Laboratory .department-img-container .flex .dual-img {
-  width: 100%;
-}
-#Laboratory .department-img-container .flex img,
-#Laboratory .department-img-container .flex .dual-img img {
+#Laboratory .department-img-container .flex img {
   width: 100%;
   max-width: 300px;
   margin-inline: auto;
@@ -7063,8 +7060,7 @@ table tr td {
 }
 
 @media (min-width: 600px) {
-  #Laboratory .department-img-container .flex img,
-  #Laboratory .department-img-container .flex .dual-img img {
+  #Laboratory .department-img-container .flex img {
     max-width: 400px;
     margin-bottom: 1em;
   }
@@ -7072,33 +7068,34 @@ table tr td {
 @media (min-width: 768px) {
   #Laboratory .department-img-container {
     overflow: hidden;
+    width: 100%;
+    display: block;
+    max-width: 800px;
   }
   #Laboratory .department-img-container .flex {
     width: 100%;
-    display: table;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px 5px;
+    padding: 5px;
   }
-  #Laboratory .department-img-container .flex img,
-  #Laboratory .department-img-container .flex .dual-img img {
-    margin-inline: 0;
+
+  #Laboratory .department-img-container .flex img.grid-item {
+    width: 100%;
+    max-width: 350px;
+    height: 200;
     margin-bottom: 0;
-    display: table-cell;
-    min-height: 20px;
   }
-  #Laboratory .department-img-container .flex img {
-    width: 33.33%;
-    max-width: 350px;
-    padding: 5px;
-  }
-  #Laboratory .department-img-container .flex .dual-img {
-    width: 66.66%;
-    display: inline-block;
-  }
-  #Laboratory .department-img-container .flex .dual-img img {
-    width: 49.2%;
-    max-width: 350px;
-    display: table-cell;
-    overflow: hidden;
-    padding: 5px;
+
+  #Laboratory .department-img-container .flex img.large-grid-item {
+    width: 100%;
+    max-width: 600px;
+    margin-inline: auto;
+    height: 100%;
+    grid-column-start: 4;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 2;
   }
 }
 @media (min-width: 1200px) {
@@ -7108,66 +7105,14 @@ table tr td {
     display: block;
     margin-inline: auto;
   }
-  #Laboratory .department-img-container .flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    margin-inline: 12.5% 0;
-    max-width: 800px;
-  }
-
-  #Laboratory .department-img-container .flex img,
-  #Laboratory .department-img-container .flex .dual-img img {
-    display: block;
-    padding: 0;
-  }
-
-  #Laboratory .department-img-container .flex img {
-    width: 51%;
-    max-width: 380px;
-    height: auto;
-    display: block;
-  }
-  #Laboratory .department-img-container .flex .dual-img {
-    width: 49%;
-    max-width: 355px;
-    display: block;
-    margin-inline: 0.5em auto;
-    overflow-y: hidden;
-  }
-  #Laboratory .department-img-container .flex .dual-img img {
-    max-width: 450px;
-    height: auto;
-  }
-  #Laboratory .department-img-container .flex .dual-img img:last-child {
-    margin-top: 0.5em;
-  }
 }
 
 @media (min-width: 1600px) {
-  #Laboratory .department-img-container h4 {
-    width: 80%;
-    max-width: 100%;
-    text-align: left;
-  }
-  #Laboratory .department-img-container .flex {
-    margin-inline: 10% 0;
+  #Laboratory .department-img-container {
     max-width: 1000px;
   }
-
-  #Laboratory .department-img-container .flex img {
-    max-width: 475px;
-  }
-
-  #Laboratory .department-img-container .flex .dual-img {
-    margin-top: 0;
-    max-width: 460px;
-  }
-  #Laboratory .department-img-container .flex .dual-img img {
-    max-width: 550px;
+  #Laboratory .department-img-container .flex img.large-grid-item {
+    max-width: 1000px;
   }
 }
 
