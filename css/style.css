@@ -5050,12 +5050,15 @@ table tr td {
   text-align: right;
   font-size: 0.475em;
 }
+#list-of-accepted-insurance table tr td {
+  text-align: left;
+}
 
 .form-container p {
   text-align: left;
 }
 .form-container .wrapper div {
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
 }
 
 .form-container form {
