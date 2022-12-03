@@ -7200,16 +7200,13 @@ table tr td {
 
 #Out-Patient-Department .department-img-container {
   margin-top: 1.5em;
+  display: block;
 }
 #Out-Patient-Department .department-img-container .flex {
   flex-direction: column;
 }
 
-#Out-Patient-Department .department-img-container .flex .dual-img {
-  width: 100%;
-}
-#Out-Patient-Department .department-img-container .flex img,
-#Out-Patient-Department .department-img-container .flex .dual-img img {
+#Out-Patient-Department .department-img-container .flex img {
   width: 100%;
   max-width: 300px;
   margin-inline: auto;
@@ -7217,14 +7214,8 @@ table tr td {
   margin-bottom: 0.5em;
 }
 
-.opd-info-box {
-  padding: 0.5em;
-  background-color: var(--skyblue-100percentopacity);
-}
-
 @media (min-width: 600px) {
-  #Out-Patient-Department .department-img-container .flex img,
-  #Out-Patient-Department .department-img-container .flex .dual-img img {
+  #Out-Patient-Department .department-img-container .flex img {
     max-width: 400px;
     margin-bottom: 1em;
   }
@@ -7232,35 +7223,61 @@ table tr td {
 @media (min-width: 768px) {
   #Out-Patient-Department .department-img-container {
     overflow: hidden;
+    width: 100%;
+    display: block;
+    max-width: 800px;
   }
   #Out-Patient-Department .department-img-container .flex {
     width: 100%;
-    display: table;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px 5px;
+    padding: 5px;
   }
-  #Out-Patient-Department .department-img-container .flex img,
-  #Out-Patient-Department .department-img-container .flex .dual-img img {
-    margin-inline: 0;
+
+  #Out-Patient-Department .department-img-container .flex img.grid-item {
+    width: 100%;
+    max-width: 350px;
+    height: 200;
     margin-bottom: 0;
-    display: table-cell;
-    min-height: 20px;
   }
-  #Out-Patient-Department .department-img-container .flex img {
-    width: 33.33%;
-    max-width: 350px;
-    padding: 5px;
-  }
-  #Out-Patient-Department .department-img-container .flex .dual-img {
-    width: 66.66%;
-    display: inline-block;
-  }
-  #Out-Patient-Department .department-img-container .flex .dual-img img {
-    width: 49.2%;
-    max-width: 350px;
-    display: table-cell;
-    overflow: hidden;
-    padding: 5px;
+
+  #Out-Patient-Department .department-img-container .flex img.large-grid-item {
+    width: 100%;
+    max-width: 600px;
+    margin-inline: auto;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 }
+@media (min-width: 1200px) {
+  #Laboratory .department-img-container h4 {
+    max-width: 760px;
+    text-align: center;
+    display: block;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  #Out-Patient-Department .department-img-container {
+    max-width: 1000px;
+  }
+  #Out-Patient-Department .department-img-container .flex img.large-grid-item {
+    max-width: 1000px;
+  }
+}
+
+.opd-info-box {
+  padding: 0.5em;
+  background-color: var(--skyblue-100percentopacity);
+}
+
+/**
+
 @media (min-width: 1200px) {
   #Out-Patient-Department .department-img-container h4 {
     max-width: 760px;
@@ -7334,6 +7351,7 @@ table tr td {
     max-width: 550px;
   }
 }
+**/
 
 /************************DEPARTMENTS ENDS*************************/
 
