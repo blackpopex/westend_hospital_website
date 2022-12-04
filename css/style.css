@@ -2897,6 +2897,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 */
 #Our-services .what-we-do {
   background-color: var(--navy-blue-85percentopaicty);
+  padding: 2em 0;
 }
 
 #Our-services h3 {
@@ -4146,7 +4147,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   #RequestCallBack {
     background-image: linear-gradient(
         rgba(1, 45, 90, 0.8),
-        rgba(1, 45, 90, 0.8)
+        rgba(1, 45, 90, 0.9)
       ),
       url("../img/background-image/bermix-studio-m0hz75hjXEo-unsplash1.jpg");
     background-position: center;
@@ -4207,10 +4208,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   #RequestCallBack {
     background-image: linear-gradient(
         rgba(1, 45, 90, 0.8),
-        rgba(1, 45, 90, 0.8)
+        rgba(1, 45, 90, 0.9)
       ),
       url("../img/background-image/bermix-studio-m0hz75hjXEo-unsplash1.jpg");
-    padding: 1.5em 0;
+    padding: 2em 0;
   }
   #RequestCallBack .specific-width {
     max-width: 80%;
@@ -5884,6 +5885,7 @@ table tr td {
 }
 .staff-profile .icon-contact-number .fa-phone-alt {
   display: table-cell;
+  font-size: 0.7em;
 }
 .staff-profile .icon-contact-number p {
   font-weight: 500;
@@ -5900,9 +5902,6 @@ table tr td {
 }
 #testimonies .staff-profile-details ul {
   margin-top: 0.1em;
-}
-
-.staff-profile .staff-profile-details .icon-contact-number p {
 }
 
 @media (min-width: 768px) {
@@ -5943,6 +5942,9 @@ table tr td {
     margin: 0.25em auto 0.5em 0;
     text-align: center;
     display: table;
+  }
+  .staff-profile .icon-contact-number .fa-phone-alt {
+    font-size: 0.8em;
   }
 
   .staff-profile .icon-contact-number p {
