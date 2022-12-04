@@ -313,10 +313,10 @@ ul .inline-block-breadcrumb li {
 @media screen and (min-width: 992px) {
   p,
   #squareList li {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
   .form-container form label {
-    font-size: 0.8em;
+    font-size: 0.75em;
   }
   .form-container form input[type="text"],
   .form-container form input[type="date"],
@@ -3162,9 +3162,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
 
   #Our-services .width-50 .service-box-icon p {
-    line-height: 1.1;
+    line-height: 1.2;
     max-width: 300px;
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 }
 
@@ -3223,10 +3223,8 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
 
   #Our-services .width-50 .service-box-icon p {
-    line-height: 1.2;
     max-width: 250px;
     display: block;
-    font-size: 0.5em;
   }
 }
 
@@ -4202,6 +4200,13 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     color: var(--navy-blue-85percentopaicty);
     cursor: pointer;
     margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  @media (min-width: 768px) {
+  #RequestCallBack {
+    padding: 0.8em 0;
   }
 }
 @media (min-width: 1200px) {
