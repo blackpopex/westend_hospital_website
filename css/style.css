@@ -2897,7 +2897,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 */
 #Our-services .what-we-do {
   background-color: var(--navy-blue-85percentopaicty);
-  padding: 2em 0;
+  padding: 1.25em 0;
 }
 
 #Our-services h3 {
@@ -3087,11 +3087,12 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
   #Our-services .service-box-icon {
     width: 100%;
-    max-width: 250px;
+    max-width: 500px;
     display: block;
     margin-inline: auto;
     padding: 0.5em 0.1em;
   }
+
   #Our-services .fas {
     font-size: 1.2em;
     margin-bottom: 0.5em;
@@ -3111,7 +3112,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   #Our-services .width-50 p {
     font-size: 0.6em;
     text-align: center;
-    line-height: 0.8em;
+    line-height: 1.2em;
   }
 }
 @media (min-width: 992px) {
@@ -3159,6 +3160,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 
   #Our-services .service-box-wrapper {
     padding-top: 0;
+  }
+  #Our-services .service-box-icon {
+    max-width: 200px;
   }
 
   #Our-services .width-50 .service-box-icon p {
@@ -3223,7 +3227,6 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
 
   #Our-services .width-50 .service-box-icon p {
-    max-width: 250px;
     display: block;
   }
 }
@@ -3277,11 +3280,6 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 
 @media (min-width: 1600px) {
-  #Our-services .col-30 {
-    width: 30%;
-    padding: 2em 2em 0 0;
-  }
-
   #Our-services .col-30 .what-we-do-content-wrapper {
     max-width: 400px;
     margin-left: 2em;
@@ -3295,7 +3293,8 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 /**CHANGE APPLIED HERE**/
 /*HMO-ADVERT-CLINIC DAY-WRAPPER*/
 #Hmo-clinic-days {
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+  padding-top: 0em;
 }
 .hmo-clinic-days-wrapper {
   width: 100%;
@@ -3425,6 +3424,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   .clinic-days table tr td {
     padding: 0.2em 0;
     font-weight: 400;
+  }
+  #Hmo-clinic-days {
+    padding-bottom: 2.5em;
+    padding-top: 1.5em;
   }
 }
 @media (min-width: 1600px) {
@@ -3872,11 +3875,12 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 @media (min-width: 992px) {
   #caringSince1978 .caring-text-box {
+    max-width: 700px;
     margin: 0 auto -120px;
   }
 
   #caringSince1978 .caring-text-box h2 {
-    font-size: 2.4em;
+    font-size: 2.2em;
   }
 
   .icon-statistics-wrapper {
@@ -3977,8 +3981,11 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 
 @media (min-width: 1200px) {
+  #caringSince1978 .caring-text-box {
+    max-width: 800px;
+  }
   #caringSince1978 .caring-text-box h2 {
-    font-size: 2.6em;
+    font-size: 2.2em;
   }
   #caringSince1978 .statistics-icon-container {
     max-width: 1200px;
@@ -4155,7 +4162,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     padding: 0.5em 0;
   }
   #RequestCallBack .specific-width {
-    max-width: 100%;
+    width: 100%;
+    max-width: 550px;
+    margin-inline: auto;
   }
 
   #RequestCallBack h3 {
@@ -4165,7 +4174,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     color: var(--primary-color);
   }
   .call-back-form {
-    max-width: 1000px;
+    max-width: 700px;
     flex-direction: row;
     margin: 0.2em auto;
   }
@@ -4204,9 +4213,14 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 
 @media (min-width: 992px) {
-  @media (min-width: 768px) {
   #RequestCallBack {
     padding: 0.8em 0;
+  }
+  #RequestCallBack .specific-width {
+    max-width: 550px;
+  }
+  .call-back-form {
+    max-width: 800px;
   }
 }
 @media (min-width: 1200px) {
@@ -4216,13 +4230,14 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
         rgba(1, 45, 90, 0.9)
       ),
       url("../img/background-image/bermix-studio-m0hz75hjXEo-unsplash1.jpg");
-    padding: 2em 0;
+    padding: 1.5em 0;
   }
   #RequestCallBack .specific-width {
     max-width: 80%;
     margin: 0 auto;
   }
   .call-back-form {
+    max-width: 900px;
     margin: 0.2em auto;
   }
   .call-back-form input[type="text"],
@@ -4234,6 +4249,14 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 @media (min-width: 1600px) {
   #RequestCallBack .specific-width {
     max-width: 70%;
+  }
+  .call-back-form {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 1800px) {
+  .call-back-form {
+    max-width: 1200px;
   }
 }
 
@@ -5640,7 +5663,7 @@ table tr td {
 }
 .article-container .title {
   width: 80%;
-  padding: 0.2em 0.2em 0.2em 2em;
+  padding: 0.25em 0.2em 0.25em 2em;
   word-wrap: break-word;
   position: absolute;
   left: 0;
@@ -6060,8 +6083,13 @@ table tr td {
 #our-testimonies #iconify-testify {
   color: var(--blue-color);
   font-size: 1em;
-  margin-top: -250px;
   margin-right: 0.2em;
+}
+#our-testimonies .iconify-small-text {
+  margin-top: -250px;
+}
+#our-testimonies .iconify-large-text {
+  margin-top: -500px;
 }
 #our-testimonies .testify-info {
   text-align: right;
