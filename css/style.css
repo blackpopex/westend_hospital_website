@@ -151,6 +151,9 @@ ul .inline-block-breadcrumb li {
   font-size: 0.66rem;
   font-weight: 300;
 }
+.follow-us-align-left .fa {
+  font-size: 1rem;
+}
 
 p {
   margin-bottom: 0.5rem;
@@ -586,10 +589,10 @@ img {
 
 /**********Responsiveness for the sidebar ends***********/
 
-/** BRING IN THE OVERFLOW SIDEBAR **/
+/** BRING IN THE OVERFLOW SIDEBAR**/
 @media (max-width: 767px) {
   #sideNavbar {
-    height: 92vh;
+    height: 92%; /*****change it back to 92vh*****/
     overflow: auto;
   }
 }
@@ -5897,6 +5900,9 @@ table tr td {
 }
 #testimonies .staff-profile-details ul {
   margin-top: 0.1em;
+}
+
+.staff-profile .staff-profile-details .icon-contact-number p {
 }
 
 @media (min-width: 768px) {
