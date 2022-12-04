@@ -434,6 +434,13 @@ section {
   #main-footer .container {
     width: min(80%, 90rem);
   }
+  p,
+  #squareList li {
+    font-size: 0.85rem;
+  }
+  .form-container form label {
+    font-size: 0.85em;
+  }
 }
 
 img {
