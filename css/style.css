@@ -28,7 +28,14 @@
   --skyblue-85percentopacity: #eaf5ff;
   --skyblue-100percentopacity: #eaf5ff;
   --orange-color: #f59a18;
-  --pink-color: #d52e8a;
+  /****NEW COLOUR****/
+  --pink-color: #a60150;
+  --orange-color: #e03c32;
+  --purple-color: #5f259e;
+  --green-color: #105961;
+  --blue-color: #0091be;
+
+  /****NEW COLOUR ENDS****/
   --blue-color: #2386c7;
   --poppins-fontFamily: "Poppins", sans-serif;
   --raleway-fontFamily: "Raleway", sans-serif;
@@ -6483,6 +6490,41 @@ table tr td {
 .bg-header-link-color {
   background-color: var(--headind-link-color);
 }
+
+/*****NEW COLOURS*****/
+
+.bg-pink-color {
+  background-color: var(--pink-color);
+}
+.bg-orange-color {
+  background-color: var(--orange-color);
+}
+.bg-purple-color {
+  background-color: var(--purple-color);
+}
+.bg-green-color {
+  background-color: var(--green-color);
+}
+.bg-blue-color {
+  background-color: var(--blue-color);
+}
+
+.pink-color {
+  color: var(--pink-color);
+}
+.orange-color {
+  color: var(--orange-color);
+}
+.purple-color {
+  color: var(--purple-color);
+}
+.green-color {
+  color: var(--green-color);
+}
+.blue-color {
+  color: var(--blue-color);
+}
+
 .crown-royal {
   color: var(--crown-Royal);
 }
