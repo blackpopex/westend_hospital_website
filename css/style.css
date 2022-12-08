@@ -35,6 +35,8 @@
   --green-color: #105961;
   --blue-color: #0091be;
 
+  --pink-color2: #d52e8a;
+  --orange-color2: #f59a18;
   /****NEW COLOUR ENDS****/
   --blue-color: #2386c7;
   --poppins-fontFamily: "Poppins", sans-serif;
@@ -6743,61 +6745,62 @@ table tr td {
 
 /******SITEMAP *************/
 #siteMap .flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 #siteMap .sitemap-first-row {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 #siteMap .sitemap-first-row .align-start .move-downwards-on-mobile {
-    margin-top: 1.5em;
+  margin-top: 1.5em;
 }
 #siteMap .align-start:last-child .col-30:first-child {
-    margin-top: -1em;
+  margin-top: -1em;
 }
 #siteMap .align-start:last-child .col-30:last-child {
-    margin-top: -0.5em;
+  margin-top: -0.5em;
 }
 #siteMap .col-30 .margin-bottom {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
-#siteMap .col-30 h4, #siteMap .col-30 h6 {
-    margin-bottom: 0.25em;
+#siteMap .col-30 h4,
+#siteMap .col-30 h6 {
+  margin-bottom: 0.25em;
 }
 #siteMap .col-30 ul {
   padding-left: 1.25em;
   list-style-type: disc;
   line-height: 1.2;
 }
-#siteMap .col-30 ul li  {
-line-height: 0.5;
-padding: 0.25em 0;
-
+#siteMap .col-30 ul li {
+  line-height: 0.5;
+  padding: 0.25em 0;
 }
-#siteMap .col-30 ul li, #siteMap .col-30 ul li a {
-color: #186db6;
+#siteMap .col-30 ul li,
+#siteMap .col-30 ul li a {
+  color: #186db6;
 }
 
 @media (min-width: 768px) {
-#siteMap .sitemap-first-row .align-start .move-downwards-on-mobile {
-margin-top: 0;
-}
+  #siteMap .sitemap-first-row .align-start .move-downwards-on-mobile {
+    margin-top: 0;
+  }
 
   #siteMap .align-start:last-child .col-30:first-child {
     margin-top: 0;
-}
+  }
   #siteMap .align-start:last-child .col-30:last-child {
     margin-top: 0;
-}
+  }
   #siteMap .align-start:last-child .move-upwards-on-largescreen {
     padding-top: -50em;
     box-sizing: border-box;
-}
+  }
   #siteMap .align-start:last-child .move-upwards-on-largescreen h6 {
     padding-top: -50em;
     margin-top: 0.5em;
-}
+  }
 }
 
 /******PATIENT FEEDBACK *************/
@@ -7177,10 +7180,10 @@ margin-top: 0;
 }
 
 .ear-orange_border {
-  border-top: 3px solid var(--orange-color);
+  border-top: 3px solid var(--orange-color2);
 }
 .throat-pink_border {
-  border-top: 3px solid var(--pink-color);
+  border-top: 3px solid var(--pink-color2);
 }
 .nose-blue_border {
   border-top: 3px solid var(--blue-color);
