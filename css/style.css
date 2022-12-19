@@ -297,7 +297,7 @@ ul .inline-block-breadcrumb li {
   .column-right .article-container .article-box h4 {
     font-size: 0.7rem;
     font-weight: 300;
-    padding: 0.2em 0;
+    padding: 0.4em 0;
   }
 
   .contact-details .fa,
@@ -2308,7 +2308,13 @@ footer {
 @media (min-width: 1200px) {
   .scrollTopBtn {
     bottom: 150px;
-    right: 60px;
+    right: 10px;
+  }
+}
+@media (min-width: 1600px) {
+  .scrollTopBtn {
+    bottom: 150px;
+    right: 50px;
   }
 }
 
@@ -3344,7 +3350,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   flex-direction: row;
   justify-content: space-between;
   border: none;
-  line-height: 0.6em;
+  line-height: 0.8em;
 }
 .clinic-days table tr th {
   font-weight: 500;
@@ -3400,6 +3406,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
   .clinic-days h3 {
     margin-bottom: 0;
+    margin-top: 0.6em;
   }
   .clinic-days table tr {
     line-height: 0.3em;
@@ -3461,7 +3468,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   .clinic-days table tr th {
     font-size: 0.7em;
     padding: 0.2em 0;
-    font-weight: 700;
+    font-weight: 600;
   }
   .clinic-days table tr td {
     padding: 0.2em 0;
@@ -3618,6 +3625,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     position: absolute;
     top: 20%;
     padding: 2em 1em;
+    width: auto;
   }
   #emergency .transparent-bg-white h2 {
     font-weight: 800;
