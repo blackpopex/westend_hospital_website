@@ -7383,40 +7383,97 @@ table tr td {
 }
 
 /****************Nursing Department*****************/
-#Nursing .department-img-container .col-30 img {
+#Nursing .department-img-container .flex .col-30 img {
   max-width: 300px;
   margin: 0.5em auto;
 }
 @media (min-width: 600px) {
-  #Nursing .department-img-container .col-30 img {
+  #Nursing .department-img-container .flex .col-30 img {
     max-width: 400px;
   }
 }
 @media (min-width: 768px) {
-  #Nursing .department-img-container {
-    margin: 2em auto;
+  #Nursing .department-img-container .flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 6px;
   }
   #Nursing .department-img-container .flex {
     flex-direction: row;
   }
-  #Nursing .department-img-container .col-30 img {
+  #Nursing .department-img-container .flex .col-30 img {
     width: 100%;
-    max-width: 200px;
-    margin: 0 1em;
+    max-width: 240px;
     height: auto;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+  #Nursing .department-img-container .flex > .col-30 {
+    width: 100%;
+  }
   #Nursing .department-img-container .col-30 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Nursing .department-img-container .flex .col-30 img {
     max-width: 250px;
   }
 }
 @media (min-width: 1600px) {
-  #Nursing .department-img-container .col-30 img {
-    max-width: 300px;
+  #Nursing .department-img-container .flex .col-30 img {
+    max-width: 600px;
   }
 }
 
+/*******************SUPERMART**************************/
+#Supermart .department-img-container .flex .col-30 img {
+  max-width: 300px;
+  margin: 0.5em auto;
+}
+#Supermart .col-50 {
+  margin-inline: 0 auto;
+}
+@media (min-width: 600px) {
+  #Supermart .department-img-container .flex .col-30 img {
+    max-width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  #Supermart .department-img-container .flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 6px;
+  }
+
+  #Supermart .department-img-container .flex .col-30 img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  #Supermart .department-img-container .flex > .col-30 {
+    width: 100%;
+  }
+  #Supermart .department-img-container .col-30 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Supermart .department-img-container .flex .col-30 img {
+    max-width: 250px;
+  }
+}
+@media (min-width: 1600px) {
+  #Supermart .department-img-container .flex .col-30 img {
+    max-width: 600px;
+  }
+}
 /****************Occupational-Health*****************/
 #Occupational-Health-Deparment .men-at-work {
   display: none;
