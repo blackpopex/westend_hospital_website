@@ -7474,6 +7474,24 @@ table tr td {
     max-width: 600px;
   }
 }
+
+/****************Molecular Department*****************/
+
+#Molecular_Laboratory .department-img-container .col-100 img {
+  display: block;
+  margin-inline: 0 auto;
+  width: 100%;
+}
+#Molecular_Laboratory .column-reverse .flex {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  #Molecular_Laboratory .column-reverse .flex {
+    flex-direction: row;
+  }
+}
+
 /****************Occupational-Health*****************/
 #Occupational-Health-Deparment .men-at-work {
   display: none;
