@@ -4319,6 +4319,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 #A-Z-list-of-medical-test .test-list ul li a {
   text-transform: capitalize;
+  cursor: default;
 }
 
 .a-z-nav-links {
