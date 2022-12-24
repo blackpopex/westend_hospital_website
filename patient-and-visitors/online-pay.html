@@ -325,30 +325,58 @@
                                                 </label>
                                                 <select type="text" name="PaymentFor" id="payment-for" required onchange="inputAmount()">
                                                     <option value="">Select reason for payment</option>
-                                                     <option value="Ante-natal Registration">Ante-natal Registration </option>          
-                                                     <option value="Admission Deposit">Admission Deposit</option>
-                                                    <option value="General Consultation">Consultation</option>
+                                                     <option value="Ante-natal Registration">Ante-natal Registration </option>   
+                                                     
+                                                    <option value="Cardiology Consultation">Cardiology Consultation</option>
+                                                    <option value="Cardiology Revisit">Cardiology Revisit</option>
+
+                                                     <option value="Dermatology Consultation">Dermatology Consultation</option>
+                                                    <option value="Dermatology Revisit">Dermatology Revisit</option>
+                                                    
+                                                     <option value="Endocrinology Consultation">Endocrinology Consultation</option>
+                                                     <option value="Endocrinology Revisit">Endocrinology Revisit</option>
                                                      <option value="ENT Consultation">ENT Consultation</option>
-                                                     <option value="Endocrinologist Review">Endocrinologist Review</option>
-                                                    <option value="Gynaecologist Review">Gynaecologist Review</option>
+
+                                                    <option value="General Consultation">General Consultation</option>
+                                                    <option value="Gynaecology Consultation">Gynaecology Consultation</option>
+                                                    <option value="Gynaecology Revisit">Gynaecology Revisit</option>
+                                                     <option value="Gastroenterology Consultation">Gastroenterology Consultation</option>
+                                                    <option value="General Surgeon Consultation">General Surgeon Consultation</option>
+
+                                                    <option value="Haematology Consultation">Haematology Consultation</option>
+
+                                                    <option value="Neurology Consultation">Neurology Consultation</option>
+                                                    <option value="Neurology Revisit">Neurology Revisit</option>
                                                     <option value="Neurosurgery Consultation">Neurosurgery Consultation</option>
+                                                    <option value="Neurosurgery Revisit">Neurosurgery Revisit</option>
+                                                       <option value="Nephrology Consultation">Nephrology Consultation</option>             
+                                                    <option value="Nephrology Revisit">Nephrology Revisit</option>  
+
+
                                                     <option value="Orthopadic Consultation">Orthopadic Consultation</option>
-                                                    <option value="Cardiologist Review">Cardiologist  </option>
-                                                    <option value="Urologist Review">Urologist Review </option>
-                                                    <option value="Dermatologist Review">Dermatologist Review</option>
-                                                    <option value="Gastroenterologist Review">Gastroenterologist Review </option>
-                                                    <option value="General Surgeon Review">General Surgeon Review </option>
-                                                    <option value="Paediatrics Surgeon">Paediatrics Surgeon </option>
-                                                    <option value="Pulmonologist Review">Pulmonologist Review </option>
-                                                    <option value="Haematologist Review">Haematologist Review  </option>
-                                                    <option value="Nephrologist Review">Nephrologist Review  </option>             
+
+                                                    <option value="Paediatrics Consultation">Paediatrics Consultation</option>
+                                                    <option value="Pulmonology Consultation">Pulmonology Consultation</option>
+
+                                                    <option value="Urology Consultation">Urology Consultation</option>
+                                                    <option value="Urology Revisit">Urology Revisit</option>
+                                                    <option value="Others" id="activate_input_field_for_value">Others</option>
                                                 </select>
                                             </div>
                                         </div>
+                                        <!--Activated this when others is clicked on the dropdown using javascript-->
+                                        <div class="flex hide-by-default"  id="openWhenOthersIsClicked" style="display: none;">
+                                            <div class="col-100">
+                                                <label for="amount" id="enterAmount">Enter Reason for Payment:
+                                                </label>
+                                                <input type="text" name="Reason_for_payment" id="reasonForPayment"/>
+                                            </div>
+                                        </div>
 
+                                         <!--Activated this input field from disabled to enable so users can type in the amount using Javascript-->
                                         <div class="flex">
                                             <div class="col-100">
-                                                <label for="amount">Amount to pay (NGN):
+                                                <label for="amount" id="enterAmount">Amount to pay (NGN):
                                                 </label>
                                                 <input type="tel" name="Email" id="amount" disabled/>
                                             </div>
@@ -365,54 +393,89 @@
                                         payment_amount = document.getElementById("amount");
 
                                         function inputAmount() {
-                                            if (rson_payment.value == "General Consultation") {
-                                                payment_amount.value = 1000;
-                                            } else if (rson_payment.value == "Gynaecologist Review") {
-                                                payment_amount.value = 10000;
-                                            } else if (rson_payment.value == "Admission Deposit") {
-                                                payment_amount.value = 200000;
-                                            } else if (rson_payment.value == "Neurosurgery Consultation") {
-                                                payment_amount.value = 50000;
-                                            } else if (rson_payment.value == "Neurology Review") {
-                                                payment_amount.value = 10000;
-                                            } else if (rson_payment.value == "Orthopadic Consultation") {
-                                                payment_amount.value = 12000;
-                                            } else if (rson_payment.value == "ENT Consultation") {
-                                                payment_amount.value = 7500;
+                                            if (rson_payment.value == "Ante-natal Registration") {
+                                                payment_amount.value = 25000;
                                             } 
-                                            else if(rson_payment.value == "Nephrologist Review") {
+                                            else if (rson_payment.value == "Cardiology Consultation") {
+                                                payment_amount.value = 12000;
+                                            } 
+                                            else if (rson_payment.value == "Cardiology Revisit") {
+                                                payment_amount.value = 10000;
+                                            } 
+                                            else if (rson_payment.value == "Dermatology Consultation") {
                                                 payment_amount.value = 15000;
-                                            }
-                                            else if(rson_payment.value == "Haematologist Review") {
-                                                payment_amount.value = 30000;
-                                            }
-                                            else if(rson_payment.value == "Pulmonologist Review") {
-                                                payment_amount.value = 30000;
-                                            }
-                                            else if(rson_payment.value == "Paediatrics Surgeon") {
-                                                payment_amount.value = 30000;
-                                            }
-                                            else if(rson_payment.value == "General Surgeon Review") {
+                                            } 
+                                            else if (rson_payment.value == "Dermatology Revisit") {
+                                                payment_amount.value = 10000;
+                                            } 
+                                            else if (rson_payment.value == "Endocrinology Consultation") {
                                                 payment_amount.value = 20000;
+                                            } 
+                                            else if (rson_payment.value == "Endocrinology Revisit") {
+                                                payment_amount.value = 15000;
+                                            } 
+                                            else if(rson_payment.value == "ENT Consultation") {
+                                                payment_amount.value = 7500;
+                                            }
+                                            else if(rson_payment.value == "General Consultation") {
+                                                payment_amount.value = 1000;
+                                            }
+                                            else if(rson_payment.value == "Gynaecology Consultation") {
+                                                payment_amount.value = 10000;
+                                            }
+                                            else if(rson_payment.value == "Gynaecology Revisit") {
+                                                payment_amount.value = 7500;
+                                            }
+                                            else if(rson_payment.value == "Gastroenterology Consultation") {
+                                                payment_amount.value = 15000;
                                             }
                                             else if(rson_payment.value == "Gastroenterologist Review") {
                                                 payment_amount.value = 15000;
                                             }
-                                            else if(rson_payment.value == "Ante-natal Registration") {
-                                                payment_amount.value = 25000;
-                                            }
-                                            else if(rson_payment.value == "Dermatologist Review") {
+                                            else if(rson_payment.value == "General Surgeon Consultation") {
                                                 payment_amount.value = 15000;
                                             }
-                                            else if(rson_payment.value == "Urologist Review") {
+                                            else if(rson_payment.value == "Haematology Consultation") {
+                                                payment_amount.value = 30000;
+                                            }
+                                            else if(rson_payment.value == "Neurology Consultation") {
                                                 payment_amount.value = 12000;
                                             }
-                                            else if(rson_payment.value == "Cardiologist Review") {
-                                                payment_amount.value = 12000;
+                                            else if(rson_payment.value == "Neurology Revisit") {
+                                                payment_amount.value = 10000;
                                             } 
-                                            else if(rson_payment.value == "Endocrinologist Review") {
+                                            else if(rson_payment.value == "Neurosurgery Consultation") {
+                                                payment_amount.value = 50000;
+                                            }  
+                                            else if(rson_payment.value == "Neurosurgery Revisit") {
+                                                payment_amount.value = 40000;
+                                            }  
+                                            else if(rson_payment.value == "Nephrology Consultation") {
                                                 payment_amount.value = 15000;
-                                            } else if(rson_payment.value == "") {
+                                            }  
+                                            else if(rson_payment.value == "Nephrology Revisit") {
+                                                payment_amount.value = 10000;
+                                            }  
+                                            else if(rson_payment.value == "Orthopadic Consultation") {
+                                                payment_amount.value = 12000;
+                                            }  
+                                            else if(rson_payment.value == "Paediatrics Consultation") {
+                                                payment_amount.value = 30000;
+                                            }  
+                                            else if(rson_payment.value == "Pulmonology Consultation") {
+                                                payment_amount.value = 30000;
+                                            }  
+                                            else if(rson_payment.value == "Urology Consultation") {
+                                                payment_amount.value = 12000;
+                                            }  
+                                            else if(rson_payment.value == "Urology Revisit") {
+                                                payment_amount.value = 10000;
+                                            }  
+                                            else if(rson_payment.value == "Others") {
+                                                //add code here to allow users to enter name of service to pay for and also activate the input field for values of amount to be entered
+
+                                            }        
+                                            else if(rson_payment.value == "") {
                                                  payment_amount.value = 0000;
                                             }
                                             
