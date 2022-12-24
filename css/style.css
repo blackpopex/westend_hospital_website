@@ -7653,6 +7653,15 @@ table tr td {
   background-color: var(--skyblue-100percentopacity);
 }
 
+.set-hidden {
+  display: none;
+  visibility: hidden;
+}
+.set-show {
+  display: block;
+  visibility: visible;
+}
+
 /**
 
 @media (min-width: 1200px) {
