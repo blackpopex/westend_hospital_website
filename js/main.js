@@ -59,16 +59,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-/*
-function scrollFunction() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        document.getElementById("stickNavbar").classList.add("sticky");
-    } else {
-        document.getElementById("stickNavbar").classList.remove("sticky");
-    }
-}
-*/
-
 //slide down overlay when search BTN is clicked
 var searchBTN = document.getElementById("searchBTN");
 var overlay = document.getElementById("search-Overlay");
@@ -92,33 +82,6 @@ var myPreLoader = document.getElementById("preLoader");
 window.addEventListener("load", function(){
     myPreLoader.style.display = "none";
 })
-*/
-
-//add classname if media screen is less than 600px
-
-//activates swiper for mobile
-/*
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "horizontal",
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-});
 */
 // CHANGE HERO IMAGE WHEN SCREEN SIZE CHANGES
 if (window.matchMedia("(max-width: 600px)").matches) {

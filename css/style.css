@@ -7653,11 +7653,11 @@ table tr td {
   background-color: var(--skyblue-100percentopacity);
 }
 
-.set-hidden {
+.form-content .set-hidden {
   display: none;
   visibility: hidden;
 }
-.set-show {
+.form-content .set-show {
   display: block;
   visibility: visible;
 }
