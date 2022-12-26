@@ -7656,7 +7656,6 @@ table tr td {
 .form-content .set-hidden {
   display: none;
   visibility: hidden;
-  transition: display 1s ease-in;
 }
 .form-content .set-show {
   display: block;

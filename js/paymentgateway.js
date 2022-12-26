@@ -109,5 +109,7 @@ function inputAmount() {
         payment_amount.value = "";
       }
     }
+  } else {
+    payment_amount.value = 0000;
   }
 }
