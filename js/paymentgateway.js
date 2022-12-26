@@ -5,6 +5,7 @@ payment_amount.value = 0000;
 
 function inputAmount() {
   //Code for resetting input fields when a new service is selected if not Other
+  rson_payment.value == "Select reason for payment";
   document
     .getElementById("openWhenOthersIsClicked")
     .classList.remove("set-show");
