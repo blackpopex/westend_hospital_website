@@ -1590,6 +1590,9 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+  .our-affiliations {
+    padding: 0.5em 0;
+  }
   .our-affiliations h3 {
     font-size: 1.4rem;
     width: 20%;
@@ -1621,6 +1624,9 @@ img {
   }
 }
 @media screen and (min-width: 1600px) {
+  .our-affiliations {
+    padding: 0.75em 0;
+  }
   .our-affiliations h3 {
     font-size: 1.6rem;
     width: 15%;
