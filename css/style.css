@@ -445,7 +445,7 @@ section {
   }
   p,
   #squareList li {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
   .form-container form label {
     font-size: 0.85em;
@@ -1580,7 +1580,7 @@ img {
   }
 
   .our-affiliations img {
-    max-width: 130px;
+    max-width: 95px;
   }
   .flex-column {
     flex-direction: row;
@@ -1590,6 +1590,9 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+  .our-affiliations {
+    padding: 1em 0;
+  }
   .our-affiliations h3 {
     font-size: 1.4rem;
     width: 20%;
@@ -1600,7 +1603,7 @@ img {
     width: 80%;
   }
   .our-affiliations img {
-    max-width: 135px;
+    max-width: 110px;
   }
 }
 
@@ -1617,10 +1620,16 @@ img {
     margin-left: auto;
   }
   .our-affiliations img {
-    max-width: 140px;
+    max-width: 130px;
   }
 }
 @media screen and (min-width: 1600px) {
+  .our-affiliations {
+    padding: 1.5em 0;
+  }
+  .our-affiliations img {
+    max-width: 145px;
+  }
   .our-affiliations h3 {
     font-size: 1.6rem;
     width: 15%;
