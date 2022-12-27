@@ -4,12 +4,14 @@ payment_amount = document.getElementById("amount");
 payment_amount.value = 0000;
 
 function inputAmount() {
-  //Code for resetting input fields when a new service is selected
+  //Code for resetting input fields when a new service is selected if not Other
+  rson_payment.value == "Select reason for payment";
   document
     .getElementById("openWhenOthersIsClicked")
     .classList.remove("set-show");
   document.getElementById("enterAmount").innerHTML = "Amount to pay (NGN):";
   document.getElementById("amount").setAttribute("disabled", "");
+
   if (rson_payment.value == "Ante-natal Registration") {
     //Amount to pay when service is selected
     payment_amount.value = 25000;
