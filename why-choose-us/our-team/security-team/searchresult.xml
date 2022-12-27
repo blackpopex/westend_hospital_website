@@ -31,6 +31,29 @@
         <title>Patient Education</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/patient-education.html</url>
     </links>
+    <!--ARTICLES-->
+    <links>
+        <title>Anxiety Disorder</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/anxiety-disorders.html</url>
+    </links>
+    <links>
+        <title>Dysthymia</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/dysthymia.html</url>
+    </links>
+    <links>
+        <title>Phobias</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/phobias.html</url>
+    </links>
+    <links>
+        <title>Anxiety Disorder</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/post-traumatic-stress.html</url>
+    </links>
+    <links>
+        <title>Behaviour Disorder</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/behaviour-disorders.html</url>
+    </links>
+
+    <!--OTHER DEPARTMENTS-->
     <links>
         <title>Anesthesiology and Perioperative</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/anesthesiology-and-perioperative.html</url>
@@ -43,9 +66,6 @@
         <title>Ear, Nose and Throat (Otolaryngology)</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/ear-nose-and-throat.html</url>
     </links>
-
-
-
     <links>
         <title>Emergency Department</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/emergency-medicine.html</url>
@@ -69,6 +89,10 @@
     <links>
         <title>Physiotherapy</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/physiotherapy.html</url>
+    </links>
+    <links>
+        <title>Molecular Laboratory</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/molecular.html</url>
     </links>
     <links>
         <title>Radiology (Imaging Services)</title>
@@ -110,6 +134,16 @@
         <title>Out Patient Department</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/out-patient-department.html</url>
     </links>
+    <links>
+        <title>Cafeteria</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/cafeteria.html</url>
+    </links>
+    <links>
+        <title>Supermart</title>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/supermart.html</url>
+    </links>
+
+       <!--OTHER SECTIONS-->
     <links>
         <title>Security Department</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/security.html</url>
@@ -162,6 +196,8 @@
         <title>Patient Stories</title>
         <url>http://westendhospital.42web.io/why-choose-us/patient-stories-testimonies.html</url>
     </links>
+
+     <!--OUR TEAM-->
     <links>
         <title>Our Team</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team.html</url>
@@ -182,10 +218,8 @@
         <title>Security Team</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/security-team.html</url>
     </links>
-    <links>
-        <title>Anthony Ikechukwu Ohiri</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/security-team/Anthony-Ohiri.html</url>
-    </links>
+
+      <!--MEDICAL TEAM-->
     <links>
         <title>Johnny Amadasun</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/management-team/Johnny-Amadasun.html</url>
@@ -215,24 +249,58 @@
         <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Ebhohimhen-Edna.html</url>
     </links>
     <links>
-        <title>Chinedu Nwajiaku</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Chinedu-Nwajiaku.html</url>
+        <title>Okoh Chisom Favour</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Okoh-Chisom-Favour.html</url>
     </links>
     <links>
         <title>Omoye Ebiere</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Omoye-Ebiere.html</url>
     </links>
     <links>
-        <title>Eze Chukwukaero Peter</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Eze-Chukwukaero-Peter.html</url>
-    </links>
-    <links>
         <title>Vera Akhimien</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Vera-Akhimien.html</url>
     </links>
     <links>
-        <title>Chinedu Nwajiaku</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Chinedu-Nwajiaku.html</url>
+        <title>Rita Omonogoma</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Rita-Omonagoma.html</url>
+    </links>
+    <links>
+        <title>Helen Okpue</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Helen-Okpue.html</url>
+    </links>
+    <links>
+        <title>J. P. Edevbie</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Jibrin-Peters-Edevbie.html</url>
+    </links>
+
+ <!--ADMINISTRATIVE TEAM-->
+    <links>
+        <title>Cynthia Obi</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Cynthia-C-Obi.html</url>
+    </links>
+    <links>
+        <title>Esevwiegbe Daphney</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Esevwiegbe-Daphney.html</url>
+    </links>
+    <links>
+        <title>George Aham</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/George-Aham.html</url>
+    </links>
+    <links>
+        <title>Inana Jude</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Inana-Jude.html</url>
+    </links>
+    <links>
+        <title>Rita Torru</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Rita-Torru.html</url>
+    </links>
+    <links>
+        <title>Osezele Jennifer</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Osezele-Jennifer.html</url>
+    </links>
+    <links>
+        <title>Omoshowo Akenuwa Osariemen</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Omoshowo-Akenuwa-Osariemen.html</url>
     </links>
     <links>
         <title>History</title>
@@ -258,5 +326,4 @@
         <title>Patient Feedback</title>
         <url>http://westendhospital.42web.io/patient-feedback.html</url>
     </links>
-   
 </pages>
