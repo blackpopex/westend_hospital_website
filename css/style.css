@@ -1535,13 +1535,13 @@ img {
 .our-affiliations h3 {
   font-weight: 700;
   font-size: 1.2rem;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.5em;
   color: var(--subnavbar-color);
   font-family: var(--lora-fontFamily);
 }
 .our-affiliations img {
   width: 20%;
-  max-width: 100px;
+  max-width: 120px;
   height: auto;
   padding: 0 0.5em;
   display: block;
@@ -1554,10 +1554,10 @@ img {
   /*Start: Our affiliations style*/
   .our-affiliations h3 {
     font-size: 1.4rem;
-    margin-bottom: 0.1em;
   }
   .our-affiliations img {
-    max-width: 120px;
+    max-width: 100px;
+    margin-inline: 0 auto;
     height: auto;
   }
 
