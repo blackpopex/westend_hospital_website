@@ -245,6 +245,8 @@
                         type="text"
                         placeholder="Looking for something?"
                         name="Search"
+                        onkeyup="showSearchBox(this.value)"
+                        id="searchQuery"
                       />
                       <button
                         type="submit"
@@ -255,28 +257,37 @@
                       </button>
                     </div>
                   </form>
-                  <!--display Ajax result from server here-->
-                  <div id="searchResult" class="popular-searches">
-                    <h3>Popular Searches</h3>
-                    <ul>
-                      <li>
-                        <a href="../../../refer-a-patient.html"
-                          >Refer a patient</a
-                        >
-                      </li>
-                      <li>
-                        <a href="../../../map-and-directions"
-                          >Maps & Directions</a
-                        >
-                      </li>
-                      <li><a href="#/">Treatments</a></li>
-                      <li>
-                        <a
-                          href="../../../medical-test-and-services/A-Z-of-all-medical-services.html"
-                          >Services</a
-                        >
-                      </li>
-                    </ul>
+                  <!--set fixed height for this container-->
+                  <div class="ajax-result-p-search-container">
+                    <!--display Ajax result from server here-->
+                    <div class="searchResultWrapper" id="searchWrapper">
+                      <div
+                        id="showSearchResult"
+                        class="search_result_container"
+                      ></div>
+                    </div>
+                    <div id="searchResult" class="popular-searches">
+                      <h3>Popular Searches</h3>
+                      <ul>
+                        <li>
+                          <a href="../../../refer-a-patient.html"
+                            >Refer a patient</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../../../map-and-directions"
+                            >Maps & Directions</a
+                          >
+                        </li>
+                        <li><a href="#/">Treatments</a></li>
+                        <li>
+                          <a
+                            href="../../../medical-test-and-services/A-Z-of-all-medical-services.html"
+                            >Services</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>

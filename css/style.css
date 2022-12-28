@@ -1917,14 +1917,14 @@ footer {
     padding: 0.2em 0.4em;
   }
 
-  #main-footer .fa-facebook,
+  #main-footer .fa-facebook-f,
   #main-footer .fa-twitter,
   #main-footer .fa-instagram,
   #main-footer .fa-linkedin {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
   }
-  #main-footer .fa-facebook:hover,
+  #main-footer .fa-facebook-f:hover,
   #main-footer .fa-twitter:hover,
   #main-footer .fa-instagram:hover,
   #main-footer .fa-linkedin:hover {
