@@ -5953,6 +5953,12 @@ table tr td {
   font-weight: 500;
   display: table-cell;
 }
+/***Our Team***/
+#our-team .column-right h4.accordion {
+  font-family: var(--roboto-fontFamily-subHeading);
+  font-weight: 300;
+  color: var(--blue-color);
+}
 
 .profile-detail-wrapper {
   margin-top: 1em;
