@@ -31,6 +31,7 @@
         <title>Patient Education</title>
         <url>http://westendhospital.42web.io/medical-test-and-services/patient-education.html</url>
     </links>
+    
     <!--ARTICLES-->
     <links>
         <title>Anxiety Disorder</title>
@@ -229,10 +230,6 @@
         <url>http://westendhospital.42web.io/why-choose-us/our-team/management-team/Felix-Ngwuli.html</url>
     </links>
     <links>
-        <title>Rita Torru</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/management-team/Rita-Torru.html</url>
-    </links>
-    <links>
         <title>Owabor Paulinus</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Owabor-Paulinus.html</url>
     </links>
@@ -268,6 +265,10 @@
         <title>Jubrin Peters Edevbie</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Jibrin-Peters-Edevbie.html</url>
     </links>
+    <links>
+        <title>Ayobami Egbu</title>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Ayobami-Egbu.html</url>
+    </links>
 
  <!--ADMINISTRATIVE TEAM-->
     <links>
@@ -298,6 +299,7 @@
         <title>Omoshowo Akenuwa Osariemen</title>
         <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Omoshowo-Akenuwa-Osariemen.html</url>
     </links>
+    <!--OTHER SEARCH RESULT-->
     <links>
         <title>History</title>
         <url>http://westendhospital.42web.io/our-history.html</url>
