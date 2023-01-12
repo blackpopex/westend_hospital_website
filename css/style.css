@@ -3414,7 +3414,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     margin-right: auto;
   }
   .clinic-days h3 {
-    margin-bottom: 0;
+    margin-bottom: -5px;
     margin-top: 0.6em;
   }
   .clinic-days table tr {
@@ -3442,6 +3442,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   .clinic-days {
     padding-left: 0.5em;
   }
+  .clinic-days h3 {
+    margin-bottom: 6px;
+  }
   .clinic-days table tr {
     line-height: 0.5em;
   }
@@ -3464,6 +3467,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   #Hmo-clinic-days {
     padding-bottom: 2.5em;
   }
+  .clinic-days h3 {
+    margin-bottom: -3px;
+  }
 }
 @media (min-width: 1600px) {
   .clinic-days {
@@ -3485,6 +3491,9 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   .clinic-days table tr td {
     padding: 0.4em 0;
     font-size: 0.68em;
+  }
+  .clinic-days h3 {
+    margin-bottom: -12px;
   }
 }
 
