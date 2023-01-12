@@ -1399,7 +1399,7 @@ img {
     transform: translateY(-100%);
   }
   .search-overlay-activited {
-    transform: translateY(25%);
+    transform: translateY(23%);
   }
   .popular-searches {
     height: 225px;
@@ -3363,13 +3363,13 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
 }
 .clinic-days table tr th {
   font-weight: 500;
-  font-size: 0.7em;
+  font-size: 0.65em;
   padding: 0.5em 0;
   color: var(--navy-blue-85percentopaicty);
 }
 .clinic-days table tr td {
   color: var(--navy-blue-85percentopaicty);
-  font-size: 0.7em;
+  font-size: 0.625em;
   font-weight: 300;
   text-align: left;
   padding: 0.5em 0;
@@ -3418,16 +3418,17 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     margin-top: 0.6em;
   }
   .clinic-days table tr {
-    line-height: 0.3em;
+    line-height: 0.4em;
   }
   .clinic-days table tr th {
-    font-size: 0.6em;
-    padding: 0.1em 0;
+    font-size: 0.65em;
+    padding: 0.4em 0;
   }
   .clinic-days table tr td {
-    font-size: 0.6em;
+    font-size: 0.625em;
     padding: 0.1em 0;
     font-weight: 400;
+    line-height: 1;
   }
 }
 
@@ -3442,7 +3443,10 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     padding-left: 0.5em;
   }
   .clinic-days table tr {
-    line-height: 0.4em;
+    line-height: 0.5em;
+  }
+  .clinic-days table tr td {
+    padding: 0.2em 0;
   }
 }
 @media (min-width: 1200px) {
@@ -3451,15 +3455,14 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   }
   .clinic-days table tr th {
     font-size: 0.7em;
-    padding: 0.2em 0;
+    padding: 0.425em 0;
   }
   .clinic-days table tr td {
-    padding: 0.2em 0;
+    padding: 0.425em 0;
     font-weight: 400;
   }
   #Hmo-clinic-days {
     padding-bottom: 2.5em;
-    padding-top: 1.5em;
   }
 }
 @media (min-width: 1600px) {
@@ -3475,13 +3478,13 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
     line-height: 0.4em;
   }
   .clinic-days table tr th {
-    font-size: 0.7em;
-    padding: 0.2em 0;
+    padding: 0.4em 0;
     font-weight: 600;
+    font-size: 0.725em;
   }
   .clinic-days table tr td {
-    padding: 0.2em 0;
-    font-size: 0.7em;
+    padding: 0.4em 0;
+    font-size: 0.68em;
   }
 }
 
@@ -3717,6 +3720,7 @@ background-image: linear-gradient(to bottom, #186db6 ,#012d5a);
   margin-top: 0.3em;
   color: var(--primary-color);
   text-shadow: 2px 2px black;
+  line-height: 1.2;
 }
 
 .counter {
@@ -5095,7 +5099,7 @@ table tr {
   display: flex;
   flex-direction: row;
   line-height: 1;
-  padding: 0.4em 0;
+  padding: 0.2em 0;
 }
 table tr th {
   color: var(--subnavbar-color);
@@ -5195,6 +5199,14 @@ table tr td {
   font-size: 0.8em;
   color: var(--grey-color-subheading);
   font-family: var(--poppins-fontFamily);
+}
+
+@media (min-width: 600px) {
+  table {
+    width: 80%;
+    max-width: 450px;
+    margin: 1em auto;
+  }
 }
 
 @media (min-width: 768px) {
