@@ -7742,6 +7742,9 @@ table tr td {
   #error_page .error-content-wrapper h1 {
     font-size: 3.5em;
   }
+  #error_page .error-content-wrapper {
+    margin-top: 0;
+  }
 }
 @media (min-width: 992px) {
   #error_page .error-content-wrapper h1 {
