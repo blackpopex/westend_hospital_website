@@ -1,3 +1,4 @@
+<?php include 'mail_refer_a_patient.php'?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -295,7 +296,7 @@
                                 </div>
                             </div>
 
-                            <form action="action_page.php" method="post" autocomplete="off">
+                            <form action="" method="post" autocomplete="off">
                                 <p id="importantText">
                                     * Indicates a required field
                                 </p>
@@ -311,37 +312,42 @@
                                                 <label for="fname">First Name:
                                                     <span>*</span>
                                                 </label>
-                                                <input type="text" name="firstName" id="fname" required>
+                                                <input type="text" name="ref_firstName" id="fname">
+                                                 <p class="navy-blue"><?php echo $ref_firstNameErr; ?></p>
                                             </div>
                                             <div class="col-50">
                                                 <label for="lname">Last Name:
                                                     <span>*</span>
                                                 </label>
-                                                <input type="text" name="firstName" id="lname" required>
+                                                <input type="text" name="ref-lastName" id="lname" >
+                                                 <p class="navy-blue"><?php echo $ref_lastNameErr; ?></p>
                                             </div>
                                         </div>
                                         <div class="flex">
                                             <div class="col-100">
                                                 <label for="PName">Practice Name:</label>
-                                                <input type="text" name="Practice Name" id="PName">
+                                                <input type="text" name="practice_Name" id="PName">
+                                                 <p class="navy-blue"><?php echo $ref_practiceNameErr; ?></p>
                                             </div>
                                         </div>
 
                                         <div class="flex">
                                             <div class="col-50">
-                                                <label for="fname">Email:
+                                                <label for="Email">Email:
                                                     <span>*</span>
                                                 </label>
-                                                <input type="text" name="firstName" id="fname" required>
+                                                <input type="text" name="ref_email" id="Ref_Email">
+                                                 <p class="navy-blue"><?php echo $ref_emailErr; ?></p>
                                             </div>
                                             <div class="col-50">
-                                                <label for="lname">Phone number:<span>*</span>
+                                                <label for="phoneNumber">Phone number:<span>*</span>
                                                 </label>
-                                                <input type="text" name="firstName" id="lname" required>
+                                                <input type="text" name="ref_phoneNumber" id="ref_phoneNumber" >
+                                                 <p class="navy-blue"><?php echo $ref_phoneNumberErr; ?></p>
                                             </div>
                                         </div>
                                     </div>
-                                    <!--for referring physiciany-->
+                                    <!--for referring physician-->
 
                                 </div>
                                 <!--Patient information-->
@@ -352,13 +358,15 @@
                                             <label for="fname">First Name:
                                                 <span>*</span>
                                             </label>
-                                            <input type="text" name="firstName" id="fname" required>
+                                            <input type="text" name="pat_firstName" id="fname">
+                                             <p class="navy-blue"><?php echo $pat_firstNameErr; ?></p>
                                         </div>
                                         <div class="col-50">
                                             <label for="lname">Last Name:
                                                 <span>*</span>
                                             </label>
-                                            <input type="text" name="Last Name" id="lname" required>
+                                            <input type="text" name="pat_lastName" id="lname">
+                                             <p class="navy-blue"><?php echo $pat_lastNameErr; ?></p>
                                         </div>
                                     </div>
                                     <div class="flex">
@@ -366,13 +374,15 @@
                                             <label for="DOB">Date of Birth (DOB):
                                                 <span>*</span>
                                             </label>
-                                            <input type="date" name="Date of birth" id="DOB" required>
+                                            <input type="date" name="pat_date_of_birth" id="DOB" >
+                                             <p class="navy-blue"><?php echo $date_of_birthErr; ?></p>
                                         </div>
                                         <div class="col-50">
                                             <label for="pNumber">Phone Number:
                                                 <span>*</span>
                                             </label>
-                                            <input type="text" name="pNumber" id="pNumber" required>
+                                            <input type="text" name="pat_phoneNumber" id="pNumber">
+                                             <p class="navy-blue"><?php echo $pat_phone_numberErr; ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -384,28 +394,33 @@
                                         <label for="diagnosis">Diagnosis:
                                             <span>*</span>
                                         </label>
-                                        <input type="text" name="Diagnosis" id="diagnosis" required>
+                                        <input type="text" name="Diagnosis" id="diagnosis">
+                                         <p class="navy-blue"><?php echo $diagnosisErr; ?></p>
                                     </div>
                                     <div class="col-100">
                                         <label for="R-patient">Referring Physician:
                                             <span>*</span>
                                         </label>
-                                        <input type="text" name="reffering" id="R-patient" required>
+                                        <input type="text" name="reffering_physician_name" id="R-patient">
+                                         <p class="navy-blue"><?php echo $ref_physician_nameErr; ?></p>
                                     </div>
 
                                 </div>
 
                                 <div>
-                                    <h4 class="navy-blue">Additional Information</h4>
                                     <div class="col-100">
                                         <label for="R-patient">Reasons for Referral:
                                             <span>*</span>
                                         </label>
-                                        <textarea name="comment" id="comment" cols="10" rows="5"></textarea>
+                                        <textarea name="reason_for_referral" id="comment" cols="10" rows="5"></textarea>
+                                         <p class="navy-blue"><?php echo $reason_for_referralErr; ?></p>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn bg-navy-blue-square-btn">Refer your patient
+                                <button type="submit" name="refer" class="btn bg-navy-blue-square-btn">Refer your patient
                                 </button>
+
+                                <p class="sky-blue"><?php echo $result; ?></p>
+                                <p class="sky-blue"><?php echo $resultErr; ?></p>
                             </form>
                         </div>
                     </div>
@@ -532,7 +547,7 @@
         </div>
 
         <div class="copyright">
-            <small class="coy">&copy;2021 Westend Hospital. All Right Reserved.
+            <small class="coy">&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
             </small>
             <small class="flex">
                 <a href="privacy-policy.html">Privacy Policy</a>

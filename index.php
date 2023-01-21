@@ -1,3 +1,4 @@
+<?php include 'text_alert_request_call_back.php' ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -191,9 +192,7 @@ With more than 170 staff committed to improving people's lives through the deliv
                       </ul>
                     </li>
                     <li class="contact-li">
-                      <a href="contact-us.html" class="contact-us"
-                        >Contact Us</a
-                      >
+                      <a href="contact-us.php" class="contact-us">Contact Us</a>
                     </li>
                   </ul>
                   <!--navbar2-->
@@ -202,12 +201,12 @@ With more than 170 staff committed to improving people's lives through the deliv
                       <a href="map-and-directions.html">Maps & Direction</a>
                     </li>
                     <li>
-                      <a href="request-an-appointment.html"
+                      <a href="request-an-appointment.php"
                         >Request Appointment</a
                       >
                     </li>
                     <li>
-                      <a href="refer-a-patient.html">Refer a Patient</a>
+                      <a href="refer-a-patient.php">Refer a Patient</a>
                     </li>
                     <li>
                       <a href="find-a-doctor.html">Find a Doctor</a>
@@ -969,32 +968,34 @@ With more than 170 staff committed to improving people's lives through the deliv
             patient care team will get back to you shortly.
           </p>
           <!-----------------------REQUEST A CALL BACK (BACKEND) -------------------------------->
-          <form action="#" class="call-back-form" autocomplete="off">
+          <form action=" " class="call-back-form" autocomplete="off" method="POST">
             <input
               type="text"
               id="firstName"
               name="firstName"
               placeholder="First Name"
-              required
+              
             />
             <input
               type="text"
               id="lastName"
               name="lastName"
               placeholder="Last Name"
-              required
+              
             />
             <input
               type="tel"
               id="phoneNumber"
               name="phoneNumber"
               placeholder="Phone Number"
-              required
+              
             />
-            <button type="Submit" class="square-btn-white request-call-btn">
+            <button type="Submit" class="square-btn-white request-call-btn" name="request_callBack">
               Send
             </button>
           </form>
+          <p class="navy-blue"><?php echo $result; ?></p>
+          <p class="navy-blue"><?php echo $resultErr; ?></p>
         </div>
       </div>
     </section>
@@ -1162,7 +1163,7 @@ With more than 170 staff committed to improving people's lives through the deliv
 
           <div class="copyright">
             <small class="coy"
-              >&copy;2021 Westend Hospital. All Right Reserved.
+              >&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
             </small>
             <small class="flex">
               <a href="privacy-policy.html">Privacy Policy</a>

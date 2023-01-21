@@ -1,3 +1,4 @@
+<?php include 'mail_request_appointment.php'?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -291,7 +292,7 @@
 
                             </div>
 
-                            <form action="action_page.php" method="post" autocomplete="off">
+                            <form action="" method="post" autocomplete="off">
                                 <p id="importantText">
                                     * Indicates a required field
                                 </p>
@@ -305,64 +306,71 @@
                                             <label for="fname">First Name:
                                                 <span>*</span>
                                             </label>
-                                            <input type="text" name="firstName" id="fname" required>
+                                            <input type="text" name="firstName" id="fname" >
+                                             <p class="navy-blue"><?php echo $firstNameErr; ?></p>
                                         </div>
                                         <div class="col-50">
                                             <label for="lname">Last Name:
                                                 <span>*</span>
                                             </label>
-                                            <input type="text" name="firstName" id="lname" required>
+                                            <input type="text" name="lastName" id="lname" >
+                                            <p class="navy-blue"><?php echo $lastNameErr; ?></p>
                                         </div>
                                     </div>
                                     <div class="flex">
                                         <div class="col-100">
-                                            <label for="addr">Address:</label>
+                                            <label for="addr">Address: <span>*</span></label>
                                             <input type="text" name="address" id="addr">
+                                             <p class="navy-blue"><?php echo $addressErr; ?></p>
                                         </div>
                                     </div>
                                     <!--state-city-->
                                     <div class="flex">
                                         <div class="col-50">
                                             <label for="state">State:</label>
-                                            <input type="text" name="State" id="state">
+                                            <input type="text" name="state" id="state">
+                                             <p class="navy-blue"><?php echo $stateErr; ?></p>
                                         </div>
                                         <div class="col-50">
                                             <label for="city">City:</label>
                                             <input type="text" name="City" id="city">
+                                             <p class="navy-blue"><?php echo $cityErr; ?></p>
                                         </div>
                                     </div>
                                     <!--phone-email-->
 
                                     <div class="flex">
                                         <div class="col-50">
-                                            <label for="fname">Phone Number:
+                                            <label for="phone">Phone Number:
                                                 <span>*</span>
                                             </label>
-                                            <input type="text" name="firstName" id="fname" required>
+                                            <input type="text" name="phone" id="fname" >
+                                             <p class="navy-blue"><?php echo $phoneNumberErr; ?></p>
                                         </div>
                                         <div class="col-50">
                                             <label for="email">Email Address:</label>
-                                            <input type="text" name="emailAddress" id="email">
+                                            <input type="text" name="email" id="email">
+                                             <p class="navy-blue"><?php echo $emailErr; ?></p>
                                         </div>
                                     </div>
 
                                     <label for="radio" class="flex">
                                         <p>Have you been referred by a physician ?
                                             <span>*</span>
-                                            <input type="radio" name="yes" value="referred by a physician">
+                                            <input type="radio" name="referred_by" value="Yes">
                                             Yes
-                                            <input type="radio" name="yes" value="not referred by a physician">
-                                            No
+                                            <input type="radio" name="referred_by" value="No">
+                                            No   <span class="navy-blue" style="font-weight: 300;"><?php echo $refferedByDrErr; ?></span>
                                         </p>
-
-
                                     </label>
                                     <div>
                                         <p>Please provide more details about your request, including the type of doctor you are requesting
                                         </p>
                                         <textarea name="comment" id="comment" cols="10" rows="4"></textarea>
                                     </div>
-                                    <button type="submit" class="btn bg-navy-blue-square-btn">Submit</button>
+                                    <button type="submit" name="request_appointment" class="btn bg-navy-blue-square-btn">Submit</button>
+                                    <p class="sky-blue"><?php echo $result; ?></p>
+                                    <p class="sky-blue"><?php echo $resultErr; ?></p>
                                 </div>
                             </form>
                         </div>
@@ -491,7 +499,7 @@
         </div>
 
         <div class="copyright">
-            <small class="coy">&copy;2021 Westend Hospital. All Right Reserved.
+            <small class="coy">&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
             </small>
             <small class="flex">
                 <a href="privacy-policy.html">Privacy Policy</a>

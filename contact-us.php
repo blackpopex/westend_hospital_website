@@ -1,3 +1,4 @@
+<?php include 'mail_contact.php'?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -428,7 +429,7 @@
                   </p>
 
                   <form
-                    action="action_page.php"
+                    action=""
                     method="post"
                     autocomplete="off"
                   >
@@ -451,8 +452,8 @@
                             type="text"
                             name="firstName"
                             id="fname"
-                            required
                           />
+                          <p class="navy-blue"><?php echo $firstNameErr; ?></p>
                         </div>
                         <div class="col-50">
                           <label for="lname"
@@ -463,8 +464,8 @@
                             type="text"
                             name="lastName"
                             id="lname"
-                            required
                           />
+                          <p class="navy-blue"><?php echo $lastNameErr; ?></p>
                         </div>
                       </div>
                       <div class="flex">
@@ -473,12 +474,13 @@
                             >Email:
                             <span>*</span>
                           </label>
-                          <input type="text" name="Email" id="email" required />
+                          <input type="text" name="email" id="email" />
+                        <p class="navy-blue"><?php echo $emailErr; ?></p>
                         </div>
 
                         <div class="col-50">
-                          <label for="question">Type of question: </label>
-                          <select name="typeOfQuestion" id="question" required>
+                          <label for="question">Type of question:  <span>*</span></label>
+                          <select name="typeOfQuestion" id="question">
                             <option value="">
                               Select topic
                               <i class="fa fa-angle-down"></i>
@@ -490,6 +492,7 @@
                               Health question
                             </option>
                           </select>
+                          <p class="navy-blue"><?php echo $qtypeErr; ?></p>
                         </div>
                       </div>
                       <div class="col-100">
@@ -501,13 +504,15 @@
                           id="your-question"
                           col="10"
                           rows="4"
-                          required
                         ></textarea>
+                        <p class="navy-blue"><?php echo $questionErr; ?></p>
                       </div>
-                      <button type="submit" class="btn bg-navy-blue-square-btn">
+                      <button type="submit" name="contact_us" class="btn bg-navy-blue-square-btn">
                         Send
                       </button>
                     </div>
+                    <p class="sky-blue"><?php echo $result; ?></p>
+                    <p class="sky-blue"><?php echo $resultErr; ?></p>
                   </form>
                 </div>
               </div>
@@ -675,7 +680,7 @@
 
           <div class="copyright">
             <small class="coy"
-              >&copy;2021 Westend Hospital. All Right Reserved.
+              >&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
             </small>
             <small class="flex">
               <a href="privacy-policy.html">Privacy Policy</a>
