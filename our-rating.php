@@ -2,11 +2,12 @@
 <html lang="en">
     <head>
         <title>
-            Awards & Accreditations | Westend Hospital
+            Google Rating | Westend Hospital
         </title>
         <link rel="icon" type="image/x-icon" href="img/logo/favicon.ico.png"/>
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
-        <meta name="description" content="Our hospital has achieved numerous awards and Accreditations for both the quality of treatment given and the patient experience because, as healthcare providers, we place a high premium on ensuring that our patients and the community receive the greatest medical care. "/>
+        <meta name="description" content="We have been working hard for more than 40 years to make our facility the ideal destination to get medical services and care.
+        As a result, both patients and visitors to our hospital have left us numerous reviews and ratings. "/>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -64,7 +65,7 @@
 
                 <div class="topNav">
                     <div class="container flex">
-                        <a href="index.html" id="wehLogo">
+                        <a href="index" id="wehLogo">
                             <img src="img/logo/Westend logo blue.png" alt="Westend Hospital Logo"/>
                         </a>
                         <nav class="flex">
@@ -82,16 +83,16 @@
                                         <a href="#/" class="dropbtn">Medical Test & Services</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="medical-test-and-services/A-Z-of-all-medical-test.html">A-Z of all Medical Test</a>
+                                                <a href="medical-test-and-services/A-Z-of-all-medical-test">A-Z of all Medical Test</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/A-Z-of-all-medical-services.html">A-Z of all Medical Services</a>
+                                                <a href="medical-test-and-services/A-Z-of-all-medical-services">A-Z of all Medical Services</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/department-and-services.html">Department & Services</a>
+                                                <a href="medical-test-and-services/department-and-services">Department & Services</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/patient-education.html">Patient Education</a>
+                                                <a href="medical-test-and-services/patient-education">Patient Education</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -101,22 +102,22 @@
                                         <a href="#/" class="dropbtn">Patient & Visitors</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="patient-and-visitors/vistors.html">Visitors</a>
+                                                <a href="patient-and-visitors/vistors">Visitors</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/your-hospital-stay.html">Your Hospital Stay</a>
+                                                <a href="patient-and-visitors/your-hospital-stay">Your Hospital Stay</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/billing-and-financial-asistance.html">Billing & Financial Asistance</a>
+                                                <a href="patient-and-visitors/billing-and-financial-asistance">Billing & Financial Asistance</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/accepted-insurance.html">Accepted Insurance</a>
+                                                <a href="patient-and-visitors/accepted-insurance">Accepted Insurance</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/patient-rights.html">Patient Rights</a>
+                                                <a href="patient-and-visitors/patient-rights">Patient Rights</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/medical-records.html">Medical Records</a>
+                                                <a href="patient-and-visitors/medical-records">Medical Records</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -126,37 +127,37 @@
                                         <a href="#/" class="dropbtn">Why Choose Us</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="why-choose-us/our-mission-vision-and-values.html">Our Mission, Vision & Values</a>
+                                                <a href="why-choose-us/our-mission-vision-and-values">Our Mission, Vision & Values</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/quality-patient-care.html">Quality Patient Care</a>
+                                                <a href="why-choose-us/quality-patient-care">Quality Patient Care</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/patient-stories-testimonies.html">Patient's Stories/Testimonies</a>
+                                                <a href="why-choose-us/patient-stories-testimonies">Patient's Stories/Testimonies</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/our-team.html">Our Team</a>
+                                                <a href="why-choose-us/our-team">Our Team</a>
                                             </li>
                                         </ul>
                                     </li>
 
                                     <li class="contact-li">
-                                        <a href="contact-us.html" class="contact-us">Contact Us</a>
+                                        <a href="contact-us" class="contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                                 <!--navbar2-->
                                 <ul class="flex navbar2">
                                     <li>
-                                        <a href="map-and-directions.html">Maps & Direction</a>
+                                        <a href="map-and-directions">Maps & Direction</a>
                                     </li>
                                     <li>
-                                        <a href="request-an-appointment.html">Request Appointment</a>
+                                        <a href="request-an-appointment">Request Appointment</a>
                                     </li>
                                     <li>
-                                        <a href="refer-a-patient.html">Refer a Patient</a>
+                                        <a href="refer-a-patient">Refer a Patient</a>
                                     </li>
                                     <li>
-                                        <a href="find-a-doctor.html">Find a Doctor</a>
+                                        <a href="find-a-doctor">Find a Doctor</a>
                                     </li>
                                     <li>
                                         <a href="#/"
@@ -202,17 +203,17 @@
                       <h3>Popular Searches</h3>
                       <ul>
                         <li>
-                          <a href="refer-a-patient.html">Refer a patient</a>
+                          <a href="refer-a-patient">Refer a patient</a>
                         </li>
                         <li>
-                          <a href="map-and-directions.html"
+                          <a href="map-and-directions"
                             >Maps & Directions</a
                           >
                         </li>
                         <li><a href="#/">Treatments</a></li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >Services</a
                           >
                         </li>
@@ -231,12 +232,12 @@
         <main>
             <div class="section-background-image award-recognition">
                 <div class="container">
-                    <h2 class="subnavbar-color">Awards & Accreditations</h2>
+                    <h2 class="subnavbar-color">Google Ratings</h2>
                     <ul class="inline-block-breadcrumb subnavbar-color">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index">Home</a>
                         </li>
-                        <li>Awards & Accreditations</li>
+                        <li>Google Ratings</li>
 
                     </ul>
                 </div>
@@ -256,12 +257,12 @@
                                         <h4 class="navy-blue">Quick Links</h4>
                                         <ul>
 
-                                            <li><a href="our-history.html" class="sky-blue">History</a></li>
-                                            <li><a href="awards-and-accreditations.html" class="sky-blue">Awards & Accreditations</a></li>
-                                            <li><a href="our-rating.html" class="sky-blue">Our Ratings</a></li>
-                                            <li><a href="why-choose-us/our-mission-vision-and-values.html" class="sky-blue">Mission, vision & Values</a></li>
-                                            <li><a href="contact-us.html">Contact Us</a></li>
-                                            <li><a href="patient-and-visitors/online-pay.html">Pay a Bill</a></li>
+                                            <li><a href="our-history" class="sky-blue">History</a></li>
+                                            <li><a href="awards-and-accreditations" class="sky-blue">Awards & Accreditations</a></li>
+                                            <li><a href="our-rating" class="sky-blue">Our Ratings</a></li>
+                                            <li><a href="why-choose-us/our-mission-vision-and-values" class="sky-blue">Mission, vision & Values</a></li>
+                                            <li><a href="contact-us">Contact Us</a></li>
+                                            <li><a href="patient-and-visitors/online-pay">Pay a Bill</a></li>
                                         </ul>
                                     </div>
                                     <div class="er-24hrs-contact-numb">
@@ -286,97 +287,15 @@
 
                             <!--Awards-->
                             <div class="awards">
-                                <h3 class="navy-blue">Westend Hospital has been consistently recognized.</h3>
+                                <h3 class="navy-blue">Patients Reviews & Ratings</h3>
                                  <div class="margin-bottom">
-                                     <p >For two decades, Westend hospital has been consistent in taking care of each patient, as well as the health of the community as a whole. We combine exceptional healthcare alongside personalized patient service, ensuring patients get the best healthcare experience here than anywhere else. As a result, our hospital has received many awards and accreditation for patient experience as well as for the quality of care provided.</p>
+                                     <p >For 42 years in a row, we continue to be dedicated to our goal to be the best place to receive healthcare and medical services. We work hard to raise our strict standards and deliver better results every day and with every patient. As a result, our hospital has received many reviews and ratings from both patients and visitors.</p>
                                  </div>
-                                <div class="awards-main-wrapper recognition-container">
-                                    <h3 class="navy-blue">Awards</h3>
-                                    <div class="award-container" style="padding-top: 0">
-                                        <p>Westend Hospital is delighted to receive a number of honored awards, including the following:</p>
-                                        <div>
-                                            <h5 class="navy-blue">Most Valuable Employer</h5>
-                                            <div class="flex">
-                                                <p>In July 2004, Westend Hospital was presented the Most Valuable Employer Award by The Nigeria Social Insurance Trust Fund, in recognition of its full compliance with the provisions of the NSITF Act No. 73 of 1993.   Nigeria Social Insurance Trust Fund is a proactive and employee-dedicated government institution committed to the welfare of employees in the event of work-related accidents and injuries.</p>
-                                                <img src="img/awards-and-accreditation/awards/Nigeria-Social-Insurance-Trust-Fund-Award.jpg" alt="most valuable employer award">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="light-grey-border"></div>
-                                    <div class="award-container">
-                                        <div>
-                                            <h5 class="navy-blue">Most Supportive Health Facility</h5>
-                                            <div class="flex">
-                                                <p>In 2019, a special recognition award was presented to Westend Hospital by Warri Fitness Festival (WAFFEST). This award was presented in recognition of Westend Hospital’s unwavering support to WAFFEST and for her invaluable contribution towards promoting health, and fitness awareness.</p>
-                                                <img src="img/awards-and-accreditation/awards/waffest-award.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="light-grey-border"></div>
-                                    <div class="award-container">
-                                        <div>
-                                            <h5 class="navy-blue">Award of Excellence</h5>
-                                            <div class="flex">
-                                                <p><b>Hospitrane</b>, an hospital staff training company, recently presented Westend Hospital with an Award of Excellence in July 2022. The award was presented by Mr. Afolabi Adun (Managing Direction) to Westend Hospital; on account of its commitment to professionalism in healthcare delivery.  </p>
-                                                <img src="img/awards-and-accreditation/awards/hospitrane-award.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accreditations-wrapper recognition-container">
-                               <h3 class="navy-blue">Accreditations</h3>
-                               <p>As a hospital with high esteem and reputation, we are proud to hold several accreditations from all the relevant legal and professional bodies. Our accreditations include the following: </p>
-                                    <div class="award-container">
-                                                                       
 
-                                    <div>
-                                            <h5 class="navy-blue">Chevron Accredited</h5>
-                                            <div class="flex">
-                                                <p>Westend Hospital is an approved center for Chevron Criteria Medical Examination. Chevron Nigeria Limited is a subsidiary of Chevron Corporation and it is one of the largest oil producers in Nigeria.</p>
-                                                <img src="img/awards-and-accreditation/accreditation/chevron.jpg" alt="Chevron logo">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="light-grey-border"></div>
-                                    <div class="award-container">
-                                        <div>
-                                            <h5 class="navy-blue">Shell Accredited</h5>
-                                            <div class="flex">
-                                                <p>Shell Petroleum Corporation, a British multinational oil, and gas company have approved Westend Hospital as one of the centers for Fitness for Duty Medical Examination, Pre-employment and Annual Medical Examination inclusive. Reflecting on the hospital’s commitment to providing safe and quality patient care, Westend Hospital has been approved to carry out this sensitive responsibility for Shell Petroleum Corporation.</p>
-                                                <img src="img/awards-and-accreditation/accreditation/shell.jpg" alt="Shell Logo">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="light-grey-border"></div>
-                                    <div class="award-container">
-                                        <div>
-                                            <h5 class="navy-blue">NIMASA Accredited</h5>
-                                            <div class="flex">
-                                                <p>The Nigerian Maritime Administration and Safety Agency, NIMASA, has accredited Westend Hospital for Seafarer’s Medical Examination and Certification.</p>
-                                                <img src="img/awards-and-accreditation/accreditation/nimasa.jpg" alt="NIMASA Logo">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="light-grey-border"></div>
-                                    <div class="award-container">
-                                        <div>
-                                            <h5 class="navy-blue">SAIPEM Accredited</h5>
-                                            <div class="flex">
-                                                <p>Westend Hospital has also been approved by Saipem, a Nigerian subsidiary company of Saipem, with a huge structure covering all sorts of services to the Oil & Gas Industry to carry out Fitness for Duty Medical Examination for its personnel and affiliated organization.</p>
-                                                <img src="img/awards-and-accreditation/accreditation/saipem.jpg" alt="SAIPEM Logo">
-                                            </div>
-                                        </div>
-                                    </div>
-                                      <div class="light-grey-border margin-bottom"></div>
-                                      <h6 class="navy-blue">Additional Accreditations/Certifications includes:</h6>
-                                                <ul class="square-list-type" id="squareList">
-                                            <li>Pre-employment / Periodic / Pre-Sea Medical Certification</li>
-                                            <li>Food Handler`s Medical Certification</li>
-                                            <li>Comprehensive Medical Examination Certification</li>
-                                            <li>Comprehensive Audiological Evaluation Certification</li>
-                                               </ul>
-                                </div>
+                                 <div class="margin-bottom">
+<div class="taggbox" style="width:100%;height:100%" data-widget-id="118423" data-tags="false" ></div><script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>                           
+                              </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -412,21 +331,21 @@
                                 <h4 class="dropbtn">About Us</h4>
                                 <ul class="dropdown-content footer-menu" id="menuDropdown">
                                     <li>
-                                        <a href="our-history.html">History</a>
+                                        <a href="our-history">History</a>
                                     </li>
                                     <li>
-                                         <a href="awards-and-accreditations.html"
+                                         <a href="awards-and-accreditations"
                     >Awards & Accreditations</a
                   >
                                     </li>
                                     <li>
-                                        <a href="map-and-directions.html">Maps & Directions</a>
+                                        <a href="map-and-directions">Maps & Directions</a>
                                     </li>
                                     <li>
-                                        <a href="report-misconduct.html">Report Misconduct</a>
+                                        <a href="report-misconduct">Report Misconduct</a>
                                     </li>
                                     <li>
-                                        <a href="contact-us.html">Contact</a>
+                                        <a href="contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -437,16 +356,16 @@
                                         <a href="#/">Transfer a patient</a>
                                     </li>
                                     <li>
-                                        <a href="refer-a-patient.html">Refer a patient</a>
+                                        <a href="refer-a-patient">Refer a patient</a>
                                     </li>
                                     <li>
-                                        <a href="medical-test-and-services/patient-support-services/nursing.html">For nurses</a>
+                                        <a href="medical-test-and-services/patient-support-services/nursing">For nurses</a>
                                     </li>
                                     <li>
                                         <a href="#/">For physician</a>
                                     </li>
                                     <li>
-                                        <a href="request-an-appointment.html">Enquiries & appointment</a>
+                                        <a href="request-an-appointment">Enquiries & appointment</a>
                                     </li>
                                 </ul>
                             </div>
@@ -455,10 +374,10 @@
                                     <h4 class="dropbtn">Billing and Insurance</h4>
                                     <ul class="dropdown-content footer-menu" id="menuDropdown">
                                         <li>
-                                            <a href="patient-and-visitors/accepted-insurance.html">Insurance Information</a>
+                                            <a href="patient-and-visitors/accepted-insurance">Insurance Information</a>
                                         </li>
                                         <li>
-                                            <a href="patient-and-visitors/online-pay.html">Pay a bill</a>
+                                            <a href="patient-and-visitors/online-pay">Pay a bill</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -469,7 +388,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       make the lives of Orphans in Delta State better.
                                     </p>
 
-                                    <a href="make-a-donation.html" class="make-donation btn rounded-white-btn">Make a Donation</a>
+                                    <a href="make-a-donation" class="make-donation btn rounded-white-btn">Make a Donation</a>
                                 </div>
                             </div>
                         </div>
@@ -506,13 +425,13 @@
                         </div>
 
                         <div class="copyright">
-                            <small class="coy">&copy;2021 Westend Hospital. All Right Reserved.
+                            <small class="coy">&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
                             </small>
                             <small class="flex">
-                                <a href="privacy-policy.html">Privacy Policy</a>
-                                <a href="terms-of-use.html">Terms & Conditions</a>
-                                <a href="patient-feedback.html">Feedback</a>
-                                <a href="sitemap.html">Sitemap</a>
+                                <a href="privacy-policy">Privacy Policy</a>
+                                <a href="terms-of-use">Terms & Conditions</a>
+                                <a href="patient-feedback">Feedback</a>
+                                <a href="sitemap">Sitemap</a>
                                 <a href="https://www.blackpopex.com" target="_blank"
                 >Designed and Built By <span class="gold">Blackpopex</span></a
               >

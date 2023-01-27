@@ -41,6 +41,7 @@ With more than 170 staff committed to improving people's lives through the deliv
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    
 
     <script>
       //Search Container
@@ -80,7 +81,7 @@ With more than 170 staff committed to improving people's lives through the deliv
         <div class="main-header-wrapper">
           <div class="topNav">
             <div class="container flex">
-              <a href="index.html" id="wehLogo">
+              <a href="index" id="wehLogo">
                 <img
                   src="img/logo/Westend logo blue.png"
                   alt="Westend Hospital Logo"
@@ -104,25 +105,25 @@ With more than 170 staff committed to improving people's lives through the deliv
                       <ul class="dropdown-content" id="menuDropdown">
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-test.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-test"
                             >A-Z of all Medical Test</a
                           >
                         </li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >A-Z of all Medical Services</a
                           >
                         </li>
                         <li>
                           <a
-                            href="medical-test-and-services/department-and-services.html"
+                            href="medical-test-and-services/department-and-services"
                             >Department & Services</a
                           >
                         </li>
                         <li>
                           <a
-                            href="medical-test-and-services/patient-education.html"
+                            href="medical-test-and-services/patient-education"
                             >Patient Education</a
                           >
                         </li>
@@ -133,33 +134,33 @@ With more than 170 staff committed to improving people's lives through the deliv
                       <a href="#/" class="dropbtn">Patient & Visitors</a>
                       <ul class="dropdown-content" id="menuDropdown">
                         <li>
-                          <a href="patient-and-visitors/vistors.html"
+                          <a href="patient-and-visitors/vistors"
                             >Visitors</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/your-hospital-stay.html"
+                          <a href="patient-and-visitors/your-hospital-stay"
                             >Your Hospital Stay</a
                           >
                         </li>
                         <li>
                           <a
-                            href="patient-and-visitors/billing-and-financial-asistance.html"
+                            href="patient-and-visitors/billing-and-financial-asistance"
                             >Billing & Financial Asistance</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/accepted-insurance.html"
+                          <a href="patient-and-visitors/accepted-insurance"
                             >Accepted Insurance</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/patient-rights.html"
+                          <a href="patient-and-visitors/patient-rights"
                             >Patient Rights</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/medical-records.html"
+                          <a href="patient-and-visitors/medical-records"
                             >Medical Records</a
                           >
                         </li>
@@ -171,45 +172,45 @@ With more than 170 staff committed to improving people's lives through the deliv
                       <ul class="dropdown-content" id="menuDropdown">
                         <li>
                           <a
-                            href="why-choose-us/our-mission-vision-and-values.html"
+                            href="why-choose-us/our-mission-vision-and-values"
                             >Our Mission, Vision & Values</a
                           >
                         </li>
                         <li>
-                          <a href="why-choose-us/quality-patient-care.html"
+                          <a href="why-choose-us/quality-patient-care"
                             >Quality Patient Care</a
                           >
                         </li>
                         <li>
                           <a
-                            href="why-choose-us/patient-stories-testimonies.html"
+                            href="why-choose-us/patient-stories-testimonies"
                             >Patient's Stories/Testimonies</a
                           >
                         </li>
                         <li>
-                          <a href="why-choose-us/our-team.html">Our Team</a>
+                          <a href="why-choose-us/our-team">Our Team</a>
                         </li>
                       </ul>
                     </li>
                     <li class="contact-li">
-                      <a href="contact-us.php" class="contact-us">Contact Us</a>
+                      <a href="contact-us" class="contact-us">Contact Us</a>
                     </li>
                   </ul>
                   <!--navbar2-->
                   <ul class="flex navbar2">
                     <li>
-                      <a href="map-and-directions.html">Maps & Direction</a>
+                      <a href="map-and-directions">Maps & Direction</a>
                     </li>
                     <li>
-                      <a href="request-an-appointment.php"
+                      <a href="request-an-appointment"
                         >Request Appointment</a
                       >
                     </li>
                     <li>
-                      <a href="refer-a-patient.php">Refer a Patient</a>
+                      <a href="refer-a-patient">Refer a Patient</a>
                     </li>
                     <li>
-                      <a href="find-a-doctor.html">Find a Doctor</a>
+                      <a href="find-a-doctor">Find a Doctor</a>
                     </li>
                     <li>
                       <a href="#/"
@@ -261,17 +262,17 @@ With more than 170 staff committed to improving people's lives through the deliv
                       <h3>Popular Searches</h3>
                       <ul>
                         <li>
-                          <a href="refer-a-patient.html">Refer a patient</a>
+                          <a href="refer-a-patient">Refer a patient</a>
                         </li>
                         <li>
-                          <a href="map-and-directions.html"
+                          <a href="map-and-directions"
                             >Maps & Directions</a
                           >
                         </li>
                         <li><a href="#/">Treatments</a></li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >Services</a
                           >
                         </li>
@@ -404,7 +405,7 @@ With more than 170 staff committed to improving people's lives through the deliv
               </p>
 
               <div class="more-text-box">
-                <a href="our-history.html" class="btn bg-navy-blue-square-Btn"
+                <a href="our-history" class="btn bg-navy-blue-square-Btn"
                   >Read More</a
                 >
               </div>
@@ -419,26 +420,26 @@ With more than 170 staff committed to improving people's lives through the deliv
             <div class="i-want-to-box-link-wrapper">
               <div class="box-link">
                 <a
-                  href="find-a-doctor.html"
+                  href="find-a-doctor"
                   class="link-box text-white bg-navy-blue"
                 >
                   <span> Find a Doctor</span>
                 </a>
                 <a
-                  href="patient-and-visitors/online-pay.html"
+                  href="patient-and-visitors/online-pay"
                   class="link-box text-white bg-sky-blue i-want-to-pay-bill"
                 >
                   <span>Pay a Bill</span>
                 </a>
                 <div>
                   <a
-                    href="request-an-appointment.html"
+                    href="request-an-appointment"
                     class="link-box navy-blue bg-grey"
                   >
                     <span>Become a Patient</span>
                   </a>
                   <a
-                    href="refer-a-patient.html"
+                    href="refer-a-patient"
                     class="link-box navy-blue bg-light-blue"
                   >
                     <span>Refer a Patient</span>
@@ -490,7 +491,7 @@ With more than 170 staff committed to improving people's lives through the deliv
                 </div>
                 <div class="services-a-z-btn-container">
                   <a
-                    href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                    href="medical-test-and-services/A-Z-of-all-medical-services"
                     class="btn square-btn-bg-white"
                     >A - Z of All Our Services</a
                   >
@@ -717,7 +718,7 @@ With more than 170 staff committed to improving people's lives through the deliv
                   </p>
                   <div class="read-more">
                     <a
-                      href="patient-and-visitors/accepted-insurance.html"
+                      href="patient-and-visitors/accepted-insurance"
                       class="btn bg-navy-blue-square-Btn"
                       >Read More</a
                     >
@@ -893,30 +894,30 @@ With more than 170 staff committed to improving people's lives through the deliv
                 <div class="flex equal-flex-division">
                   <ul class="col-50 flex-column">
                     <li>
-                      <a href="why-choose-us/our-mission-vision-and-values.html"
+                      <a href="why-choose-us/our-mission-vision-and-values"
                         >Mission, vision & Values</a
                       >
                     </li>
                     <li>
-                      <a href="why-choose-us/quality-patient-care.html"
+                      <a href="why-choose-us/quality-patient-care"
                         >Patient Care</a
                       >
                     </li>
                     <li>
-                      <a href="why-choose-us/patient-stories-testimonies.html"
+                      <a href="why-choose-us/patient-stories-testimonies"
                         >Patient’s Testimonies</a
                       >
                     </li>
                   </ul>
                   <ul class="col-50 flex-column">
                     <li>
-                      <a href="our-history.html">Our History</a>
+                      <a href="our-history">Our History</a>
                     </li>
                     <li>
-                      <a href="why-choose-us/our-team.html">Our Team</a>
+                      <a href="why-choose-us/our-team">Our Team</a>
                     </li>
                     <li>
-                      <a href="our-rating.html">Google Ratings</a>
+                      <a href="our-rating">Google Ratings</a>
                     </li>
                   </ul>
                 </div>
@@ -968,29 +969,36 @@ With more than 170 staff committed to improving people's lives through the deliv
             patient care team will get back to you shortly.
           </p>
           <!-----------------------REQUEST A CALL BACK (BACKEND) -------------------------------->
-          <form action=" " class="call-back-form" autocomplete="off" method="POST">
+          <form action="" method="post" class="call-back-form"
+            autocomplete="off"
+          >
             <input
               type="text"
-              id="firstName"
               name="firstName"
-              placeholder="First Name"
-              
+              id="firstName"
+              placeholder="First Name" 
             />
+            
+          
             <input
               type="text"
-              id="lastName"
               name="lastName"
-              placeholder="Last Name"
-              
-            />
+              id="lastName"
+              placeholder="Last Name" 
+            />  
+  
             <input
               type="tel"
-              id="phoneNumber"
               name="phoneNumber"
-              placeholder="Phone Number"
-              
+              id="phoneNumber"
+              placeholder="Phone Number" 
             />
-            <button type="Submit" class="square-btn-white request-call-btn" name="request_callBack">
+   
+            <button
+              type="submit"
+              class="square-btn-white request-call-btn"
+              name="request_callBack"
+            >
               Send
             </button>
           </form>
@@ -1051,21 +1059,21 @@ With more than 170 staff committed to improving people's lives through the deliv
               <h4 class="dropbtn">About Us</h4>
               <ul class="dropdown-content footer-menu" id="menuDropdown">
                 <li>
-                  <a href="our-history.html">History</a>
+                  <a href="our-history">History</a>
                 </li>
                 <li>
-                  <a href="awards-and-accreditations.html"
+                  <a href="awards-and-accreditations"
                     >Awards & Accreditations</a
                   >
                 </li>
                 <li>
-                  <a href="map-and-directions.html">Maps & Directions</a>
+                  <a href="map-and-directions">Maps & Directions</a>
                 </li>
                 <li>
-                  <a href="report-misconduct.html">Report Misconduct</a>
+                  <a href="report-misconduct">Report Misconduct</a>
                 </li>
                 <li>
-                  <a href="contact-us.html">Contact</a>
+                  <a href="contact-us">Contact</a>
                 </li>
               </ul>
             </div>
@@ -1076,11 +1084,11 @@ With more than 170 staff committed to improving people's lives through the deliv
                   <a href="#">Transfer a patient</a>
                 </li>
                 <li>
-                  <a href="refer-a-patient.html">Refer a patient</a>
+                  <a href="refer-a-patient">Refer a patient</a>
                 </li>
                 <li>
                   <a
-                    href="medical-test-and-services/patient-support-services/nursing.html"
+                    href="medical-test-and-services/patient-support-services/nursing"
                     >For nurses</a
                   >
                 </li>
@@ -1088,7 +1096,7 @@ With more than 170 staff committed to improving people's lives through the deliv
                   <a href="#/">For physician</a>
                 </li>
                 <li>
-                  <a href="request-an-appointment.html"
+                  <a href="request-an-appointment"
                     >Enquiries & appointment</a
                   >
                 </li>
@@ -1099,12 +1107,12 @@ With more than 170 staff committed to improving people's lives through the deliv
                 <h4 class="dropbtn">Billing and Insurance</h4>
                 <ul class="dropdown-content footer-menu" id="menuDropdown">
                   <li>
-                    <a href="patient-and-visitors/accepted-insurance.html"
+                    <a href="patient-and-visitors/accepted-insurance"
                       >Insurance Information</a
                     >
                   </li>
                   <li>
-                    <a href="patient-and-visitors/online-pay.html"
+                    <a href="patient-and-visitors/online-pay"
                       >Pay a bill</a
                     >
                   </li>
@@ -1118,7 +1126,7 @@ With more than 170 staff committed to improving people's lives through the deliv
                 </p>
 
                 <a
-                  href="make-a-donation.html"
+                  href="make-a-donation"
                   class="make-donation btn rounded-white-btn"
                   >Make a Donation</a
                 >
@@ -1163,13 +1171,15 @@ With more than 170 staff committed to improving people's lives through the deliv
 
           <div class="copyright">
             <small class="coy"
-              >&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
+              >&copy;
+              <?php echo date("Y"); ?>
+              Westend Hospital. All Right Reserved.
             </small>
             <small class="flex">
-              <a href="privacy-policy.html">Privacy Policy</a>
-              <a href="terms-of-use.html">Terms & Conditions</a>
-              <a href="patient-feedback.html">Feedback</a>
-              <a href="sitemap.html">Sitemap</a>
+              <a href="privacy-policy">Privacy Policy</a>
+              <a href="terms-of-use">Terms & Conditions</a>
+              <a href="patient-feedback">Feedback</a>
+              <a href="sitemap">Sitemap</a>
               <a href="https://www.blackpopex.com" target="_blank"
                 >Designed and Built By <span class="gold">Blackpopex</span></a
               >
@@ -1183,6 +1193,7 @@ With more than 170 staff committed to improving people's lives through the deliv
     <script src="js/slick.min.js" type="text/javascript"></script>
     <script src="js/slideshow.js"></script>
     <script src="js/clearinputfield.js"></script>
+    <script src="js/submitCallRequest.js"></script>
     <script>
       // must be an array, could have only one element
       let visibilityIds = [
@@ -1221,5 +1232,6 @@ With more than 170 staff committed to improving people's lives through the deliv
         });
       });
     </script>
+    
   </body>
 </html>

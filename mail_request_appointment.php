@@ -1,5 +1,11 @@
-<?php 
 
+
+<?php 
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
+    
+ 
 //SET VARIABLES TO EMPTY VALUES WHEN SCRIPT REFRESHES
 $firstName=$lastName=$email=$address=$state=$city=$phoneNumber=$refferedByDr=$appointmentDetails=$result="";
 $firstNameErr=$lastNameErr=$emailErr=$addressErr=$stateErr=$cityErr=$phoneNumberErr=$refferedByDrErr=$appointmentDetailsErr=$resultErr="";
@@ -7,6 +13,12 @@ $firstNameErr=$lastNameErr=$emailErr=$addressErr=$stateErr=$cityErr=$phoneNumber
 if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_appointment'])){
 //COLLECT ALL THE VARIABLES, RETURN AN ERROR MESSAGE IF CONTENT IS EMPTY
 
+    function check_Variables($input) {
+    $input = htmlspecialchars($input);
+    $input = trim($input);
+    $input = stripslashes($input);
+    return $input;
+    }
 
 //FIRST NAME
  if(empty($_POST['firstName'])){
@@ -81,10 +93,6 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_appointment'])){
         $phoneNumberErr = "Phone number is required"; 
     } else {
     $phoneNumber = check_Variables($_POST['phone']); 
-      // check if phone number is well-formed
-    if(is_numeric($phoneNumber)) {
-        $phoneNumberErr = "Only digits (0-9) allowed";  
-        }
     }
 
 
@@ -103,22 +111,9 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_appointment'])){
     } else {
     $appointmentDetails = check_Variables($_POST['comment']); 
     }
- }
-
-    function check_Variables($input) {
-        $input = htmlspecialchars($input);
-        $input = trim($input);
-        $input = stripslashes($input);
-        return $input;
-    }
-
 
     $company_name = "Westend Hospital.Com";
     $sendTo = 'popexbiochemist@gmail.com';
-
-        use PHPMailer\PHPMailer\PHPMailer;
-        use PHPMailer\PHPMailer\SMTP;
-        use PHPMailer\PHPMailer\Exception;
 
         require 'PHPMailer/src/Exception.php';
         require 'PHPMailer/src/PHPMailer.php';
@@ -131,7 +126,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_appointment'])){
             $mail->Host       = 'thewestendhospital.com';                    
             $mail->SMTPAuth   = true;                                 
             $mail->Username   = 'sendingemail@thewestendhospital.com';                  
-            $mail->Password   = 'Bravo212#$';                               
+            $mail->Password   = 'Cheese2468';                               
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
             $mail->Port       = 465;                                   
 
@@ -155,3 +150,5 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_appointment'])){
         } catch (Exception $e) {
             $resultErr = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
+}
+        

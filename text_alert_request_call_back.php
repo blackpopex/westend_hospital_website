@@ -1,11 +1,24 @@
 <?php 
 
+ use PHPMailer\PHPMailer\PHPMailer;
+  use PHPMailer\PHPMailer\SMTP;
+  use PHPMailer\PHPMailer\Exception;
+
+
 //SET VARIABLES TO EMPTY VALUES WHEN SCRIPT REFRESHES
 $firstName=$lastName=$phone=$result="";
 $firstNameErr=$lastNameErr=$phoneErr=$resultErr="";
 
 if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_callBack'])){
 //COLLECT ALL THE VARIABLES, RETURN AN ERROR MESSAGE IF CONTENT IS EMPTY
+
+
+    function check_Variables($input) {
+        $input = htmlspecialchars($input);
+        $input = trim($input);
+        $input = stripslashes($input);
+        return $input;
+    }
 
 
 //FIRST NAME
@@ -43,25 +56,12 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_callBack'])){
     }
     }
 
-}
-
-    function check_Variables($input) {
-        $input = htmlspecialchars($input);
-        $input = trim($input);
-        $input = stripslashes($input);
-        return $input;
-    }
-
 
     //Specifies Name of company
     $company_name = "Westend Hospital.Com";
     //Specifies Email address to send callback request to
     $sendTo = 'mercyisioma4real@yahoo.com';
         
-        use PHPMailer\PHPMailer\PHPMailer;
-        use PHPMailer\PHPMailer\SMTP;
-        use PHPMailer\PHPMailer\Exception;
-
         require 'PHPMailer/src/Exception.php';
         require 'PHPMailer/src/PHPMailer.php';
         require 'PHPMailer/src/SMTP.php';
@@ -73,7 +73,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_callBack'])){
             $mail->Host       = 'thewestendhospital.com';                    
             $mail->SMTPAuth   = true;                                 
             $mail->Username   = 'sendingemail@thewestendhospital.com';                  
-            $mail->Password   = 'Bravo212#$';                               
+            $mail->Password   = 'Cheese2468';                               
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
             $mail->Port       = 465;                                   
 
@@ -89,14 +89,15 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['request_callBack'])){
           //CHECK IF ANY OF THE INPUT FIELD IS EMPTY, IF EMPTY DON'T SEND EMAIL;
             if(!empty($firstNameErr) || !empty($lastNameErr) || !empty($phoneErr)) {
             $mail->NULL;
+            $result = 'Call Request not sent';
             } else {
             $mail->send();
-            $result= 'Call Request sent';
+            $result = 'Call Request Sent';
             }
         } catch (Exception $e) {
-            $resultErr = "Error sending Call Request. Mailer Error: {$mail->ErrorInfo}";
+            $resultErr = "Error Sending Call Request. Mailer Error: {$mail->ErrorInfo}";
         }
- 
+ }
 
 
 

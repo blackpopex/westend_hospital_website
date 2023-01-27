@@ -1,5 +1,7 @@
 <?php 
-
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
 //SET VARIABLES TO EMPTY VALUES WHEN SCRIPT REFRESHES
 $ref_firstName=$ref_lastName=$ref_practiceName=$ref_email=$ref_phoneNumber=$pat_firstName=$pat_lastName=$date_of_birth=$pat_phone_number=$diagnosis=$ref_physician_name=$reason_for_referral=$result="";
 $ref_firstNameErr=$ref_lastNameErr=$ref_practiceNameErr=$ref_emailErr=$ref_phoneNumberErr=$pat_firstNameErr=$pat_lastNameErr=$date_of_birthErr=$pat_phone_numberErr=$diagnosisErr=$ref_physician_nameErr=$reason_for_referralErr=$resultErr="";
@@ -7,7 +9,13 @@ $ref_firstNameErr=$ref_lastNameErr=$ref_practiceNameErr=$ref_emailErr=$ref_phone
 if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['refer'])){
 //COLLECT ALL THE VARIABLES, RETURN AN ERROR MESSAGE IF CONTENT IS EMPTY
 
-
+ function check_Variables($input) {
+    $input = htmlspecialchars($input);
+    $input = trim($input);
+    $input = stripslashes($input);
+    return $input;
+    }
+    
 //REFERRING PHYSICIAN INFORMATION
 //First Name
  if(empty($_POST['ref_firstName'])){
@@ -135,24 +143,11 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['refer'])){
     } else {
     $reason_for_referral = check_Variables($_POST['reason_for_referral']); 
     }
- }
 
-    function check_Variables($input) {
-        $input = htmlspecialchars($input);
-        $input = trim($input);
-        $input = stripslashes($input);
-        return $input;
-    }
-
-
-
+ 
 
     $company_name = "Westend Hospital.Com";
     $sendTo = 'smartestjohnny@gmail.com';
-
-        use PHPMailer\PHPMailer\PHPMailer;
-        use PHPMailer\PHPMailer\SMTP;
-        use PHPMailer\PHPMailer\Exception;
 
         require 'PHPMailer/src/Exception.php';
         require 'PHPMailer/src/PHPMailer.php';
@@ -165,7 +160,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['refer'])){
             $mail->Host       = 'thewestendhospital.com';                    
             $mail->SMTPAuth   = true;                                 
             $mail->Username   = 'sendingemail@thewestendhospital.com';                  
-            $mail->Password   = 'Bravo212#$';                               
+            $mail->Password   = 'Cheese2468';                               
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
             $mail->Port       = 465;                                   
 
@@ -189,3 +184,5 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['refer'])){
         } catch (Exception $e) {
             $resultErr = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
+}
+

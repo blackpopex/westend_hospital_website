@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <title>
-           Donation | Westend Hospital
+         Site Map | Westend Hospital 
         </title>
         <link rel="icon" type="image/x-icon" href="img/logo/favicon.ico.png"/>
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
-        <meta name="description" content="Giving is embedded in our culture at Westend Hospital, and because we like bringing joy to orphans, we support Father's Heart Children's Trust. Join our team as a partner today. "/>
+        <meta name="description" content="Please use the links below to swiftly navigate to different pages on this website."/>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -65,7 +65,7 @@
 
                 <div class="topNav">
                     <div class="container flex">
-                        <a href="index.html" id="wehLogo">
+                        <a href="index" id="wehLogo">
                             <img src="img/logo/Westend logo blue.png" alt="Westend Hospital Logo"/>
                         </a>
                         <nav class="flex">
@@ -83,16 +83,16 @@
                                         <a href="#/" class="dropbtn">Medical Test & Services</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="medical-test-and-services/A-Z-of-all-medical-test.html">A-Z of all Medical Test</a>
+                                                <a href="medical-test-and-services/A-Z-of-all-medical-test">A-Z of all Medical Test</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/A-Z-of-all-medical-services.html">A-Z of all Medical Services</a>
+                                                <a href="medical-test-and-services/A-Z-of-all-medical-services">A-Z of all Medical Services</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/department-and-services.html">Department & Services</a>
+                                                <a href="medical-test-and-services/department-and-services">Department & Services</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/patient-education.html">Patient Education</a>
+                                                <a href="medical-test-and-services/patient-education">Patient Education</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -102,22 +102,22 @@
                                         <a href="#/" class="dropbtn">Patient & Visitors</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="patient-and-visitors/vistors.html">Visitors</a>
+                                                <a href="patient-and-visitors/vistors">Visitors</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/your-hospital-stay.html">Your Hospital Stay</a>
+                                                <a href="patient-and-visitors/your-hospital-stay">Your Hospital Stay</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/billing-and-financial-asistance.html">Billing & Financial Asistance</a>
+                                                <a href="patient-and-visitors/billing-and-financial-asistance">Billing & Financial Asistance</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/accepted-insurance.html">Accepted Insurance</a>
+                                                <a href="patient-and-visitors/accepted-insurance">Accepted Insurance</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/patient-rights.html">Patient Rights</a>
+                                                <a href="patient-and-visitors/patient-rights">Patient Rights</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/medical-records.html">Medical Records</a>
+                                                <a href="patient-and-visitors/medical-records">Medical Records</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -127,37 +127,37 @@
                                         <a href="#/" class="dropbtn">Why Choose Us</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="why-choose-us/our-mission-vision-and-values.html">Our Mission, Vision & Values</a>
+                                                <a href="why-choose-us/our-mission-vision-and-values">Our Mission, Vision & Values</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/quality-patient-care.html">Quality Patient Care</a>
+                                                <a href="why-choose-us/quality-patient-care">Quality Patient Care</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/patient-stories-testimonies.html">Patient's Stories/Testimonies</a>
+                                                <a href="why-choose-us/patient-stories-testimonies">Patient's Stories/Testimonies</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/our-team.html">Our Team</a>
+                                                <a href="why-choose-us/our-team">Our Team</a>
                                             </li>
                                         </ul>
                                     </li>
 
                                     <li class="contact-li">
-                                        <a href="contact-us.html" class="contact-us">Contact Us</a>
+                                        <a href="contact-us" class="contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                                 <!--navbar2-->
                                 <ul class="flex navbar2">
                                     <li>
-                                        <a href="map-and-directions.html">Maps & Direction</a>
+                                        <a href="map-and-directions">Maps & Direction</a>
                                     </li>
                                     <li>
-                                        <a href="request-an-appointment.html">Request Appointment</a>
+                                        <a href="request-an-appointment">Request Appointment</a>
                                     </li>
                                     <li>
-                                        <a href="refer-a-patient.html">Refer a Patient</a>
+                                        <a href="refer-a-patient">Refer a Patient</a>
                                     </li>
                                     <li>
-                                        <a href="find-a-doctor.html">Find a Doctor</a>
+                                        <a href="find-a-doctor">Find a Doctor</a>
                                     </li>
                                     <li>
                                         <a href="#/"
@@ -202,17 +202,17 @@
                       <h3>Popular Searches</h3>
                       <ul>
                         <li>
-                          <a href="refer-a-patient.html">Refer a patient</a>
+                          <a href="refer-a-patient">Refer a patient</a>
                         </li>
                         <li>
-                          <a href="map-and-directions.html"
+                          <a href="map-and-directions"
                             >Maps & Directions</a
                           >
                         </li>
                         <li><a href="#/">Treatments</a></li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >Services</a
                           >
                         </li>
@@ -231,95 +231,137 @@
         <main>
             <div class="section-background-image award-recognition">
                 <div class="container">
-                    <h2 class="subnavbar-color">Make a Donation</h2>
+                    <h2 class="subnavbar-color">Site Map</h2>
                     <ul class="inline-block-breadcrumb subnavbar-color">
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>Make a Donation</li>
+                        <li>Site Map</li>
 
                     </ul>
                 </div>
             </div>
 
-            <section id="MakeADonation">
-                <div class="container  align-start make-a-donation">
-                    <div class="flex">
-                        <div class="column-left col-40 v-border-right">
-                            <h5 class="text-capitalize sky-blue">Make A Difference</h5>
-                            <h2 class="text-capitalize navy-blue">Let’s Create A 
-                                                                                                Better Tomorrow</h2>
-                            <div class="donation-img margin-top">
-                                <img src="img/other photos/bill-wegener-LqOO5Ko0zSo-unsplash.jpg" alt="orphan photos" class="margin-top">
-                            </div>
-                            <div class="img-text-content margin-top">
-                                <div class="flex align-start"> 
-                                     <iconify-icon icon="bi:quote" id="iconify-donation"></iconify-icon>
-                                    <div style="margin-top: 0;">
-                                        <h2 class="h2-reduced">
-                                            It is not how much we give but how much love we put into giving </h2>
-                                            <h4>- Mother Teresa</h4>
+            <section id="siteMap">
+                <div class="container">
+                    <p class="margin-bottom">Our site map provides direct links to all sections within this website.</>
+                    <!--FIRST ROW -->
+                        <div class="sitemap-first-row">
+                            <div class="align-start flex">
+                                <div class="col-30">
+                                    <div class="margin-bottom">
+                                        <h4 class="navy-blue">Medical Test & Services</h4>
+                                        <ul>
+                                            <li><a href="/medical-test-and-services/A-Z-of-all-medical-test">A-Z of all Medical Test</a></li>
+                                            <li><a href="/medical-test-and-services/A-Z-of-all-medical-services">A-Z of all Medical Services</a></li>
+                                            <li><a href="/medical-test-and-services/department-and-services">Department and Services</a></li>
+                                            <li><a href="/medical-test-and-services/patient-education">Patient Education</a></li>
+                                        </ul>
                                     </div>
-                                        
+                                    <div class="margin-bottom">
+                                        <h4 class="navy-blue">Your Hospital Stay</h4>
+                                        <ul>
+                                            <li><a href="/patient-and-visitors/your-hospital-stay/registration-and-admitting-process">Registration & Admitting process</a></li>
+                                            <li><a href="/patient-and-visitors/your-hospital-stay/what-to-bring-with-you">What to bring with you</a></li>
+                                            <li><a href="/patient-and-visitors/your-hospital-stay/your-room-and-unit">Your Room and Unit</a></li>
+                                            <li><a href="/patient-and-visitors/your-hospital-stay/visitors-information">Visitors Information</a></li>
+                                            <li><a href="/patient-and-visitors/your-hospital-stay/going-home-discharge">Going Home/Discharge</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="margin-bottom">
+                                        <h4 class="navy-blue">Billing and Insurance</h4>
+                                        <ul>
+                                            <li><a href="/patient-and-visitors/accepted-insurance">Insurance Information</a></li>
+                                            <li><a href="/patient-and-visitors/online-pay">Pay a Bill</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <p>
-                                    Your support will mean everything to an orphan who has nothing. Partner with Westend Hospital today to continue caring for orphans and putting smiles on the faces of suffering children; they are the leaders of tomorrow. 
-                                </p>
-                                <a href="https://fathersheartchildrenstrust.org/" target="_blank" class="sky-blue">Visit Father’s Heart Trust official website</a>
-                            </div>
-                        </div>
-                        <!--story about each awards and its picture-->
-                        <div class="column-right col-40">
-                            <div class="form-container">
-                                <h3 class="navy-blue">Payment Information</h3>
-                                <form action="" method="post" autocomplete="off" id="paymentForm">
-                                    <div class="form-content">
-                                        <p id="importantText" class="important-text">
-                                            * Indicates a required field
-                                        </p>
-
-                                        <div class="flex">
-                                            <div class="col-100">
-                                                <label for="fname">First name:
-                                                    <span>*</span>
-                                                </label>
-                                                <input type="text" name="firstName" id="fname" required/>
-                                            </div>
-                                        </div>
-                                        <div class="flex">
-                                            <div class="col-100">
-                                                <label for="lname">Last name:
-                                                    <span>*</span>
-                                                </label>
-                                                <input type="text" name="lastName" id="lname" required/>
-                                            </div>
-                                        </div>
-                                        <div class="flex">
-                                            <div class="col-100">
-                                                <label for="email">Email:
-                                                    <span>*</span>
-                                                </label>
-                                                <input type="text" name="Email" id="email" required/>
-                                            </div>
-                                        </div>
-                                        <div class="flex">
-                                            <div class="col-100">
-                                                <label for="amount">Amount (NGN):
-                                                        <span>*</span>
-                                                </label>
-                                                <input type="tel" name="Email" id="amount" required/>
-                                            </div>
-                                        </div>
-
-                                        <button type="submit" class="btn bg-navy-blue-square-btn" onclick="payWithPaystack()">
-                                            Make Donation
-                                        </button>
+                               
+                                <div class="col-30">
+                                    <div class="margin-bottom">
+                                        <h4 class="navy-blue">Patient & Visitors</h4>
+                                        <ul>
+                                            <li><a href="/patient-and-visitors/vistors">Visitors</a></li>
+                                            <li><a href="/patient-and-visitors/your-hospital-stay">Your Hospital Stay</a></li>
+                                            <li><a href="/patient-and-visitors/billing-and-financial-asistance">Billing and Financial Asistance</a></li>
+                                            <li><a href="/patient-and-visitors/accepted-insurance">Accepted Insurance</a></li>
+                                            <li><a href="/patient-and-visitors/patient-rights">Patient Rights</a></li>
+                                            <li><a href="/patient-and-visitors/medical-records">Medical Records</a></li>
+                                        </ul>
                                     </div>
-
-                                </form>
+                                    <div>
+                                         <h4 class="navy-blue">About Us</h4>
+                                        <ul>
+                                            <li><a href="our-history">History</a></li>
+                                            <li><a href="awards-and-accreditations">Award & Accreditations</a></li>
+                                            <li><a href="our-rating">Our Ratings</a></li>
+                                            <li><a href="map-and-directions">Map & Directions</a></li>
+                                            <li><a href="report-misconduct">Report Misconduct</a></li>
+                                            <li><a href="patient-feedback">Feedback</a></li>
+                                            <li><a href="contact-us">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-30">
+                                    <div class="margin-bottom move-downwards-on-mobile">
+                                        <h4 class="navy-blue">Why Choose Us</h4>
+                                        <ul>
+                                            <li><a href="/why-choose-us/our-mission-vision-and-values">Our Mission, Vision & Values</a></li>
+                                            <li><a href="/why-choose-us/quality-patient-care">Quality Patient Care</a></li>
+                                            <li><a href="/why-choose-us/patient-stories-testimonies">Patient's Stories/Testimonies</a></li>
+                                            <li><a href="/why-choose-us/our-team">Our Team</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="margin-bottom">
+                                        <h4 class="navy-blue">For Health Professionals</h4>
+                                        <ul>
+                                            <li><a href="#/">Transfer a Patient</a></li>
+                                            <li><a href="refer-a-patient">Refer a Patient</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/nursing">For Nurses</a></li>
+                                            <li><a href="#/">For Physician</a></li>
+                                            <li><a href="request-an-appointment">Enquiries & Appointment</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="margin-bottom">
+                            <h4 class="navy-blue">Department & Services</h4>
+                            <div class="align-start flex col-50">
+                                <div class="col-30 move-upwards-on-largescreen">
+                                    <h6>Clinical Departments</h6>
+                                     <ul>
+                                            <li><a href="medical-test-and-services/clinical-departments/anesthesiology-and-perioperative">Anaesthesiology & Perioperative</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/audiometry">Audiometry</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/emergency-medicine">Emergency Medicine</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/ear-nose-and-throat">Ear,Nose & Throat</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/geriatric">Geriatric</a></li>
+                                            <li><a href="#/">Immunization</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/laboratory">Laboratory</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/molecular">Molecular</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/obstetrics-and-gynecology">Obstetrics & Gynecology</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/pharmacy">Pharmacy</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/physiotherapy">Physiotherapy</a></li>
+                                            <li><a href="medical-test-and-services/clinical-departments/radiology">Radiology</a></li>
+                                        </ul>
+                                </div>
+                                <div class="col-30 move-upwards-on-largescreen">
+                                      <h6>Patient Support Services</h6>
+                                     <ul>
+                                            <li><a href="medical-test-and-services/patient-support-services/account">Account</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/client-relations">Client Relations</a></li>
+                                            <li><a href="#/">Insurance</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/nursing">Nursing</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/medical-records">Medical Record</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/occupational-health">Occupational Health</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/out-patient-department">Outpatient Department</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/supermart">Supermart</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/cafeteria">Cafeteria</a></li>
+                                            <li><a href="medical-test-and-services/patient-support-services/security">Security</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
                 </section>
             </main>
 
@@ -352,21 +394,21 @@
                                 <h4 class="dropbtn">About Us</h4>
                                 <ul class="dropdown-content footer-menu" id="menuDropdown">
                                     <li>
-                                        <a href="our-history.html">History</a>
+                                        <a href="our-history">History</a>
                                     </li>
                                     <li>
-                                       <a href="awards-and-accreditations.html"
+                                       <a href="awards-and-accreditations"
                     >Awards & Accreditations</a
                   >
                                     </li>
                                     <li>
-                                        <a href="map-and-directions.html">Maps & Directions</a>
+                                        <a href="map-and-directions">Maps & Directions</a>
                                     </li>
                                     <li>
-                                        <a href="report-misconduct.html">Report Misconduct</a>
+                                        <a href="report-misconduct">Report Misconduct</a>
                                     </li>
                                     <li>
-                                        <a href="contact-us.html">Contact</a>
+                                        <a href="contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -377,16 +419,16 @@
                                         <a href="#/">Transfer a patient</a>
                                     </li>
                                     <li>
-                                        <a href="refer-a-patient.html">Refer a patient</a>
+                                        <a href="refer-a-patient">Refer a patient</a>
                                     </li>
                                     <li>
-                                        <a href="medical-test-and-services/patient-support-services/nursing.html">For nurses</a>
+                                        <a href="medical-test-and-services/patient-support-services/nursing">For nurses</a>
                                     </li>
                                     <li>
                                         <a href="#/">For physician</a>
                                     </li>
                                     <li>
-                                        <a href="request-an-appointment.html">Enquiries & appointment</a>
+                                        <a href="request-an-appointment">Enquiries & appointment</a>
                                     </li>
                                 </ul>
                             </div>
@@ -395,10 +437,10 @@
                                     <h4 class="dropbtn">Billing and Insurance</h4>
                                     <ul class="dropdown-content footer-menu" id="menuDropdown">
                                         <li>
-                                            <a href="patient-and-visitors/accepted-insurance.html">Insurance Information</a>
+                                            <a href="patient-and-visitors/accepted-insurance">Insurance Information</a>
                                         </li>
                                         <li>
-                                            <a href="patient-and-visitors/online-pay.html">Pay a bill</a>
+                                            <a href="patient-and-visitors/online-pay">Pay a bill</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -409,7 +451,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               make the lives of Orphans in Delta State better.
                                     </p>
 
-                                    <a href="make-a-donation.html" class="make-donation btn rounded-white-btn">Make a Donation</a>
+                                    <a href="make-a-donation" class="make-donation btn rounded-white-btn">Make a Donation</a>
                                 </div>
                             </div>
                         </div>
@@ -446,13 +488,13 @@
                         </div>
 
                         <div class="copyright">
-                            <small class="coy">&copy;2021 Westend Hospital. All Right Reserved.
+                            <small class="coy">&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
                             </small>
                             <small class="flex">
-                                <a href="privacy-policy.html">Privacy Policy</a>
-                                <a href="terms-of-use.html">Terms & Conditions</a>
-                                <a href="patient-feedback.html">Feedback</a>
-                                <a href="sitemap.html">Sitemap</a>
+                                <a href="privacy-policy">Privacy Policy</a>
+                                <a href="terms-of-use">Terms & Conditions</a>
+                                <a href="patient-feedback">Feedback</a>
+                                <a href="sitemap">Sitemap</a>
                                  <a href="https://www.blackpopex.com" target="_blank"
                 >Designed and Built By <span class="gold">Blackpopex</span></a
               >
@@ -469,4 +511,5 @@
             <script src="js/clearinputfield.js"></script>
 
         </body>
+    </body>
 </html>

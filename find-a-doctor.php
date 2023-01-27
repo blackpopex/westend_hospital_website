@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Map and Directions | Westend Hospital</title>
+    <title>
+      Westend Hospital | Find a specialist doctor at westend Hospital Warri
+    </title>
     <link rel="icon" type="image/x-icon" href="img/logo/favicon.ico.png" />
     <link
       rel="stylesheet"
@@ -9,7 +11,7 @@
     />
     <meta
       name="description"
-      content="Map, direction, public transit info, and more to help you find your way to the Westend Hospital location, from anywhere within and outside Warri, Delta State."
+      content="At Westend Hospital we have competent and professional doctors who are skilled in various specialties including dermatology, gynaecology, urogrology, nephrology, neurologist e.t.c. . "
     />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,7 +31,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://kit.fontawesome.com/12d9de5a0c.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script>
       //Search Container
       //Ajax codes
@@ -67,7 +68,7 @@
         <div class="main-header-wrapper">
           <div class="topNav">
             <div class="container flex">
-              <a href="index.html" id="wehLogo">
+              <a href="index" id="wehLogo">
                 <img
                   src="img/logo/Westend logo blue.png"
                   alt="Westend Hospital Logo"
@@ -92,25 +93,25 @@
                       <ul class="dropdown-content" id="menuDropdown">
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-test.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-test"
                             >A-Z of all Medical Test</a
                           >
                         </li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >A-Z of all Medical Services</a
                           >
                         </li>
                         <li>
                           <a
-                            href="medical-test-and-services/department-and-services.html"
+                            href="medical-test-and-services/department-and-services"
                             >Department & Services</a
                           >
                         </li>
                         <li>
                           <a
-                            href="medical-test-and-services/patient-education.html"
+                            href="medical-test-and-services/patient-education"
                             >Patient Education</a
                           >
                         </li>
@@ -122,33 +123,33 @@
                       <a href="#/" class="dropbtn">Patient & Visitors</a>
                       <ul class="dropdown-content" id="menuDropdown">
                         <li>
-                          <a href="patient-and-visitors/vistors.html"
+                          <a href="patient-and-visitors/vistors"
                             >Visitors</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/your-hospital-stay.html"
+                          <a href="patient-and-visitors/your-hospital-stay"
                             >Your Hospital Stay</a
                           >
                         </li>
                         <li>
                           <a
-                            href="patient-and-visitors/billing-and-financial-asistance.html"
+                            href="patient-and-visitors/billing-and-financial-asistance"
                             >Billing & Financial Asistance</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/accepted-insurance.html"
+                          <a href="patient-and-visitors/accepted-insurance"
                             >Accepted Insurance</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/patient-rights.html"
+                          <a href="patient-and-visitors/patient-rights"
                             >Patient Rights</a
                           >
                         </li>
                         <li>
-                          <a href="patient-and-visitors/medical-records.html"
+                          <a href="patient-and-visitors/medical-records"
                             >Medical Records</a
                           >
                         </li>
@@ -161,29 +162,29 @@
                       <ul class="dropdown-content" id="menuDropdown">
                         <li>
                           <a
-                            href="why-choose-us/our-mission-vision-and-values.html"
+                            href="why-choose-us/our-mission-vision-and-values"
                             >Our Mission, Vision & Values</a
                           >
                         </li>
                         <li>
-                          <a href="why-choose-us/quality-patient-care.html"
+                          <a href="why-choose-us/quality-patient-care"
                             >Quality Patient Care</a
                           >
                         </li>
                         <li>
                           <a
-                            href="why-choose-us/patient-stories-testimonies.html"
+                            href="why-choose-us/patient-stories-testimonies"
                             >Patient's Stories/Testimonies</a
                           >
                         </li>
                         <li>
-                          <a href="why-choose-us/our-team.html">Our Team</a>
+                          <a href="why-choose-us/our-team">Our Team</a>
                         </li>
                       </ul>
                     </li>
 
                     <li class="contact-li">
-                      <a href="contact-us.html" class="contact-us"
+                      <a href="contact-us" class="contact-us"
                         >Contact Us</a
                       >
                     </li>
@@ -191,18 +192,18 @@
                   <!--navbar2-->
                   <ul class="flex navbar2">
                     <li>
-                      <a href="map-and-directions.html">Maps & Direction</a>
+                      <a href="map-and-directions">Maps & Direction</a>
                     </li>
                     <li>
-                      <a href="request-an-appointment.html"
+                      <a href="request-an-appointment"
                         >Request Appointment</a
                       >
                     </li>
                     <li>
-                      <a href="refer-a-patient.html">Refer a Patient</a>
+                      <a href="refer-a-patient">Refer a Patient</a>
                     </li>
                     <li>
-                      <a href="find-a-doctor.html">Find a Doctor</a>
+                      <a href="find-a-doctor">Find a Doctor</a>
                     </li>
                     <li>
                       <a href="#/"
@@ -255,17 +256,17 @@
                       <h3>Popular Searches</h3>
                       <ul>
                         <li>
-                          <a href="refer-a-patient.html">Refer a patient</a>
+                          <a href="refer-a-patient">Refer a patient</a>
                         </li>
                         <li>
-                          <a href="map-and-directions.html"
+                          <a href="map-and-directions"
                             >Maps & Directions</a
                           >
                         </li>
                         <li><a href="#/">Treatments</a></li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >Services</a
                           >
                         </li>
@@ -282,74 +283,42 @@
 
     <!---------------------------MAIN PAGE CONTENT---------------------------------------------->
     <main>
-      <div class="section-background-image map-and-direction">
+      <div class="section-background-image find-a-doctor">
         <div class="container">
-          <h2 class="subnavbar-color">Map and Directions</h2>
+          <h2 class="subnavbar-color">Find a Doctor</h2>
           <ul class="inline-block-breadcrumb subnavbar-color">
             <li>
-              <a href="index.html">Home</a>
+              <a href="index">Home</a>
             </li>
-            <li>map and direction</li>
+            <li>find a doctor</li>
           </ul>
         </div>
       </div>
-      <section id="map-direction">
-        <div id="fade-transparent-glass"></div>
-        <div class="map-and-direction-info">
+      <section id="find-a-doctor">
+        <div class="container">
           <div class="wrapper">
-            <div>
-              <div class="img">
-                <img
-                  src="img/background-image/westend-garden.jpg"
-                  alt="Westend Hospital Garden"
-                />
-              </div>
-              <div class="content">
-                <div>
-                  <h6 class="navy-blue">Our Location</h6>
-                  <p>
-                    1, 25th Street, D.D.P.A, Housing Estate Warri, Delta State,
-                    Nigeria.
-                  </p>
-                </div>
-                <div>
-                  <h6 class="navy-blue">Call for Direction</h6>
-                  <div class="flex">
-                    <i class="fa fa-phone-alt"></i>
-                    <p>+234 (0) 807 420 2835</p>
-                  </div>
-                </div>
-                <div>
-                  <h6 class="navy-blue">Get Driving Direction</h6>
-                  <div class="flex">
-                    <span
-                      ><iconify-icon
-                        class="iconify"
-                        style="font-weight: bold"
-                        icon="carbon:direction-bear-right-02"
-                      ></iconify-icon
-                    ></span>
-                    <a
-                      href="https://www.google.com/maps/dir//Westend+Hospital,+Westend+Road,+Warri/@5.5460997,5.7260374,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1041ad6fdb19da31:0xe03820e6e47d8767!2m2!1d5.7610569!2d5.5461007"
-                      target="_blank"
-                      >Google Map</a
-                    >
-                  </div>
-                </div>
-              </div>
+            <div class="specific-width">
+              <p class="text-center">
+                Search and schedule appointment online. Need to schedule by
+                phone? Call our scheduling team at
+                <span class="sky-blue bold-text">+23480 7420 2574</span>
+                between
+                <span class="sky-blue bold-text">8 a.m and 5 p.m.</span>
+                Monay through Friday.
+              </p>
             </div>
+            <form action="#" method="post" class="flex">
+              <input
+                type="text"
+                name="searchSpecialist"
+                placeholder="Search by Specialty, Condition or Doctor's name"
+              />
+              <button type="submit" class="btn bg-navy-blue-square-btn">
+                Search
+              </button>
+            </form>
           </div>
         </div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1409785952164!2d5.758868214191043!3d5.546106035292517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041ad6fdb19da31%3A0xe03820e6e47d8767!2sWestend%20Hospital!5e0!3m2!1sen!2sng!4v1665424647359!5m2!1sen!2sng"
-          width="800"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          id="googleMap"
-        ></iframe>
       </section>
     </main>
 
@@ -399,21 +368,21 @@
               <h4 class="dropbtn">About Us</h4>
               <ul class="dropdown-content footer-menu" id="menuDropdown">
                 <li>
-                  <a href="our-history.html">History</a>
+                  <a href="our-history">History</a>
                 </li>
                 <li>
-                  <a href="awards-and-accreditations.html"
+                  <a href="awards-and-accreditations"
                     >Awards & Accreditations</a
                   >
                 </li>
                 <li>
-                  <a href="map-and-directions.html">Maps & Directions</a>
+                  <a href="map-and-directions">Maps & Directions</a>
                 </li>
                 <li>
-                  <a href="report-misconduct.html">Report Misconduct</a>
+                  <a href="report-misconduct">Report Misconduct</a>
                 </li>
                 <li>
-                  <a href="contact-us.html">Contact</a>
+                  <a href="contact-us">Contact</a>
                 </li>
               </ul>
             </div>
@@ -424,11 +393,11 @@
                   <a href="#/">Transfer a patient</a>
                 </li>
                 <li>
-                  <a href="refer-a-patient.html">Refer a patient</a>
+                  <a href="refer-a-patient">Refer a patient</a>
                 </li>
                 <li>
                   <a
-                    href="medical-test-and-services/patient-support-services/nursing.html"
+                    href="medical-test-and-services/patient-support-services/nursing"
                     >For nurses</a
                   >
                 </li>
@@ -436,7 +405,7 @@
                   <a href="#/">For physician</a>
                 </li>
                 <li>
-                  <a href="request-an-appointment.html"
+                  <a href="request-an-appointment"
                     >Enquiries & appointment</a
                   >
                 </li>
@@ -447,12 +416,12 @@
                 <h4 class="dropbtn">Billing and Insurance</h4>
                 <ul class="dropdown-content footer-menu" id="menuDropdown">
                   <li>
-                    <a href="patient-and-visitors/accepted-insurance.html"
+                    <a href="patient-and-visitors/accepted-insurance"
                       >Insurance Information</a
                     >
                   </li>
                   <li>
-                    <a href="patient-and-visitors/online-pay.html"
+                    <a href="patient-and-visitors/online-pay"
                       >Pay a bill</a
                     >
                   </li>
@@ -466,7 +435,7 @@
                 </p>
 
                 <a
-                  href="make-a-donation.html"
+                  href="make-a-donation"
                   class="make-donation btn rounded-white-btn"
                   >Make a Donation</a
                 >
@@ -511,13 +480,13 @@
 
           <div class="copyright">
             <small class="coy"
-              >&copy;2021 Westend Hospital. All Right Reserved.
+              >&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
             </small>
             <small class="flex">
-              <a href="privacy-policy.html">Privacy Policy</a>
-              <a href="terms-of-use.html">Terms & Conditions</a>
-              <a href="patient-feedback.html">Feedback</a>
-              <a href="sitemap.html">Sitemap</a>
+              <a href="privacy-policy">Privacy Policy</a>
+              <a href="terms-of-use">Terms & Conditions</a>
+              <a href="patient-feedback">Feedback</a>
+              <a href="sitemap">Sitemap</a>
               <a href="https://www.blackpopex.com" target="_blank"
                 >Designed and Built By <span class="gold">Blackpopex</span></a
               >

@@ -64,7 +64,7 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                             <div class="main-header-wrapper">
                 <div class="topNav">
                     <div class="container flex">
-                        <a href="index.html" id="wehLogo">
+                        <a href="index" id="wehLogo">
                             <img src="img/logo/Westend logo blue.png" alt="Westend Hospital Logo"/>
                         </a>
                         <nav class="flex">
@@ -82,16 +82,16 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                         <a href="#/" class="dropbtn">Medical Test & Services</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="medical-test-and-services/A-Z-of-all-medical-test.html">A-Z of all Medical Test</a>
+                                                <a href="medical-test-and-services/A-Z-of-all-medical-test">A-Z of all Medical Test</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/A-Z-of-all-medical-services.html">A-Z of all Medical Services</a>
+                                                <a href="medical-test-and-services/A-Z-of-all-medical-services">A-Z of all Medical Services</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/department-and-services.html">Department & Services</a>
+                                                <a href="medical-test-and-services/department-and-services">Department & Services</a>
                                             </li>
                                             <li>
-                                                <a href="medical-test-and-services/patient-education.html">Patient Education</a>
+                                                <a href="medical-test-and-services/patient-education">Patient Education</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -101,22 +101,22 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                         <a href="#/" class="dropbtn">Patient & Visitors</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="patient-and-visitors/vistors.html">Visitors</a>
+                                                <a href="patient-and-visitors/vistors">Visitors</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/your-hospital-stay.html">Your Hospital Stay</a>
+                                                <a href="patient-and-visitors/your-hospital-stay">Your Hospital Stay</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/billing-and-financial-asistance.html">Billing & Financial Asistance</a>
+                                                <a href="patient-and-visitors/billing-and-financial-asistance">Billing & Financial Asistance</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/accepted-insurance.html">Accepted Insurance</a>
+                                                <a href="patient-and-visitors/accepted-insurance">Accepted Insurance</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/patient-rights.html">Patient Rights</a>
+                                                <a href="patient-and-visitors/patient-rights">Patient Rights</a>
                                             </li>
                                             <li>
-                                                <a href="patient-and-visitors/medical-records.html">Medical Records</a>
+                                                <a href="patient-and-visitors/medical-records">Medical Records</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -126,13 +126,13 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                         <a href="#/" class="dropbtn">Why Choose Us</a>
                                         <ul class="dropdown-content" id="menuDropdown">
                                             <li>
-                                                <a href="why-choose-us/our-mission-vision-and-values.html">Our Mission, Vision & Values</a>
+                                                <a href="why-choose-us/our-mission-vision-and-values">Our Mission, Vision & Values</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/quality-patient-care.html">Quality Patient Care</a>
+                                                <a href="why-choose-us/quality-patient-care">Quality Patient Care</a>
                                             </li>
                                             <li>
-                                                <a href="why-choose-us/patient-stories-testimonies.html">Patient's Stories/Testimonies</a>
+                                                <a href="why-choose-us/patient-stories-testimonies">Patient's Stories/Testimonies</a>
                                             </li>
                                             <li>
                                                 <a href="why-choose-us/our-team.html">Our Team</a>
@@ -141,22 +141,22 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                     </li>
 
                                     <li class="contact-li">
-                                        <a href="contact-us.html" class="contact-us">Contact Us</a>
+                                        <a href="contact-us" class="contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                                 <!--navbar2-->
                                 <ul class="flex navbar2">
                                     <li>
-                                        <a href="map-and-directions.html">Maps & Direction</a>
+                                        <a href="map-and-directions">Maps & Direction</a>
                                     </li>
                                     <li>
-                                        <a href="request-an-appointment.html">Request Appointment</a>
+                                        <a href="request-an-appointment">Request Appointment</a>
                                     </li>
                                     <li>
-                                        <a href="refer-a-patient.html">Refer a Patient</a>
+                                        <a href="refer-a-patient">Refer a Patient</a>
                                     </li>
                                     <li>
-                                        <a href="find-a-doctor.html">Find a Doctor</a>
+                                        <a href="find-a-doctor">Find a Doctor</a>
                                     </li>
                                     <li>
                                         <a href="#/"
@@ -200,17 +200,17 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                       <h3>Popular Searches</h3>
                       <ul>
                         <li>
-                          <a href="refer-a-patient.html">Refer a patient</a>
+                          <a href="refer-a-patient">Refer a patient</a>
                         </li>
                         <li>
-                          <a href="map-and-directions.html"
+                          <a href="map-and-directions"
                             >Maps & Directions</a
                           >
                         </li>
                         <li><a href="#/">Treatments</a></li>
                         <li>
                           <a
-                            href="medical-test-and-services/A-Z-of-all-medical-services.html"
+                            href="medical-test-and-services/A-Z-of-all-medical-services"
                             >Services</a
                           >
                         </li>
@@ -232,7 +232,7 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                     <h2 class="subnavbar-color">Our History</h2>
                     <ul class="inline-block-breadcrumb subnavbar-color">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index">Home</a>
                         </li>
                         <li>history</li>
 
@@ -254,12 +254,12 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                         <h4 class="navy-blue">Quick Links</h4>
                                         <ul>
 
-                                            <li><a href="our-history.html" class="sky-blue">History</a></li>
-                                            <li><a href="awards-and-accreditations.html" class="sky-blue">Awards & Accreditations</a></li>
-                                            <li><a href="our-rating.html" class="sky-blue">Our Ratings</a></li>
-                                            <li><a href="why-choose-us/our-mission-vision-and-values.html" class="sky-blue">Mission, vision & Values</a></li>
-                                            <li><a href="contact-us.html">Contact Us</a></li>
-                                            <li><a href="patient-and-visitors/online-pay.html">Pay a Bill</a></li>
+                                            <li><a href="our-history" class="sky-blue">History</a></li>
+                                            <li><a href="awards-and-accreditations" class="sky-blue">Awards & Accreditations</a></li>
+                                            <li><a href="our-rating" class="sky-blue">Our Ratings</a></li>
+                                            <li><a href="why-choose-us/our-mission-vision-and-values" class="sky-blue">Mission, vision & Values</a></li>
+                                            <li><a href="contact-us">Contact Us</a></li>
+                                            <li><a href="patient-and-visitors/online-pay">Pay a Bill</a></li>
                                         </ul>
                                     </div>
                                     <div class="er-24hrs-contact-numb">
@@ -555,21 +555,21 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                 <h4 class="dropbtn">About Us</h4>
                                 <ul class="dropdown-content footer-menu" id="menuDropdown">
                                     <li>
-                                        <a href="our-history.html">History</a>
+                                        <a href="our-history">History</a>
                                     </li>
                                     <li>
-                                         <a href="awards-and-accreditations.html"
+                                         <a href="awards-and-accreditations"
                     >Awards & Accreditations</a
                   >
                                     </li>
                                     <li>
-                                        <a href="map-and-directions.html">Maps & Directions</a>
+                                        <a href="map-and-directions">Maps & Directions</a>
                                     </li>
                                     <li>
-                                        <a href="report-misconduct.html">Report Misconduct</a>
+                                        <a href="report-misconduct">Report Misconduct</a>
                                     </li>
                                     <li>
-                                        <a href="contact-us.html">Contact</a>
+                                        <a href="contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -580,16 +580,16 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                         <a href="#/">Transfer a patient</a>
                                     </li>
                                     <li>
-                                        <a href="refer-a-patient.html">Refer a patient</a>
+                                        <a href="refer-a-patient">Refer a patient</a>
                                     </li>
                                     <li>
-                                        <a href="medical-test-and-services/patient-support-services/nursing.html">For nurses</a>
+                                        <a href="medical-test-and-services/patient-support-services/nursing">For nurses</a>
                                     </li>
                                     <li>
                                         <a href="#/">For physician</a>
                                     </li>
                                     <li>
-                                        <a href="request-an-appointment.html">Enquiries & appointment</a>
+                                        <a href="request-an-appointment">Enquiries & appointment</a>
                                     </li>
                                 </ul>
                             </div>
@@ -598,10 +598,10 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                     <h4 class="dropbtn">Billing and Insurance</h4>
                                     <ul class="dropdown-content footer-menu" id="menuDropdown">
                                         <li>
-                                            <a href="patient-and-visitors/accepted-insurance.html">Insurance Information</a>
+                                            <a href="patient-and-visitors/accepted-insurance">Insurance Information</a>
                                         </li>
                                         <li>
-                                            <a href="patient-and-visitors/online-pay.html">Pay a bill</a>
+                                            <a href="patient-and-visitors/online-pay">Pay a bill</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -612,7 +612,7 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               make the lives of Orphans in Delta State better.
                                     </p>
 
-                                    <a href="make-a-donation.html" class="make-donation btn rounded-white-btn">Make a Donation</a>
+                                    <a href="make-a-donation" class="make-donation btn rounded-white-btn">Make a Donation</a>
                                 </div>
                             </div>
                         </div>
@@ -649,13 +649,13 @@ The hospital is intended to be perceived as embodying the 'Western end' of ortho
                         </div>
 
                         <div class="copyright">
-                            <small class="coy">&copy;2021 Westend Hospital. All Right Reserved.
+                            <small class="coy">&copy; <?php echo date("Y"); ?> Westend Hospital. All Right Reserved.
                             </small>
                             <small class="flex">
-                                <a href="privacy-policy.html">Privacy Policy</a>
-                                <a href="terms-of-use.html">Terms & Conditions</a>
-                                <a href="patient-feedback.html">Feedback</a>
-                                <a href="sitemap.html">Sitemap</a>
+                                <a href="privacy-policy">Privacy Policy</a>
+                                <a href="terms-of-use">Terms & Conditions</a>
+                                <a href="patient-feedback">Feedback</a>
+                                <a href="sitemap">Sitemap</a>
                                 <a href="https://www.blackpopex.com" target="_blank"
                 >Designed and Built By <span class="gold">Blackpopex</span></a
               >

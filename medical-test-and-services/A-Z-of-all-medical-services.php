@@ -396,7 +396,7 @@
               <h1>B</h1>
               <ul>
                 <li><a href="#/">BCG Immunization</a></li>
-                <li><a href="#/">BERA</a></li>
+                <li><a href="#/">BERA (Brain Evoked Response Auditory)</a></li>
                 <li><a href="#/">Bilateral Antrum Washout</a></li>
                 <li><a href="#/">Blood Exchange Transfusion</a></li>
                 <li><a href="#/">Blood Transfusion</a></li>
@@ -443,7 +443,7 @@
               <ul>
                 <li><a href="#/">Deep Corneal Foreign Body Removal</a></li>
                 <li><a href="#/">Digital Otoscopy</a></li>
-                <li><a href="#/">DPOAE</a></li>
+                <li><a href="#/">DPOAE(Distortion product otoacoustic emissions)</a></li>
               </ul>
             </div>
           </section>

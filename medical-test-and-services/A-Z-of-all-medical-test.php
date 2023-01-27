@@ -393,7 +393,7 @@
                 <li><a href="#/">Alkaline Phosphatase(ALP)</a></li>
                 <li><a href="#/">Amylase</a></li>
                 <li><a href="#/">Aso Titre</a></li>
-                <li><a href="#/">APTT</a></li>
+                <li><a href="#/">APTT(Activated Partial Thromboplastin Time)</a></li>
                 <li><a href="#/">Alpha Fetoprotein</a></li>
                 <li><a href="#/">Aspirate / Fluid / Pus MCS</a></li>
                 <li><a href="#/">Anti HCV</a></li>
@@ -401,7 +401,7 @@
                 <li><a href="#/">Anti Smith</a></li>
                 <li><a href="#/">Anti - Mullerian Hormone</a></li>
                 <li><a href="#/">ANA (ANF/DNA)</a></li>
-                <li><a href="#/">ACTH</a></li>
+                <li><a href="#/">ACTH(Adrenocorticotropic Hormone)</a></li>
               </ul>
             </div>
           </section>
@@ -509,11 +509,11 @@
               <h1>F</h1>
               <ul>
                 <li><a href="#/">Fasting Blood Sugar</a></li>
-                <li><a href="#/">FBC (FULL BLOOD COUNT)</a></li>
+                <li><a href="#/">FBC (Full Blood Count)</a></li>
                 <li><a href="#/">Foot X-ray</a></li>
                 <li><a href="#/">Foot CT Scan</a></li>
                 <li><a href="#/">Fistulogram</a></li>
-                <li><a href="#/">FSH</a></li>
+                <li><a href="#/">FSH(Follicle-Stimulating Hormone)</a></li>
                 <li><a href="#/">Fluid Biochemistry</a></li>
                 <li><a href="#/">Fluid Albumin</a></li>
                 <li><a href="#/">Fluid Glucose</a></li>
@@ -536,7 +536,7 @@
                 <li><a href="#/">Glucose 2HPP</a></li>
                 <li><a href="#/">Gram Stain</a></li>
                 <li><a href="#/">G6PD</a></li>
-                <li><a href="#/">GGT</a></li>
+                <li><a href="#/">GGT (Gamma-glutamyl Transferase)</a></li>
               </ul>
             </div>
           </section>
@@ -567,7 +567,7 @@
                   >
                 </li>
                 <li><a href="#/">H. Pylori (Anti-H.pylori)</a></li>
-                <li><a href="#/">HVS</a></li>
+                <li><a href="#/">HVS (High vaginal swab)</a></li>
                 <li><a href="#/">Hysterosalpingogram (HSG)</a></li>
                 <li><a href="#/">HPV - Cervical Smear</a></li>
                 <li><a href="#/">HEP. B. Infection Marker</a></li>
@@ -584,7 +584,7 @@
               <h1>I</h1>
               <ul>
                 <li><a href="#/">Intravenous Pyelo-Urogram (IVU)</a></li>
-                <li><a href="#/">INR</a></li>
+                <li><a href="#/">INR (International Normalized Ratio)</a></li>
                 <li><a href="#/">Iron Studies</a></li>
                 <li><a href="#/">Immunofixation</a></li>
                 <li><a href="#/">IUCD Insertion</a></li>
@@ -624,7 +624,7 @@
                 <li><a href="#/">Lipid Profile</a></li>
                 <li><a href="#/">Lipase - S</a></li>
                 <li><a href="#/">Lower Extremity scanning</a></li>
-                <li><a href="#/">LH</a></li>
+                <li><a href="#/">LH (Luteinizing Hormone)</a></li>
                 <li><a href="#/">Lumbosacral (Dynamic Studies) X-Ray</a></li>
                 <li><a href="#/">Lumbosacral AP /LAT RT & LT Oblique</a></li>
                 <li><a href="#/">Lumbosacral Spine CT Scan</a></li>
@@ -724,7 +724,7 @@
                 <li><a href="#/">Post Dialysis Test </a></li>
                 <li><a href="#/">Pre Dialysis Test </a></li>
                 <li><a href="#/">Pre-Natal DNA Paternity </a></li>
-                <li><a href="#/">PTT </a></li>
+                <li><a href="#/">PTT (Partial Thromboplastin Time) </a></li>
                 <li><a href="#/">PCR COVID-19</a></li>
               </ul>
             </div>
@@ -809,7 +809,7 @@
                 <li>
                   <a href="#/">Twenty-Four Hours (24Hrs) Urine Protein</a>
                 </li>
-                <li><a href="#/">TSH</a></li>
+                <li><a href="#/">TSH (Thyroid Stimulating Hormone)</a></li>
                 <li><a href="#/">Transferrin Saturation</a></li>
                 <li><a href="#/">Total Iron Binding Capacity</a></li>
               </ul>
