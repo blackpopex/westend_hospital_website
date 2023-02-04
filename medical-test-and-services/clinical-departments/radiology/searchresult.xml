@@ -1,323 +1,323 @@
 <pages>
     <links>
         <title>Map and Directions</title>
-        <url>http://westendhospital.42web.io/map-and-directions.html</url>
+        <url>http://westendhospital.42web.io/map-and-directions</url>
     </links>
     <links>
         <title>Request An Appointment</title>
-        <url>http://westendhospital.42web.io/request-an-appointment.html</url>
+        <url>http://westendhospital.42web.io/request-an-appointment</url>
     </links>
     <links>
         <title>Refer a patient</title>
-        <url>http://westendhospital.42web.io/refer-a-patient.html</url>
+        <url>http://westendhospital.42web.io/refer-a-patient</url>
     </links>
     <links>
         <title>Find a Doctor</title>
-        <url>http://westendhospital.42web.io/find-a-doctor.html</url>
+        <url>http://westendhospital.42web.io/find-a-doctor</url>
     </links>
     <links>
         <title>Medical Tests, A-Z List</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/A-Z-of-all-medical-test.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/A-Z-of-all-medical-test</url>
     </links>
     <links>
         <title>Medical Services, A-Z List</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/A-Z-of-all-medical-services.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/A-Z-of-all-medical-services</url>
     </links>
     <links>
         <title>Departments and Services</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/department-and-services.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/department-and-services</url>
     </links>
     <links>
         <title>Patient Education</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-education.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-education</url>
     </links>
     
     <!--ARTICLES-->
     <links>
         <title>Anxiety Disorder</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/anxiety-disorders.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/anxiety-disorders</url>
     </links>
     <links>
         <title>Dysthymia</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/dysthymia.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/dysthymia</url>
     </links>
     <links>
         <title>Phobias</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/phobias.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/phobias</url>
     </links>
     <links>
         <title>Post Traumatic Stress</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/post-traumatic-stress.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/post-traumatic-stress</url>
     </links>
     <links>
         <title>Behaviour Disorder</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/behaviour-disorder.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/adolescent-mental-health/behaviour-disorder</url>
     </links>
 
     <!--OTHER DEPARTMENTS-->
     <links>
         <title>Anesthesiology and Perioperative</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/anesthesiology-and-perioperative.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/anesthesiology-and-perioperative</url>
     </links>
     <links>
         <title>Audiology</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/audiometry.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/audiometry</url>
     </links>
     <links>
         <title>Ear, Nose and Throat (Otolaryngology)</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/ear-nose-and-throat.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/ear-nose-and-throat</url>
     </links>
     <links>
         <title>Emergency Department</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/emergency-medicine.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/emergency-medicine</url>
     </links>
     <links>
         <title>Geriatric</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/geriatric.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/geriatric</url>
     </links>
     <links>
         <title>Laboratory</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/laboratory.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/laboratory</url>
     </links>
     <links>
         <title>Obstetrics and Gynecology</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/obstetrics-and-gynecology.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/obstetrics-and-gynecology</url>
     </links>
     <links>
         <title>Pharmacy</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/pharmacy.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/pharmacy</url>
     </links>
     <links>
         <title>Physiotherapy</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/physiotherapy.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/physiotherapy</url>
     </links>
     <links>
         <title>Molecular Laboratory</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/molecular.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/molecular</url>
     </links>
     <links>
         <title>Radiology (Imaging Services)</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology</url>
     </links>
     <links>
         <title>Computed Tomography (CT)</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology/ct-scan.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology/ct-scan</url>
     </links>
     <links>
         <title>X-Ray</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology/x-ray.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology/x-ray</url>
     </links>
     <links>
         <title>Ultrasound Scan</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology/ultrasound.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/clinical-departments/radiology/ultrasound</url>
     </links>
     <links>
         <title>Account </title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/account.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/account</url>
     </links>
     <links>
         <title>Client Relations</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/client-relations.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/client-relations</url>
     </links>
     <links>
         <title>Medical Records</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/medical-records.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/medical-records</url>
     </links>
     <links>
         <title>Nursing</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/nursing.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/nursing</url>
     </links>
     <links>
         <title>Occupational Health </title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/medical-records.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/medical-records</url>
     </links>
     <links>
         <title>Out Patient Department</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/out-patient-department.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/out-patient-department</url>
     </links>
     <links>
         <title>Cafeteria</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/cafeteria.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/cafeteria</url>
     </links>
     <links>
         <title>Supermart</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/supermart.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/supermart</url>
     </links>
 
        <!--OTHER SECTIONS-->
     <links>
         <title>Security Department</title>
-        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/security.html</url>
+        <url>http://westendhospital.42web.io/medical-test-and-services/patient-support-services/security</url>
     </links>
     <links>
         <title>Contact Us</title>
-        <url>http://westendhospital.42web.io/contact-us.html</url>
+        <url>http://westendhospital.42web.io/contact-us</url>
     </links>
     <links>
         <title>Online Pay</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/online-pay.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/online-pay</url>
     </links>
     <links>
         <title>Visitors</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/vistors.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/vistors</url>
     </links>
     <links>
         <title>Your Hospital Stay</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/your-hospital-stay.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/your-hospital-stay</url>
     </links>
     <links>
         <title>Registration and admitting</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/your-hospital-stay/registration-and-admitting-process.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/inpatient/registration-and-admitting-process</url>
     </links>
     <links>
         <title>Billing and Financial Assistance</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/billing-and-financial-asistance.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/billing-and-financial-asistance</url>
     </links>
     <links>
         <title>Accepted Insurance</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/accepted-insurance.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/accepted-insurance</url>
     </links>
     <links>
         <title>List of Accepted Insurance</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/accepted-insurance/list-of-accepted-insurance.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/accepted-insurance/list-of-accepted-insurance</url>
     </links>
     <links>
         <title>Patient Rights</title>
-        <url>http://westendhospital.42web.io/patient-and-visitors/patient-rights.html</url>
+        <url>http://westendhospital.42web.io/patient-and-visitors/patient-rights</url>
     </links>
     <links>
         <title>Our Mission, Vision and Values</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-mission-vision-and-values.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/our-mission-vision-and-values</url>
     </links>
     <links>
         <title>Quality of Patient Care</title>
-        <url>http://westendhospital.42web.io/why-choose-us/quality-patient-care.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/quality-patient-care</url>
     </links>
     <links>
         <title>Patient Stories</title>
-        <url>http://westendhospital.42web.io/why-choose-us/patient-stories-testimonies.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/patient-stories-testimonies</url>
     </links>
 
      <!--OUR TEAM-->
     <links>
         <title>Our Team</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/our-team</url>
     </links>
     <links>
         <title>Management Team</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/management-team.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/management-team</url>
     </links>
     <links>
         <title>Medical Team</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team</url>
     </links>
     <links>
         <title>Administrative Team</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team</url>
     </links>
     <links>
         <title>Security Team</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/security-team.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/security-team</url>
     </links>
 
       <!--MEDICAL TEAM-->
     <links>
         <title>Johnny Amadasun</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/management-team/Johnny-Amadasun.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/management-team-members/Johnny-Amadasun</url>
     </links>
     <links>
         <title>Felix Ngwuli</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/management-team/Felix-Ngwuli.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/management-team-members/Felix-Ngwuli</url>
     </links>
     <links>
         <title>Owabor Paulinus</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Owabor-Paulinus.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Owabor-Paulinus</url>
     </links>
     <links>
         <title>Joseph Bhaguetai A.</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Joseph-Bhaguetai-A.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-membersJoseph-Bhaguetai-A</url>
     </links>
     <links>
         <title>Ebhohimhen Edna.</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Ebhohimhen-Edna.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Ebhohimhen-Edna</url>
     </links>
     <links>
         <title>Okoh Chisom Favour</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Okoh-Chisom-Favour.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Okoh-Chisom-Favour</url>
     </links>
     <links>
         <title>Omoye Ebiere</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Omoye-Ebiere.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Omoye-Ebiere</url>
     </links>
     <links>
         <title>Vera Akhimien</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Vera-Akhimien.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Vera-Akhimien</url>
     </links>
     <links>
         <title>Rita Omonogoma</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Rita-Omonagoma.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Rita-Omonagoma</url>
     </links>
     <links>
         <title>Helen Okpue</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Helen-Okpue.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Helen-Okpue</url>
     </links>
     <links>
         <title>Jubrin Peters Edevbie</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Jibrin-Peters-Edevbie.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Jibrin-Peters-Edevbie</url>
     </links>
     <links>
         <title>Ayobami Egbu</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/medical-team/Ayobami-Egbu.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/medical-team-members/Ayobami-Egbu</url>
     </links>
 
  <!--ADMINISTRATIVE TEAM-->
     <links>
         <title>Cynthia Obi</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Cynthia-C-Obi.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/Cynthia-C-Obi</url>
     </links>
     <links>
         <title>Esevwiegbe Daphney</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Esevwiegbe-Daphney.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/Esevwiegbe-Daphney</url>
     </links>
     <links>
         <title>George Aham</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/George-Aham.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/George-Aham</url>
     </links>
     <links>
         <title>Inana Jude</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Inana-Jude.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/Inana-Jude</url>
     </links>
     <links>
         <title>Rita Torru</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Rita-Torru.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/Rita-Torru</url>
     </links>
     <links>
         <title>Osezele Jennifer</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Osezele-Jennifer.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/Osezele-Jennifer</url>
     </links>
     <links>
         <title>Omoshowo Akenuwa Osariemen</title>
-        <url>http://westendhospital.42web.io/why-choose-us/our-team/administrative-team/Omoshowo-Akenuwa-Osariemen.html</url>
+        <url>http://westendhospital.42web.io/why-choose-us/leardership/administrative-team-members/Omoshowo-Akenuwa-Osariemen</url>
     </links>
     <!--OTHER SEARCH RESULT-->
     <links>
         <title>History</title>
-        <url>http://westendhospital.42web.io/our-history.html</url>
+        <url>http://westendhospital.42web.io/our-history</url>
     </links>
     <links>
         <title>Awards and Accreditations</title>
-        <url>http://westendhospital.42web.io/awards-and-accreditations.html</url>
+        <url>http://westendhospital.42web.io/awards-and-accreditations</url>
     </links>
     <links>
         <title>Privacy Policy</title>
-        <url>http://westendhospital.42web.io/privacy-policy.html</url>
+        <url>http://westendhospital.42web.io/privacy-policy</url>
     </links>
     <links>
         <title>Terms of Use</title>
-        <url>http://westendhospital.42web.io/terms-of-use.html</url>
+        <url>http://westendhospital.42web.io/terms-of-use</url>
     </links>
     <links>
         <title>Patient Feedback</title>
-        <url>http://westendhospital.42web.io/patient-feedback.html</url>
+        <url>http://westendhospital.42web.io/patient-feedback</url>
     </links>
 </pages>

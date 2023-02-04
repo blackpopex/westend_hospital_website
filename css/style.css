@@ -5118,7 +5118,7 @@ table tr th {
 table tr th,
 table tr td {
   text-align: left;
-  padding: 0.1em 0;
+  padding: 0.35em 0;
   margin: 0;
 }
 table tr td {
@@ -5128,6 +5128,7 @@ table tr td {
   margin-left: auto;
   text-align: right;
   font-size: 0.475em;
+  padding: 0.5em 0;
 }
 #list-of-accepted-insurance table tr td {
   text-align: left;
@@ -5216,6 +5217,10 @@ table tr td {
     max-width: 450px;
     margin: 1em auto;
   }
+
+  #contact-us table {
+    margin: 1em auto 1em 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -5228,6 +5233,12 @@ table tr td {
   table {
     max-width: 100%;
     margin: 1em auto;
+    border-collapse: collapse;
+    padding: 0 0.5em;
+  }
+  #contact-us table {
+    max-width: 100%;
+    margin: 1em auto 1em 0;
     border-collapse: collapse;
     padding: 0 0.5em;
   }
@@ -5423,7 +5434,7 @@ table tr td {
   #list-of-accepted-insurance .container table {
     width: 90%;
     max-width: 700px;
-    margin: 1em 0 1em auto;
+    margin: 1em 0 1em 0;
     border-collapse: collapse;
     padding: 0 0.5em;
   }
@@ -5445,7 +5456,7 @@ table tr td {
   }
   #list-of-accepted-insurance .container table tr td {
     text-align: left;
-    padding: 0;
+    padding: 0.3em 0;
     font-weight: 300;
     font-family: var(--oxygen-fontFamily);
   }
